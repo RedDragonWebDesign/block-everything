@@ -2,7 +2,7 @@
 
 ## Download It Now
 
-[Click here to add](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything!)
+[Click here to add](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything%21)
 
 ## What We Block
 
