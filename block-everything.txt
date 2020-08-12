@@ -10,10 +10,13 @@ reddit.com###redesign-beta-optin-btn
 
 !New Reddit
 reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
-reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
-
-!LinkedIn
-
+reddit.com###TrendingPostsContainer
+reddit.com##button:has-text(/^Try Now$/):upward(4)
 
 !DailyMail
+dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+dailymail.co.uk##.more
+dailymail.co.uk##.hp-swipe
+
+!LinkedIn
