@@ -17,7 +17,7 @@ Our goal is to block ***everything*** annoying. Anything that disrupts the norma
 Examples:
 
 - YouTube's homepage has some panels such as "Recommended Movies", "Latest YouTube posts", and "Breaking news". We block those. We just want to see the normal recommended videos.
-- New Reddit's homepage has "Promoted" posts, video streams, "Today's Top Growing Communities", and "Recommended for you". We block those. We just want to see the normal recommended posts.
+- New Reddit's homepage has "Updates from Reddit", "Trending today", and "Top broadcast right now" (videos/streamers). We block those. We just want to see the normal recommended posts.
 - Your LinkedIn user profile is littered with little nags that try to get you to do things. We block those.
 - etc.
 
