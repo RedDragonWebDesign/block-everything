@@ -20,3 +20,9 @@ dailymail.co.uk##.more
 dailymail.co.uk##.hp-swipe
 
 !LinkedIn
+linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
+linkedin.com##h2:has-text(Profile Strength:):upward(4)
+linkedin.com##h2:has-text(Your Dashboard):upward(5)
+linkedin.com##h2:has-text(Strengthen your profile):upward(5)
+linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
+linkedin.com##a:has-text(Try Premium for free):upward(3)
