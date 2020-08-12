@@ -1,7 +1,5 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
-! Issues: https://github.com/RedDragonWebDesign/block-everything/issues
-! Works best with uBlockOrigin
 
 !YouTube
 youtube.com##ytd-primetime-promo-renderer
