@@ -1,31 +1,22 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
-!YouTube
-youtube.com##ytd-primetime-promo-renderer
-youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
-youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
-youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
-youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
-
-!Old Reddit
+dailymail.co.uk##.hp-swipe
+dailymail.co.uk##.more
+dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+linkedin.com##a:has-text(Try Premium for free):upward(3)
+linkedin.com##h2:has-text(Profile Strength:):upward(4)
+linkedin.com##h2:has-text(Strengthen your profile):upward(5)
+linkedin.com##h2:has-text(Your Dashboard):upward(5)
+linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
+linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
+reddit.com###TrendingPostsContainer
 reddit.com###redesign-beta-optin-btn
-
-!New Reddit
+reddit.com##button:has-text(/^Try Now$/):upward(4)
 reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
-reddit.com###TrendingPostsContainer
-reddit.com##button:has-text(/^Try Now$/):upward(4)
-
-!LinkedIn
-linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
-linkedin.com##h2:has-text(Profile Strength:):upward(4)
-linkedin.com##h2:has-text(Your Dashboard):upward(5)
-linkedin.com##h2:has-text(Strengthen your profile):upward(5)
-linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
-linkedin.com##a:has-text(Try Premium for free):upward(3)
-
-!DailyMail
-dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
-dailymail.co.uk##.more
-dailymail.co.uk##.hp-swipe
+youtube.com##ytd-primetime-promo-renderer
+youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
+youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
