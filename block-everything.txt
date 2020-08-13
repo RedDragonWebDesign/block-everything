@@ -1,6 +1,7 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
+ally.com##[aria-label="Message from Ally"]
 dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
