@@ -14,6 +14,13 @@ This list is for the few ads and annoyances that these two lists don't cover.
 
 Our goal is to block ***everything*** annoying. Anything that disrupts the normal reading flow of the page. Anything that tries to influence the reader to do something unnecessary.
 
+Categories:
+
+- Anything in feeds that is not a normal feed item.
+- Banner notifications. Anything from "call volume higher than usual", to COVID, to BLM.
+- Minor ads, camoflague ads, and calls to action.
+- Free trial nags & banners for same website.
+
 Examples:
 
 - YouTube's homepage has some panels such as "Recommended Movies", "Latest YouTube posts", and "Breaking news". We block those. We just want to see the normal recommended videos.
