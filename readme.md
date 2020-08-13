@@ -18,8 +18,8 @@ Categories:
 
 - Anything in feeds that is not a normal feed item.
 - Banner notifications. Anything from "call volume higher than usual", to COVID, to BLM.
-- Minor ads, camoflague ads, and calls to action.
-- Free trial nags & banners for same website.
+- Nags or attempts to influence in any form.
+- Minor ads and banners missed by major filter lists.
 
 Examples:
 
