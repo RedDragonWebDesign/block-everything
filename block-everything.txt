@@ -16,6 +16,9 @@ reddit.com##button:has-text(/^Try Now$/):upward(4)
 reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
+secure.ally.com##.accounts-card-mbox-footer
+secure.ally.com##.action-bar-content--notifications-container
+secure.ally.com##.tips--collection
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
 youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
