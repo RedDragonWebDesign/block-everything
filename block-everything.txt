@@ -3,6 +3,7 @@
 
 adespresso.com###black-studio-tinymce-24
 ally.com##[aria-label="Message from Ally"]
+amazon.com###issuancePriceblockAmabot_feature_div
 dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
