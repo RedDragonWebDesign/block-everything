@@ -10,11 +10,13 @@ dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+linkedin.com##.search-result--cross-promo
 linkedin.com##a:has-text(Try Premium for free):upward(3)
 linkedin.com##h2:has-text(Profile Strength:):upward(4)
 linkedin.com##h2:has-text(Strengthen your profile):upward(5)
 linkedin.com##h2:has-text(Your Dashboard):upward(5)
 linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
+linkedin.com##p:has-text(Are these search results helpful):upward(4)
 linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 reddit.com###TrendingPostsContainer
 reddit.com###redesign-beta-optin-btn
