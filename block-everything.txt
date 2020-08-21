@@ -12,6 +12,7 @@ dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
 linkedin.com##.search-result--cross-promo
 linkedin.com##a:has-text(Try Premium for free):upward(3)
 linkedin.com##h2:has-text(Profile Strength:):upward(4)
