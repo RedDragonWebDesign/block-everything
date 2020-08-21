@@ -6,6 +6,7 @@ ally.com##[aria-label="Message from Ally"]
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
+carprousa.com##img:style(transform: none !important;)
 dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
