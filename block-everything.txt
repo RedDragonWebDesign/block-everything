@@ -43,3 +43,4 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 ||1.bp.blogspot.com/-EKNGTo--wsA/Xyqzo33h3mI/AAAAAAAAyng/_nwF7l9C_zQQ1d57FLWSjEiWtxPFqF_fgCLcBGAsYHQ/s600/3065-867254.jpg$image
 ||1.bp.blogspot.com/-nRWSgg6DFhw/Xyq0gHglXiI/AAAAAAAAyno/EhuEvH47zWk16U5olfKeMKKLRkPe82TtgCLcBGAsYHQ/s640/bb22_all_stars_blog_header.png$image
 ||3.bp.blogspot.com/-7Zaw4_TIFLo/WVe8uqukM5I/AAAAAAAApVg/1RCuAAdA06I_ltM5Q7zM3hOZrx6tD_7owCLcBGAs/s1600/showlettermn9-1.gif$image
+||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
