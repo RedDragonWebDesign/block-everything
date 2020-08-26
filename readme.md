@@ -2,11 +2,9 @@
 
 ## What Are We?
 
-Ad Blockers are plugins/addons that you add to your web browser to block ads. Most of these plugins work by checking "filter lists" such as this one, and loading the filters into memory, then blocking ads according to the programming code in those filters.
+Ad Blockers are plugins/addons that you add to your web browser to block ads. Most of these plugins work by checking "filter lists" such as this one.
 
 I recommend uBlock Origin ad block plugin.
-
-You can block ads on your phone too. But Chrome For Android does not have plugins, so you need to use a browser like Firefox For Android.
 
 ## Add This List To Your Ad Blocker
 
@@ -39,3 +37,7 @@ Examples:
 ## Who Can Contribute
 
 Contributions welcome! Just make sure you have uBlock Origin installed, check all 7 of the "Annoyances" lists (even the non default, hidden ones), and add [Web Annoyances Ultralist](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist). Anything not blocked by these lists is welcome to be included here.
+
+## How to block ads on Android
+
+You can block ads on your phone. But Chrome For Android does not have plugins, so you need to use a browser like Firefox For Android.
