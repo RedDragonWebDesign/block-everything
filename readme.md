@@ -1,6 +1,14 @@
 # Block Everything! - AdBlock Filter List
 
-## Download It Now
+## What Are We?
+
+Ad Blockers are plugins/addons that you add to your web browser to block ads. Most of these plugins work by checking "filter lists" such as this one, and loading the filters into memory, then blocking ads according to the programming code in those filters.
+
+I recommend uBlock Origin ad block plugin.
+
+You can block ads on your phone too. But Chrome For Android does not have plugins, so you need to use a browser like Firefox For Android.
+
+## Add This List To Your Ad Blocker
 
 [Click here to add](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything%21)
 
