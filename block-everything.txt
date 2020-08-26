@@ -36,6 +36,10 @@ runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
 secure.ally.com##.accounts-card-mbox-footer
 secure.ally.com##.action-bar-content--notifications-container
 secure.ally.com##.tips--collection
+spiegel.de##article:has(rect[width="16"][height="16"])
+spiegel.de##article:has(rect[width="20"][height="20"])
+spiegel.de##article:has(svg[width="18"][height="16"])
+spiegel.de##li:has(rect[width="16"][height="16"])
 vanityfair.com##.consumer-marketing-unit--article-mid-content
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-section-renderer:has-text(/^COVID-19$/)
