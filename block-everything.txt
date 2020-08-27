@@ -32,6 +32,7 @@ reddit.com###redesign-beta-optin-btn
 reddit.com##button:has-text(/^Try Now$/):upward(4)
 reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
+reddit.com##textarea[name="title"]:style(text-transform: none !important;)
 runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
 secure.ally.com##.accounts-card-mbox-footer
 secure.ally.com##.action-bar-content--notifications-container
