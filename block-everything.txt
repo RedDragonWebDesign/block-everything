@@ -40,6 +40,7 @@ secure.ally.com##.tips--collection
 vanityfair.com##.consumer-marketing-unit--article-mid-content
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-section-renderer:has-text(/^COVID-19$/)
+youtube.com##ytd-rich-section-renderer:has-text(/^Featured$/)
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
 youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
 youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
