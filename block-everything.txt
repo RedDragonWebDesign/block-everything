@@ -16,6 +16,7 @@ darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
 facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
 facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
+https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
 latimes.com##.enhancement
 linkedin.com##.search-result--cross-promo
 linkedin.com##a:has-text(Try Premium for free):upward(3)
@@ -27,6 +28,7 @@ linkedin.com##p:has-text(Are these search results helpful):upward(4)
 linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
 linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 pcgamer.com##.future__jwplayer--carousel
+ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###TrendingPostsContainer
 reddit.com###redesign-beta-optin-btn
 reddit.com##button:has-text(/^Try Now$/):upward(4)
