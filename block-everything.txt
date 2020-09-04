@@ -58,3 +58,4 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 ||3.bp.blogspot.com/-7Zaw4_TIFLo/WVe8uqukM5I/AAAAAAAApVg/1RCuAAdA06I_ltM5Q7zM3hOZrx6tD_7owCLcBGAs/s1600/showlettermn9-1.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 smashingmagazine.com##.c-promo-box--ad
+colorlib.com###custom_html-6
