@@ -8,6 +8,8 @@ amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 carprousa.com##img:style(transform: none !important;)
+crackmes.one##.container.grid-lg.wrapper:style(max-width: unset !important;)
+crackmes.one##th:style(width: unset !important;)
 dailymail.co.uk##.hp-swipe
 dailymail.co.uk##.more
 dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
