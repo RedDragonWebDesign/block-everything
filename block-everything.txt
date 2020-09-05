@@ -60,3 +60,4 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 smashingmagazine.com##.c-promo-box--ad
 colorlib.com###custom_html-6
 jquery.com###banner-blm
+github.com##.js-vote-banner
