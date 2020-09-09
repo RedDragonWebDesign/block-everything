@@ -63,3 +63,4 @@ jquery.com###banner-blm
 github.com##.js-vote-banner
 reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
 godbolt.org###ces, #motd
+geeksforgeeks.org##.ad_course_banner
