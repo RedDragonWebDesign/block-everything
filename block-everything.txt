@@ -69,3 +69,4 @@ narkive.com##[class^="adslot_"]
 ||graphics.ctyme.com/gif/ctymehost.gif$image
 ||graphics.ctyme.com/gif/spamlogo.gif$image
 ||graphics.ctyme.com/jpeg/cor.jpg$image
+yahoo.com##a[href*="ad.doubleclick.net"]
