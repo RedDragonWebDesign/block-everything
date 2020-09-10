@@ -65,3 +65,7 @@ reddit.com##.arrow.down:style(display: block !important; visibility: visible !im
 godbolt.org###ces, #motd
 geeksforgeeks.org##.ad_course_banner
 narkive.com##[class^="adslot_"]
+||graphics.ctyme.com/sexads/ff1o_ani.gif$image
+||graphics.ctyme.com/gif/ctymehost.gif$image
+||graphics.ctyme.com/gif/spamlogo.gif$image
+||graphics.ctyme.com/jpeg/cor.jpg$image
