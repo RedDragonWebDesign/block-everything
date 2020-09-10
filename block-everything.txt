@@ -11,7 +11,8 @@ linkedin.com##a:has-text(Try Premium for free):upward(3)
 
 ! junk in feeds on websites like YouTube
 youtube.com##ytd-primetime-promo-renderer
-youtube.com##ytd-rich-section-renderer:has-text(/^COVID-19$/)
+youtube.com##ytd-rich-section-renderer:has-text(/^COVID/)
+youtube.com##ytd-rich-section-renderer:has-text(/^Learn with YouTube/)
 youtube.com##ytd-rich-section-renderer:has-text(/^Featured$/)
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
 youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
