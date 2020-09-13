@@ -8,6 +8,7 @@ yahoo.com##a[href*="ad.doubleclick.net"]
 smashingmagazine.com##.c-promo-box--ad
 vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 linkedin.com##a:has-text(Try Premium for free):upward(3)
+geeksforgeeks.org##p:has-text(/^Attention reader!/)
 
 ! junk in feeds on websites like YouTube
 youtube.com##ytd-primetime-promo-renderer
@@ -78,3 +79,4 @@ godbolt.org###ces, #motd
 ||graphics.ctyme.com/gif/ctymehost.gif$image
 ||graphics.ctyme.com/gif/spamlogo.gif$image
 ||graphics.ctyme.com/jpeg/cor.jpg$image
+geeksforgeeks.org##.code-gutter
