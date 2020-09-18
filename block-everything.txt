@@ -26,6 +26,11 @@ reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
 
+! couple of filters for subreddits with annoying custom stylesheets, this turns them off
+https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
+https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
+https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com##[aria-label="Message from Ally"]
@@ -44,9 +49,6 @@ darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
 facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
 facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
-! couple of filters for subreddits with annoying custom stylesheets, this turns them off
-https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
-https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
 latimes.com##.enhancement
 linkedin.com##.search-result--cross-promo
 linkedin.com##h2:has-text(Profile Strength:):upward(4)
