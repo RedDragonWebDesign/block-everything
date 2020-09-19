@@ -10,6 +10,7 @@ vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 linkedin.com##a:has-text(Try Premium for free):upward(3)
 geeksforgeeks.org##p:has-text(/^Attention reader!/)
 usmagazine.com##.right-rail, .link-related.article
+cornell.edu###block-lii-justia-find-lawyers-sidebar
 
 ! junk in feeds on websites like YouTube
 youtube.com##ytd-primetime-promo-renderer
