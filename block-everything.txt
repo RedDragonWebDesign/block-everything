@@ -11,6 +11,7 @@ linkedin.com##a:has-text(Try Premium for free):upward(3)
 geeksforgeeks.org##p:has-text(/^Attention reader!/)
 usmagazine.com##.right-rail, .link-related.article
 cornell.edu###block-lii-justia-find-lawyers-sidebar
+smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
 
 ! junk in feeds on websites like YouTube
 youtube.com##ytd-primetime-promo-renderer
