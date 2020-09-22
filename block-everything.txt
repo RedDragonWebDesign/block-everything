@@ -13,6 +13,7 @@ usmagazine.com##.right-rail, .link-related.article
 cornell.edu###block-lii-justia-find-lawyers-sidebar
 smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
 codewars.com##.panel.marketing, #_carbonad
+programiz.com##.notice-bar-top
 
 ! junk in feeds on websites like YouTube
 youtube.com##ytd-primetime-promo-renderer
