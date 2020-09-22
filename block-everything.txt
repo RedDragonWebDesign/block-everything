@@ -31,7 +31,7 @@ reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 ! example: Related Article links peppered into the middle of articles for SEO reasons
 vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
 vice.com##.abc__textblock.size--article:has-text(by signing up for our newsletter)
-wired.co.uk##.bb-card
+wired.co.uk##.bb-card, aside.a-sidebar-content
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
