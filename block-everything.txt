@@ -33,6 +33,8 @@ vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
 vice.com##.abc__textblock.size--article:has-text(by signing up for our newsletter)
 wired.co.uk##.bb-card, aside.a-sidebar-content
 businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
+wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
+wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
