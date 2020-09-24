@@ -36,6 +36,7 @@ wired.co.uk##.bb-card, aside.a-sidebar-content
 businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
 wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
+techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
