@@ -48,14 +48,20 @@ https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
 https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
 https://b.thumbs.redditmedia.com/8iym2dMk_xtsu4TiDHR-oo6eCKgd90OL-0qlE1qi-bc.png
 
+! lots of notifications on Ally.com
+ally.com##[aria-label="Message from Ally"]
+secure.ally.com##.accounts-card-mbox-footer
+secure.ally.com##.tips--collection
+ally.com###alert_banner
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
-ally.com##[aria-label="Message from Ally"]
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 carprousa.com##img:style(transform: none !important;)
+colorlib.com###custom_html-6
 crackmes.one##.container.grid-lg.wrapper:style(max-width: unset !important;)
 crackmes.one##th:style(width: unset !important;)
 dailymail.co.uk##.hp-swipe
@@ -66,6 +72,9 @@ darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
 facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
 facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
+geeksforgeeks.org##.code-gutter
+github.com##.js-vote-banner
+godbolt.org###ces, #motd
 latimes.com##.enhancement
 linkedin.com##.search-result--cross-promo
 linkedin.com##h2:has-text(Profile Strength:):upward(4)
@@ -79,25 +88,18 @@ pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###TrendingPostsContainer
 reddit.com###redesign-beta-optin-btn
+reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
 reddit.com##button:has-text(/^Try Now$/):upward(4)
 reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
 reddit.com##textarea[name="title"]:style(text-transform: none !important;)
 runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
-secure.ally.com##.accounts-card-mbox-footer
-secure.ally.com##.action-bar-content--notifications-container
-secure.ally.com##.tips--collection
+urbandictionary.com##.def-panel:has-text(Word of the Day)
 vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||1.bp.blogspot.com/-EKNGTo--wsA/Xyqzo33h3mI/AAAAAAAAyng/_nwF7l9C_zQQ1d57FLWSjEiWtxPFqF_fgCLcBGAsYHQ/s600/3065-867254.jpg$image
 ||1.bp.blogspot.com/-nRWSgg6DFhw/Xyq0gHglXiI/AAAAAAAAyno/EhuEvH47zWk16U5olfKeMKKLRkPe82TtgCLcBGAsYHQ/s640/bb22_all_stars_blog_header.png$image
 ||3.bp.blogspot.com/-7Zaw4_TIFLo/WVe8uqukM5I/AAAAAAAApVg/1RCuAAdA06I_ltM5Q7zM3hOZrx6tD_7owCLcBGAs/s1600/showlettermn9-1.gif$image
-||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
-colorlib.com###custom_html-6
-github.com##.js-vote-banner
-reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
-godbolt.org###ces, #motd
-||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||graphics.ctyme.com/gif/ctymehost.gif$image
 ||graphics.ctyme.com/gif/spamlogo.gif$image
 ||graphics.ctyme.com/jpeg/cor.jpg$image
-geeksforgeeks.org##.code-gutter
-urbandictionary.com##.def-panel:has-text(Word of the Day)
+||graphics.ctyme.com/sexads/ff1o_ani.gif$image
+||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
