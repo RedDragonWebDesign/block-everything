@@ -84,6 +84,7 @@ linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn
 linkedin.com##p:has-text(Are these search results helpful):upward(4)
 linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
 linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
+linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###TrendingPostsContainer
