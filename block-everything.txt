@@ -29,6 +29,7 @@ youtube.com##ytd-rich-section-renderer:has-text(/^Ready to vote?$/)
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 youtube.com##ytd-shelf-renderer:has(#dismissable)
+youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 
 ! junk in blog posts, newspaper articles, etc.
 ! example: Related Article links peppered into the middle of articles for SEO reasons
