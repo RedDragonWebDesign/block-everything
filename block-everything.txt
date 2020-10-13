@@ -40,6 +40,8 @@ businessinsider.com##li:has-text(Visit Business Insider's homepage for more stor
 wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
 techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
+businessinsider.com##p:has-text(Read more:)
+businessinsider.com##.post-content-more
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
