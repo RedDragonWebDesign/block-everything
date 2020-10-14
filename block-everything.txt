@@ -2,62 +2,64 @@
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
 ! ads missed by the main lists
-geeksforgeeks.org##.ad_course_banner
-narkive.com##[class^="adslot_"]
-yahoo.com##a[href*="ad.doubleclick.net"]
-smashingmagazine.com##.c-promo-box--ad
-vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
-linkedin.com##a:has-text(Try Premium for free):upward(3)
-geeksforgeeks.org##p:has-text(/^Attention reader!/)
-usmagazine.com##.right-rail, .link-related.article
-cornell.edu###block-lii-justia-find-lawyers-sidebar
-smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
 codewars.com##.panel.marketing, #_carbonad
-programiz.com##.notice-bar-top
+cornell.edu###block-lii-justia-find-lawyers-sidebar
+geeksforgeeks.org##.ad_course_banner
+geeksforgeeks.org##p:has-text(/^Attention reader!/)
 jsfiddle.net###s-bottom
+linkedin.com##a:has-text(Try Premium for free):upward(3)
+narkive.com##[class^="adslot_"]
+programiz.com##.notice-bar-top
+smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
+smashingmagazine.com##.c-promo-box--ad
+usmagazine.com##.right-rail, .link-related.article
+vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
+yahoo.com##a[href*="ad.doubleclick.net"]
 
 ! junk in feeds on websites like YouTube
+reddit.com###TrendingPostsContainer
+reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
+reddit.com##h3:has-text(/^Top broadcast$/):upward(7)
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-section-renderer:has-text(/^COVID/)
-youtube.com##ytd-rich-section-renderer:has-text(/^Learn with YouTube/)
 youtube.com##ytd-rich-section-renderer:has-text(/^Featured$/)
+youtube.com##ytd-rich-section-renderer:has-text(/^Learn with YouTube/)
+youtube.com##ytd-rich-section-renderer:has-text(/^Ready to vote?$/)
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
 youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
 youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
-youtube.com##ytd-rich-section-renderer:has-text(/^Ready to vote?$/)
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
-reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 youtube.com##ytd-shelf-renderer:has(#dismissable)
-youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 
 ! junk in blog posts, newspaper articles, etc.
 ! example: Related Article links peppered into the middle of articles for SEO reasons
+businessinsider.com##.post-content-more
+businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
+businessinsider.com##p:has-text(Read more:)
+techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
 vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
 vice.com##.abc__textblock.size--article:has-text(by signing up for our newsletter)
 wired.co.uk##.bb-card, aside.a-sidebar-content
-businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
-wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
-techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
-businessinsider.com##p:has-text(Read more:)
-businessinsider.com##.post-content-more
+wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
 https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
-https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
-https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
-https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
 https://b.thumbs.redditmedia.com/8iym2dMk_xtsu4TiDHR-oo6eCKgd90OL-0qlE1qi-bc.png
+https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
+https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
+https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
 
 ! lots of notifications on Ally.com
+ally.com###alert_banner
 ally.com##[aria-label="Message from Ally"]
 secure.ally.com##.accounts-card-mbox-footer
 secure.ally.com##.tips--collection
-ally.com###alert_banner
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
@@ -92,7 +94,6 @@ linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
-reddit.com###TrendingPostsContainer
 reddit.com###redesign-beta-optin-btn
 reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
 reddit.com##button:has-text(/^Try Now$/):upward(4)
