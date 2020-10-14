@@ -16,7 +16,7 @@ usmagazine.com##.right-rail, .link-related.article
 vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 yahoo.com##a[href*="ad.doubleclick.net"]
 
-! junk in feeds on websites like YouTube
+! junk in feeds
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
 reddit.com##h3:has-text(/^Top broadcast$/):upward(7)
@@ -34,7 +34,7 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 youtube.com##ytd-shelf-renderer:has(#dismissable)
 
 ! junk in blog posts, newspaper articles, etc.
-! example: Related Article links peppered into the middle of articles for SEO reasons
+! especially "related article" links peppered mid-article for SEO reasons
 businessinsider.com##.post-content-more
 businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
 businessinsider.com##p:has-text(Read more:)
@@ -55,14 +55,12 @@ https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
 https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
 https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
 
-! lots of notifications on Ally.com
-ally.com###alert_banner
-ally.com##[aria-label="Message from Ally"]
-secure.ally.com##.accounts-card-mbox-footer
-secure.ally.com##.tips--collection
-
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
+ally.com###alert_banner
+ally.com##.accounts-card-mbox-footer
+ally.com##.tips--collection
+ally.com##[aria-label="Message from Ally"]
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
@@ -83,6 +81,7 @@ geeksforgeeks.org##.code-gutter
 github.com##.js-vote-banner
 godbolt.org###ces, #motd
 latimes.com##.enhancement
+linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 linkedin.com##.search-result--cross-promo
 linkedin.com##h2:has-text(Profile Strength:):upward(4)
 linkedin.com##h2:has-text(Strengthen your profile):upward(5)
@@ -91,7 +90,6 @@ linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn
 linkedin.com##p:has-text(Are these search results helpful):upward(4)
 linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
 linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
-linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###redesign-beta-optin-btn
@@ -110,3 +108,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||graphics.ctyme.com/jpeg/cor.jpg$image
 ||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
+fandom.com##+js(aeld, scroll)
