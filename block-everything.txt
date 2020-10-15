@@ -19,8 +19,9 @@ ibb.co##.viewer-title
 
 ! junk in feeds
 reddit.com###TrendingPostsContainer
-reddit.com##h3:has-text(/^Top broadcast right now$/):upward(7)
-reddit.com##h3:has-text(/^Top broadcast$/):upward(7)
+! upward(5) works on card mode, but not on classic or compact mode
+reddit.com##h3:has-text(/^Top broadcast right now$/):upward(5)
+reddit.com##h3:has-text(/^Top broadcast$/):upward(5)
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-section-renderer:has-text(/^COVID/)
 youtube.com##ytd-rich-section-renderer:has-text(/^Featured$/)
