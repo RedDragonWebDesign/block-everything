@@ -36,7 +36,7 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 youtube.com##ytd-shelf-renderer:has(#dismissable)
 
 ! junk in blog posts, newspaper articles, etc.
-! especially "related article" links peppered mid-article for SEO reasons
+! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
 businessinsider.com##.post-content-more
 businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
 businessinsider.com##p:has-text(Read more:)
@@ -46,6 +46,8 @@ vice.com##.abc__textblock.size--article:has-text(by signing up for our newslette
 wired.co.uk##.bb-card, aside.a-sidebar-content
 wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
 wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
+globalnews.ca##p:has-text(READ MORE:)
+etcanada.com##p:has-text(RELATED:)
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
