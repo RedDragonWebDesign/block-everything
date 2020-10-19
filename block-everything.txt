@@ -34,7 +34,7 @@ youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
 youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
-youtube.com##ytd-shelf-renderer:has(#dismissable)
+!youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
 
 ! junk in blog posts, newspaper articles, etc.
 ! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
@@ -60,6 +60,9 @@ https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
 https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
 https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
 
+! CSS improvements/fixes
+big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com###alert_banner
@@ -69,7 +72,6 @@ ally.com##[aria-label="Message from Ally"]
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
-big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 carprousa.com##img:style(transform: none !important;)
 colorlib.com###custom_html-6
 crackmes.one##.container.grid-lg.wrapper:style(max-width: unset !important;)
