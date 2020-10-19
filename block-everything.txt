@@ -16,6 +16,7 @@ usmagazine.com##.right-rail, .link-related.article
 vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 yahoo.com##a[href*="ad.doubleclick.net"]
 ibb.co##.viewer-title
+mayoclinic.org##.internal-promo-stack-order
 
 ! junk in feeds
 reddit.com###TrendingPostsContainer
