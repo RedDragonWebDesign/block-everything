@@ -1,6 +1,8 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
+! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com.
+
 ! ads missed by the main lists
 codewars.com##.panel.marketing, #_carbonad
 cornell.edu###block-lii-justia-find-lawyers-sidebar
@@ -49,6 +51,7 @@ wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
 wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 globalnews.ca##p:has-text(READ MORE:)
 etcanada.com##p:has-text(RELATED:)
+azcentral.com##[aria-label*="subscription callout"]
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
