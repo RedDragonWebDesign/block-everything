@@ -26,10 +26,11 @@ reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(/^Top broadcast right now$/):upward(5)
 reddit.com##h3:has-text(/^Top broadcast$/):upward(5)
 youtube.com##ytd-primetime-promo-renderer
-youtube.com##ytd-rich-section-renderer:has-text(/^COVID/)
-youtube.com##ytd-rich-section-renderer:has-text(/^Featured$/)
-youtube.com##ytd-rich-section-renderer:has-text(/^Learn with YouTube/)
-youtube.com##ytd-rich-section-renderer:has-text(/^Ready to vote?$/)
+! using RegEx in this style :has-text(/^blah blah/) doesn't appear to work for some reason
+youtube.com##ytd-rich-section-renderer:has-text(COVID)
+youtube.com##ytd-rich-section-renderer:has-text(Featured)
+youtube.com##ytd-rich-section-renderer:has-text(Learn with YouTube)
+youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
 youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
 youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
@@ -37,6 +38,7 @@ youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
 youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 !youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
+youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 
 ! junk in blog posts, newspaper articles, etc.
 ! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
