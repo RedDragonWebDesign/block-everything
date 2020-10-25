@@ -55,6 +55,7 @@ globalnews.ca##p:has-text(READ MORE:)
 etcanada.com##p:has-text(RELATED:)
 azcentral.com##[aria-label*="subscription callout"]
 washingtonpost.com##[data-qa="interstitial-link-wrapper"]
+billboard.com##p:has(a):has(strong)
 
 ! banners (covid, blm, etc.)
 jquery.com###banner-blm
