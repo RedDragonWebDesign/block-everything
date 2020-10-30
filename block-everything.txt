@@ -56,6 +56,7 @@ etcanada.com##p:has-text(RELATED:)
 azcentral.com##[aria-label*="subscription callout"]
 washingtonpost.com##[data-qa="interstitial-link-wrapper"]
 billboard.com##p:has(a):has(strong)
+azcentral.com##[aria-label="NEWS Subscribe callout"]
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
