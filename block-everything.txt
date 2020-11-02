@@ -19,6 +19,7 @@ vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 yahoo.com##a[href*="ad.doubleclick.net"]
 ibb.co##.viewer-title
 mayoclinic.org##.internal-promo-stack-order
+namesilo.com##.container-fluid:has-text(Get Hosting)
 
 ! junk in feeds
 reddit.com###TrendingPostsContainer
