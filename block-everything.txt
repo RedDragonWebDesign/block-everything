@@ -75,6 +75,9 @@ https://b.thumbs.redditmedia.com/g7UCuMDgq4U7GP10SoRxxMbE2w0u1LN1CFp1D3aE0Lw.css
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 
+! premium nags, regwalls, etc.
+cnn.com##[data-testid="preview-component"]
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com###alert_banner
