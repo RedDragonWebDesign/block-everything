@@ -81,6 +81,8 @@ big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding
 
 ! premium nags, regwalls, etc.
 cnn.com##[data-testid="preview-component"]
+telegraph.co.uk##.martech-modal-component-overlay
+telegraph.co.uk##body:style(overflow: auto !important;)
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
