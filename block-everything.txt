@@ -78,6 +78,7 @@ https://b.thumbs.redditmedia.com/O00RDbigfINYlIoqkMq7USCJtnSeZFD0QDPUlXPuIVY.css
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
+wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 
 ! premium nags, regwalls, etc.
 cnn.com##[data-testid="preview-component"]
