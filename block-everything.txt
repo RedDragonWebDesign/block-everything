@@ -62,6 +62,7 @@ washingtonpost.com##[data-qa="elex-cta"]
 cbc.ca##.similarLinks
 aljazeera.com##.more-on
 independent.co.uk##p:has-text(Read more:)
+independent.co.uk##.related
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
