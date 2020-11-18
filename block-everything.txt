@@ -77,6 +77,7 @@ https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
 https://a.thumbs.redditmedia.com/xkFY8S8bSo8_lTDtX7T89UgyDFdmEOGsKGySJBPb3n4.css
 https://b.thumbs.redditmedia.com/g7UCuMDgq4U7GP10SoRxxMbE2w0u1LN1CFp1D3aE0Lw.css
 https://b.thumbs.redditmedia.com/O00RDbigfINYlIoqkMq7USCJtnSeZFD0QDPUlXPuIVY.css
+https://a.thumbs.redditmedia.com/YcWFXMChx1LH2KWWmUn7pk8Uo3HsaQMUM0isec6--F8.css
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
