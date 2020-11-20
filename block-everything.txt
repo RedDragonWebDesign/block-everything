@@ -64,6 +64,7 @@ aljazeera.com##.more-on
 independent.co.uk##p:has-text(Read more:)
 independent.co.uk##.related
 nationalobserver.com##.inline-content-links
+thehill.com##.left-sidebar-2
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
