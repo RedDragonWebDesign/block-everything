@@ -20,6 +20,7 @@ yahoo.com##a[href*="ad.doubleclick.net"]
 ibb.co##.viewer-title
 mayoclinic.org##.internal-promo-stack-order
 namesilo.com##.container-fluid:has-text(Get Hosting)
+jacobinmag.com##.bn-at.prt-x
 
 ! junk in feeds
 reddit.com###TrendingPostsContainer
@@ -145,3 +146,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 !fandom.com##+js(aeld, scroll)
+jacobinmag.com##.po-fr__endmark.prt-x
