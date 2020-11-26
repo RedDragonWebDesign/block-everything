@@ -70,6 +70,7 @@ thehill.com##.left-sidebar-2
 news.yahoo.com##[src="https://s.yimg.com/ny/api/res/1.2/pUQGGjlm4wn9KGY0aj.grQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTEwNS43NDUxNDAzODg3Njg5/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-11/c0a90f00-1d31-11eb-bfd1-711e9348736a"]:upward(4)
 thelondoneconomic.com##.jnews_inline_related_post_wrapper
 truthout.org##.inline-callout-container
+thehill.com##.incontent-plugin
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
