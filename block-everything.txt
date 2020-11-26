@@ -96,6 +96,9 @@ wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width:
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
 telegraph.co.uk##body:style(overflow: auto !important;)
+mediapost.com##body:style(overflow: auto !important;)
+mediapost.com###accesswall-modal, .modal-backdrop
+mediapost.com##div:style(filter: none !important;)
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
