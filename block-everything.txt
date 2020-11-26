@@ -41,6 +41,7 @@ youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 !youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
+apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
 
 ! junk in blog posts, newspaper articles, etc.
 ! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
