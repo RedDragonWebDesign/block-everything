@@ -71,6 +71,7 @@ news.yahoo.com##[src="https://s.yimg.com/ny/api/res/1.2/pUQGGjlm4wn9KGY0aj.grQ--
 thelondoneconomic.com##.jnews_inline_related_post_wrapper
 truthout.org##.inline-callout-container
 thehill.com##.incontent-plugin
+wired.com##.callout
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
