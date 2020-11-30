@@ -22,6 +22,7 @@ mayoclinic.org##.internal-promo-stack-order
 namesilo.com##.container-fluid:has-text(Get Hosting)
 jacobinmag.com##.bn-at.prt-x
 
+! FEED INLINE
 ! junk in feeds
 reddit.com###TrendingPostsContainer
 ! upward(5) works on card mode, but not on classic or compact mode
@@ -43,6 +44,7 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
 
+! ARTICLE INLINE
 ! junk in blog posts, newspaper articles, etc.
 ! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
 businessinsider.com##.post-content-more
@@ -72,6 +74,7 @@ thelondoneconomic.com##.jnews_inline_related_post_wrapper
 truthout.org##.inline-callout-container
 thehill.com##.incontent-plugin
 wired.com##.callout
+euronews.com##[data-event="widget_related"]
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
