@@ -76,6 +76,7 @@ thehill.com##.incontent-plugin
 wired.com##.callout
 euronews.com##[data-event="widget_related"]
 nbcnews.com##.related
+washingtonpost.com##p.italic:has(a[href^="https://www.washingtonpost.com/"])
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
