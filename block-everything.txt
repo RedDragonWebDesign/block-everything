@@ -75,6 +75,7 @@ truthout.org##.inline-callout-container
 thehill.com##.incontent-plugin
 wired.com##.callout
 euronews.com##[data-event="widget_related"]
+nbcnews.com##.related
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
