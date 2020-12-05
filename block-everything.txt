@@ -78,6 +78,8 @@ euronews.com##[data-event="widget_related"]
 nbcnews.com##.related
 washingtonpost.com##p.italic:has(a[href^="https://www.washingtonpost.com/"])
 politico.com##section.page-content__row:has(.coronavirus-parent)
+chicagotribune.com##[data-type="interstitial_link"]
+chicagotribune.com##.crd.clln--it:has-text(MOST READ ENTERTAINMENT NEWS THIS HOUR)
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
