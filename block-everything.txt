@@ -112,6 +112,10 @@ mediapost.com##body:style(overflow: auto !important;)
 mediapost.com###accesswall-modal, .modal-backdrop
 mediapost.com##div:style(filter: none !important;)
 
+! jerky/nonstandard scroll wheel behavior
+discussingfilm.net##+js(aeld, scroll)
+!fandom.com##+js(aeld, scroll)
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com###alert_banner
@@ -164,5 +168,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||graphics.ctyme.com/jpeg/cor.jpg$image
 ||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
-!fandom.com##+js(aeld, scroll)
 jacobinmag.com##.po-fr__endmark.prt-x
