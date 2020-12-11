@@ -113,7 +113,7 @@ mediapost.com###accesswall-modal, .modal-backdrop
 mediapost.com##div:style(filter: none !important;)
 
 ! jerky/nonstandard scroll wheel behavior
-discussingfilm.net##+js(aeld, scroll)
+discussingfilm.net##+js(aeld, mousewheel)
 !fandom.com##+js(aeld, scroll)
 
 ! miscellaneous
