@@ -114,7 +114,6 @@ mediapost.com##div:style(filter: none !important;)
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
-!fandom.com##+js(aeld, scroll)
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
@@ -169,3 +168,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 jacobinmag.com##.po-fr__endmark.prt-x
+amazon.com###sitbReaderMessageContainer
