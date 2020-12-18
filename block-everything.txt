@@ -82,6 +82,7 @@ politico.com##section.page-content__row:has(.coronavirus-parent)
 chicagotribune.com##[data-type="interstitial_link"]
 chicagotribune.com##.crd.clln--it:has-text(MOST READ ENTERTAINMENT NEWS THIS HOUR)
 foxnews.com##p:has(strong > a[href^="https://www.foxnews.com"])
+nytimes.com##.related-links-block, .css-1q1hscp
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
