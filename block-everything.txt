@@ -84,6 +84,7 @@ chicagotribune.com##.crd.clln--it:has-text(MOST READ ENTERTAINMENT NEWS THIS HOU
 foxnews.com##p:has(strong > a[href^="https://www.foxnews.com"])
 nytimes.com##.related-links-block, .css-1q1hscp
 newrepublic.com##.ad-container-house
+marketwatch.com##p:has(strong)
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
