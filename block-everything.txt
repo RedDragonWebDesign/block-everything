@@ -85,6 +85,7 @@ foxnews.com##p:has(strong > a[href^="https://www.foxnews.com"])
 nytimes.com##.related-links-block, .css-1q1hscp
 newrepublic.com##.ad-container-house
 marketwatch.com##p:has(strong)
+businessinsider.com##.inline-recirc
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
