@@ -116,6 +116,7 @@ mediapost.com##body:style(overflow: auto !important;)
 mediapost.com###accesswall-modal, .modal-backdrop
 mediapost.com##div:style(filter: none !important;)
 newrepublic.com###pwPopups
+theatlantic.com##[class^="Paywall_root__"]
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
