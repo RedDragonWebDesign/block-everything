@@ -173,3 +173,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 jacobinmag.com##.po-fr__endmark.prt-x
 amazon.com###sitbReaderMessageContainer
+reddit.com###mail:before
