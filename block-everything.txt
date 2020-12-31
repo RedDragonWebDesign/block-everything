@@ -108,7 +108,7 @@ https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 
-! premium nags, regwalls, etc.
+! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
 telegraph.co.uk##body:style(overflow: auto !important;)
@@ -118,6 +118,7 @@ mediapost.com##div:style(filter: none !important;)
 newrepublic.com###pwPopups
 theatlantic.com##[class^="Paywall_root__"]
 slate.com##.slate-paywall
+time.com##iframe[title="registration-form"], .registration-wall
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
