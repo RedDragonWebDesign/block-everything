@@ -87,6 +87,7 @@ newrepublic.com##.ad-container-house
 marketwatch.com##p:has(strong)
 businessinsider.com##.inline-recirc
 forbes.com##.recirc-module.seo
+news.yahoo.com##p:has-text(Read Next:)
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
