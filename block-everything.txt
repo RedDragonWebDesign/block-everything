@@ -92,6 +92,7 @@ news.yahoo.com##p:has-text(Read Next:)
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
 youtube.com###clarify-box
+pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
 https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
