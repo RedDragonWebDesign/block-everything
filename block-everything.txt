@@ -181,3 +181,4 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 jacobinmag.com##.po-fr__endmark.prt-x
 amazon.com###sitbReaderMessageContainer
 reddit.com###mail:before
+mediabiasfactcheck.com###super_rss_reader-4
