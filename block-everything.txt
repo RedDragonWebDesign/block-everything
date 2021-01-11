@@ -90,6 +90,7 @@ forbes.com##.recirc-module.seo
 news.yahoo.com##p:has-text(Read Next:)
 news.yahoo.com##a[href="https://www.nytimes.com/newsletters?partner=yahoo"]
 nbcnews.com##.ArticleRelated
+dailymail.co.uk##.related-carousel
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
