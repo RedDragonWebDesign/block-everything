@@ -89,6 +89,7 @@ businessinsider.com##.inline-recirc
 forbes.com##.recirc-module.seo
 news.yahoo.com##p:has-text(Read Next:)
 news.yahoo.com##a[href="https://www.nytimes.com/newsletters?partner=yahoo"]
+nbcnews.com##.ArticleRelated
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
