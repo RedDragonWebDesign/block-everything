@@ -92,6 +92,7 @@ news.yahoo.com##a[href="https://www.nytimes.com/newsletters?partner=yahoo"]
 nbcnews.com##.ArticleRelated
 dailymail.co.uk##.related-carousel
 newsweek.com##.promo-link
+newsweek.com##[data-gtm-category="Related In-Text A"]
 
 ! causes (covid, blm, voting, etc.)
 jquery.com###banner-blm
