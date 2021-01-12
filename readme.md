@@ -22,7 +22,8 @@ Our goal is to block ***everything*** annoying. Anything that disrupts the norma
 
 Categories:
 
-- Anything in feeds that is not a normal feed item.
+- Anything in news articles that is not normal article text. (e.g. related article links)
+- Anything in social media feeds that is not a normal feed item.
 - Banner notifications. Anything from "call volume higher than usual", to COVID, to BLM.
 - Nags or attempts to influence in any form.
 - Minor ads and banners missed by major filter lists.
