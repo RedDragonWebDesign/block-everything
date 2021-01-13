@@ -129,6 +129,8 @@ newrepublic.com###pwPopups
 theatlantic.com##[class^="Paywall_root__"]
 slate.com##.slate-paywall
 time.com##iframe[title="registration-form"], .registration-wall
+fortune.com##p:has([id^="offer"])
+fortune.com##.paywall:style(filter: none !important;)
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
