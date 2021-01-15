@@ -94,6 +94,7 @@ dailymail.co.uk##.related-carousel
 newsweek.com##.promo-link
 newsweek.com##[data-gtm-category="Related In-Text A"]
 mprnews.org##.apm-related-list
+rollcall.com##p:has(em > strong > a)
 ! [/ARTICLE INLINE]
 
 ! causes (covid, blm, voting, etc.)
