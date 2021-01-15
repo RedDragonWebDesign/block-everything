@@ -191,3 +191,4 @@ jacobinmag.com##.po-fr__endmark.prt-x
 amazon.com###sitbReaderMessageContainer
 reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
+flickriver.com##.photo-protector
