@@ -95,6 +95,8 @@ newsweek.com##.promo-link
 newsweek.com##[data-gtm-category="Related In-Text A"]
 mprnews.org##.apm-related-list
 rollcall.com##p:has(em > strong > a)
+cbr.com##.tldr-btn-section.tldr-btn-nc
+cbr.com##p:has(.related-single)
 ! [/ARTICLE INLINE]
 
 ! causes (covid, blm, voting, etc.)
