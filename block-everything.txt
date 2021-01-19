@@ -161,8 +161,8 @@ dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
 darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
-facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
-facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
+!facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
+!facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
 geeksforgeeks.org##.code-gutter
 github.com##.js-vote-banner
 godbolt.org###ces, #motd
