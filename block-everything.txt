@@ -137,6 +137,10 @@ fortune.com##.paywall:style(filter: none !important;)
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
+thelancet.com##+js(aeld, scroll)
+
+! tickers/excessive page motion
+mediabiasfactcheck.com###ticker
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
@@ -196,4 +200,3 @@ reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 euronews.com##+js(aeld, pointerdown)
-thelancet.com##+js(aeld, scroll)
