@@ -193,3 +193,5 @@ amazon.com###sitbReaderMessageContainer
 reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
+euronews.com##+js(aeld, pointerdown)
+thelancet.com##+js(aeld, scroll)
