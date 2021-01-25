@@ -121,6 +121,7 @@ https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
+influencewatch.org##.tippy-content:style(font-size: 14px !important;)
 
 ! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
