@@ -22,6 +22,7 @@ mayoclinic.org##.internal-promo-stack-order
 namesilo.com##.container-fluid:has-text(Get Hosting)
 jacobinmag.com##.bn-at.prt-x
 dailymail.co.uk##.moduleFull:has(#fff-hub-banner)
+paypal.com##[data-pa-click$="_Login_CT_Banner"]
 
 ! FEED INLINE
 ! junk in feeds
