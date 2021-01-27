@@ -145,6 +145,9 @@ thelancet.com##+js(aeld, scroll)
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
 
+! allow text selection
+newstatesman.com##.clearfix
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com###alert_banner
