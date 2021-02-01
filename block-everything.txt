@@ -208,3 +208,4 @@ reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 euronews.com##+js(aeld, pointerdown)
+wikipedia.org###XFDcloser-showhide
