@@ -124,6 +124,7 @@ https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
 wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 influencewatch.org##.tippy-content:style(font-size: 14px !important;)
+wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 
 ! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
