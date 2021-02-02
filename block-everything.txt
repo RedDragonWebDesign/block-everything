@@ -100,12 +100,8 @@ cbr.com##.tldr-btn-section.tldr-btn-nc
 cbr.com##p:has(.related-single)
 nme.com##.post-content-read-more
 bbc.com,bbc.co.uk##[data-component="unordered-list-block"]:has(ul > li > a)
+nbcwashington.com##.wp-block-nbc-localized-block, .recirc-module
 ! [/ARTICLE INLINE]
-
-! causes (covid, blm, voting, etc.)
-jquery.com###banner-blm
-youtube.com###clarify-box
-pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
 https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
@@ -121,12 +117,6 @@ https://a.thumbs.redditmedia.com/x1YavKhPfQh8zbHA1DmZA6GS8Kym0j9mwwbJaAYVlt0.png
 https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 
-! CSS improvements/fixes
-big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
-wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
-influencewatch.org##.tippy-content:style(font-size: 14px !important;)
-wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
-
 ! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
@@ -140,6 +130,17 @@ slate.com##.slate-paywall
 time.com##iframe[title="registration-form"], .registration-wall
 fortune.com##p:has([id^="offer"])
 fortune.com##.paywall:style(filter: none !important;)
+
+! CSS improvements/fixes
+big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
+wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
+influencewatch.org##.tippy-content:style(font-size: 14px !important;)
+wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
+
+! causes (covid, blm, voting, etc.)
+jquery.com###banner-blm
+youtube.com###clarify-box
+pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
