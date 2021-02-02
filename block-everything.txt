@@ -102,6 +102,7 @@ nme.com##.post-content-read-more
 bbc.com,bbc.co.uk##[data-component="unordered-list-block"]:has(ul > li > a)
 nbcwashington.com##.wp-block-nbc-localized-block, .recirc-module
 pbs.org##p:has-text(READ MORE:)
+usnews.com##[class*="AnchorBlock__"]:has-text(READ:)
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
