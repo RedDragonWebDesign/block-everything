@@ -108,6 +108,7 @@ popularmechanics.com##.watch-next-in-body, .embed.gallery-module, .embed.gallery
 popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
 popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
+knowyourmeme.com##.entry-insert.top-entries
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
