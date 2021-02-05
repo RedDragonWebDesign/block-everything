@@ -104,6 +104,9 @@ nbcwashington.com##.wp-block-nbc-localized-block, .recirc-module
 pbs.org##p:has-text(READ MORE:)
 usnews.com##[class*="AnchorBlock__"]:has-text(READ:)
 theatlantic.com##.c-recirculation-link, .ad-boxinjector-m-wrapper
+popularmechanics.com##.watch-next-in-body, .embed.gallery-module, .embed.gallery-module + hr, .embed-editorial-links, .embed-product, .embed-poll
+popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
+popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
