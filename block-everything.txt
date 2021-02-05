@@ -153,6 +153,12 @@ pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 discussingfilm.net##+js(aeld, mousewheel)
 thelancet.com##+js(aeld, scroll)
 
+! allow text to be selected
+euronews.com##+js(aeld, pointerdown)
+egypttoday.com##+js(aeld, pointermove)
+egypttoday.com##+js(aeld, pointerup)
+egypttoday.com##+js(aeld, pointerdown)
+
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
 
@@ -216,5 +222,4 @@ amazon.com###sitbReaderMessageContainer
 reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
-euronews.com##+js(aeld, pointerdown)
 wikipedia.org###XFDcloser-showhide
