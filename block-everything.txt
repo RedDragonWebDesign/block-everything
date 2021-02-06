@@ -160,6 +160,9 @@ egypttoday.com##+js(aeld, pointermove)
 egypttoday.com##+js(aeld, pointerup)
 egypttoday.com##+js(aeld, pointerdown)
 
+! anti right click / anti save image overlays
+instagram.com##._9AhH0
+
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
 
