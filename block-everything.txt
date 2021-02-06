@@ -138,6 +138,8 @@ slate.com##.slate-paywall
 time.com##iframe[title="registration-form"], .registration-wall
 fortune.com##p:has([id^="offer"])
 fortune.com##.paywall:style(filter: none !important;)
+telegraph.co.uk/martech/js/core.min.js
+telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
