@@ -128,7 +128,7 @@ https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 ! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
-telegraph.co.uk##body:style(overflow: auto !important;)
+telegraph.co.uk##body:style(overflow-y: auto !important;)
 mediapost.com##body:style(overflow: auto !important;)
 mediapost.com###accesswall-modal, .modal-backdrop
 mediapost.com##div:style(filter: none !important;)
