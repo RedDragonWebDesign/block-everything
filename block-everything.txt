@@ -23,6 +23,7 @@ namesilo.com##.container-fluid:has-text(Get Hosting)
 jacobinmag.com##.bn-at.prt-x
 dailymail.co.uk##.moduleFull:has(#fff-hub-banner)
 paypal.com##[data-pa-click$="_Login_CT_Banner"]
+quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
 
 ! FEED INLINE
 ! junk in feeds
@@ -109,6 +110,7 @@ popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
 popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
 knowyourmeme.com##.entry-insert.top-entries
+quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
@@ -140,6 +142,7 @@ fortune.com##p:has([id^="offer"])
 fortune.com##.paywall:style(filter: none !important;)
 telegraph.co.uk/martech/js/core.min.js
 telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
+! ||tinypass.com^$3p is a cleaner option for telegraph.co.uk, but causes other problems (static lines)
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
