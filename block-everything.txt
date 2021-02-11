@@ -24,6 +24,8 @@ jacobinmag.com##.bn-at.prt-x
 dailymail.co.uk##.moduleFull:has(#fff-hub-banner)
 paypal.com##[data-pa-click$="_Login_CT_Banner"]
 quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
+foxnews.com##.fox-bet-promo
+! [/ADS]
 
 ! FEED INLINE
 ! junk in feeds
@@ -46,6 +48,7 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 !youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
+! [/FEEDS]
 
 ! ARTICLE INLINE
 ! junk in blog posts, newspaper articles, etc.
@@ -111,6 +114,9 @@ popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
 knowyourmeme.com##.entry-insert.top-entries
 quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
+foxnews.com##.featured-video
+foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
+foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
@@ -126,6 +132,7 @@ https://a.thumbs.redditmedia.com/YcWFXMChx1LH2KWWmUn7pk8Uo3HsaQMUM0isec6--F8.css
 https://a.thumbs.redditmedia.com/x1YavKhPfQh8zbHA1DmZA6GS8Kym0j9mwwbJaAYVlt0.png
 https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
+! [/REDDIT]
 
 ! premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
