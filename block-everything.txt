@@ -117,6 +117,7 @@ quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
 foxnews.com##.featured-video
 foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
 foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
+washingtontimes.com##.article-toplinks
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
@@ -134,7 +135,7 @@ https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 ! [/REDDIT]
 
-! premium nags, regwalls, X free articles remaining, etc.
+! paywalls, premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
 telegraph.co.uk##body:style(overflow: auto !important;)
@@ -150,6 +151,8 @@ fortune.com##.paywall:style(filter: none !important;)
 telegraph.co.uk/martech/js/core.min.js
 telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
 ! ||tinypass.com^$3p is a cleaner option for telegraph.co.uk, but causes other problems (static lines)
+washingtontimes.com##.tp-modal
+![/PAYWALLS]
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
