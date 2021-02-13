@@ -161,10 +161,11 @@ wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width:
 influencewatch.org##.tippy-content:style(font-size: 14px !important;)
 wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 
-! causes (covid, blm, voting, etc.)
+! non-floating alert bars (covid, blm, voting, etc.)
 jquery.com###banner-blm
 youtube.com###clarify-box
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
+ncbi.nlm.nih.gov##.ncbi-alerts
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
