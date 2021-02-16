@@ -118,6 +118,8 @@ foxnews.com##.featured-video
 foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
 foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
 washingtontimes.com##.article-toplinks
+mayoclinic.org##.acces-list-container.rc-list:has-text(Products & Services)
+mayoclinic.org##.requestappt
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
