@@ -186,6 +186,14 @@ mediabiasfactcheck.com###ticker
 ! allow text selection
 newstatesman.com##.clearfix
 
+! news quality
+! block National Review from Yahoo News feeds, states opinions as facts
+news.yahoo.com##li.js-stream-content:has-text(National Review)
+! block Boing Boing product placements/churnalism
+boingboing.net##.fromtheshop, .next-post-list-container
+boingboing.net##[class^="post-"]:has-text(Boing Boing Gadgets)
+boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
+
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
 ally.com###alert_banner
