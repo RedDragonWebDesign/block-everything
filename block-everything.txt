@@ -162,6 +162,7 @@ big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding
 wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 influencewatch.org##.tippy-content:style(font-size: 14px !important;)
 wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
+cnn.com##.editor-note
 
 ! non-floating alert bars (covid, blm, voting, etc.)
 jquery.com###banner-blm
@@ -196,6 +197,9 @@ news.yahoo.com##li.js-stream-content:has-text(National Review)
 boingboing.net##.fromtheshop, .next-post-list-container
 boingboing.net##[class^="post-"]:has-text(Boing Boing Gadgets)
 boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
+
+! flyout video players
+cnn.com##.video__stuck
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
