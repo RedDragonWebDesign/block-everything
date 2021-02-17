@@ -170,6 +170,7 @@ jquery.com###banner-blm
 youtube.com###clarify-box
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 ncbi.nlm.nih.gov##.ncbi-alerts
+nlm.nih.gov##.alert
 mayoclinic.org##.globalnotice.warning
 
 ! jerky/nonstandard scroll wheel behavior
