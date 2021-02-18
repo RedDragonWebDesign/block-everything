@@ -123,6 +123,7 @@ mayoclinic.org##.acces-list-container.rc-list:has-text(Products & Services)
 mayoclinic.org##.requestappt
 apnews.com##[class^="relatedStory-"]
 apnews.com##[data-key="hub-link-embed"]
+zdnet.com##p:has-text(See also:)
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
