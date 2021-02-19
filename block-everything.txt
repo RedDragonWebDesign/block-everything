@@ -26,6 +26,7 @@ paypal.com##[data-pa-click$="_Login_CT_Banner"]
 quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
 foxnews.com##.fox-bet-promo
 regex101.com##._3Brs_._2C1Ky
+exrx.net##.hutman-ads
 ! [/ADS]
 
 ! FEED INLINE
