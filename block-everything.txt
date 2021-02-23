@@ -177,6 +177,7 @@ pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 ncbi.nlm.nih.gov##.ncbi-alerts
 nlm.nih.gov##.alert
 mayoclinic.org##.globalnotice.warning
+hightimes.com###tpbr_topbar
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
