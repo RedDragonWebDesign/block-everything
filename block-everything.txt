@@ -267,3 +267,4 @@ reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 wikipedia.org###XFDcloser-showhide
+wikipedia.org###mwe-pt-list-stats-nav
