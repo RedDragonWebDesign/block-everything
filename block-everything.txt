@@ -1,7 +1,7 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
-! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com.
+! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple of minutes to go live.
 
 ! ads missed by the main lists
 codewars.com##.panel.marketing, #_carbonad
@@ -146,6 +146,7 @@ https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 ! paywalls, premium nags, regwalls, X free articles remaining, etc.
 cnn.com##[data-testid="preview-component"]
 telegraph.co.uk##.martech-modal-component-overlay
+! need overflow-y here to get rid of bottom scrollbar
 telegraph.co.uk##body:style(overflow-y: auto !important;)
 mediapost.com##body:style(overflow: auto !important;)
 mediapost.com###accesswall-modal, .modal-backdrop
@@ -189,15 +190,13 @@ euronews.com##+js(aeld, pointerdown)
 egypttoday.com##+js(aeld, pointermove)
 egypttoday.com##+js(aeld, pointerup)
 egypttoday.com##+js(aeld, pointerdown)
+newstatesman.com##.clearfix
 
 ! anti right click / anti save image overlays
 instagram.com##._9AhH0
 
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
-
-! allow text selection
-newstatesman.com##.clearfix
 
 ! news quality
 ! block National Review from Yahoo News feeds, states opinions as facts
