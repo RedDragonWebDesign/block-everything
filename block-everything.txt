@@ -178,6 +178,7 @@ ncbi.nlm.nih.gov##.ncbi-alerts
 nlm.nih.gov##.alert
 mayoclinic.org##.globalnotice.warning
 hightimes.com###tpbr_topbar
+sass-lang.com##.sl-c-alert--info.sl-c-alert
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
