@@ -128,6 +128,7 @@ zdnet.com##p:has-text(See also:)
 cnbc.com##p:has-text(More from Personal Finance:)
 nytimes.com###NYT_MAIN_CONTENT_3_REGION, [aria-labelledby="storyline-latest-updates"], #covid-signup-module
 cnbc.com##p:has-text(Don’t miss:)
+politico.com##.story-enhancement
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
