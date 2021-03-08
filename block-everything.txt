@@ -131,6 +131,7 @@ cnbc.com##p:has-text(Don’t miss:)
 politico.com##.story-enhancement
 zdnet.com##p:has(strong:has-text(Also:))
 zdnet.com##.relatedContent
+sitepoint.com##.roller-door-placeholder
 ! [/ARTICLE INLINE]
 
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
