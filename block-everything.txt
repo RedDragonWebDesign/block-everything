@@ -200,8 +200,9 @@ egypttoday.com##+js(aeld, pointerup)
 egypttoday.com##+js(aeld, pointerdown)
 newstatesman.com##.clearfix
 
-! anti right click / anti save image overlays
+! anti save image overlays
 instagram.com##._9AhH0
+flickr.com##.facade-of-protection-zoom
 
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
