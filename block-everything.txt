@@ -135,6 +135,19 @@ sitepoint.com##.roller-door-placeholder
 theverge.com##aside:has(.c-read-more)
 ! [/ARTICLE INLINE]
 
+! [BLOCK INLINE] - linkedin, forum, etc.
+linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
+linkedin.com##.search-result--cross-promo
+linkedin.com##h2:has-text(Profile Strength:):upward(4)
+linkedin.com##h2:has-text(Strengthen your profile):upward(5)
+linkedin.com##h2:has-text(Your Dashboard):upward(5)
+linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
+linkedin.com##p:has-text(Are these search results helpful):upward(4)
+linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
+linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
+researchgate.net##.js-lite-promo.post-details__section
+! [/BLOCK INLINE]
+
 ! couple of filters for subreddits with annoying custom stylesheets, this turns them off
 https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
 https://b.thumbs.redditmedia.com/8iym2dMk_xtsu4TiDHR-oo6eCKgd90OL-0qlE1qi-bc.png
@@ -212,7 +225,7 @@ mediabiasfactcheck.com###ticker
 news.yahoo.com##li.js-stream-content:has-text(National Review)
 ! product placements
 news.yahoo.com##li.js-stream-content:has-text(Architectural Digest)
-! block Boing Boing product placements/churnalism
+! block Boing Boing product placements
 boingboing.net##.fromtheshop, .next-post-list-container
 boingboing.net##[class^="post-"]:has-text(Boing Boing Gadgets)
 boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
@@ -245,15 +258,6 @@ geeksforgeeks.org##.code-gutter
 github.com##.js-vote-banner
 godbolt.org###ces, #motd
 latimes.com##.enhancement
-linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
-linkedin.com##.search-result--cross-promo
-linkedin.com##h2:has-text(Profile Strength:):upward(4)
-linkedin.com##h2:has-text(Strengthen your profile):upward(5)
-linkedin.com##h2:has-text(Your Dashboard):upward(5)
-linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
-linkedin.com##p:has-text(Are these search results helpful):upward(4)
-linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
-linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###redesign-beta-optin-btn
