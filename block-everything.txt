@@ -133,6 +133,7 @@ zdnet.com##p:has(strong:has-text(Also:))
 zdnet.com##.relatedContent
 sitepoint.com##.roller-door-placeholder
 theverge.com##aside:has(.c-read-more)
+bbc.com,bbc.co.uk##.article-body__pull-quote
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
