@@ -27,6 +27,7 @@ quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
 foxnews.com##.fox-bet-promo
 regex101.com##._3Brs_._2C1Ky
 exrx.net##.hutman-ads
+imdb.com###promoted-partner-bar
 ! [/ADS]
 
 ! FEED INLINE
@@ -134,6 +135,7 @@ zdnet.com##.relatedContent
 sitepoint.com##.roller-door-placeholder
 theverge.com##aside:has(.c-read-more)
 bbc.com,bbc.co.uk##.article-body__pull-quote
+imdb.com###titleAwardsRanks
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
@@ -202,6 +204,7 @@ mayoclinic.org##.globalnotice.warning
 hightimes.com###tpbr_topbar
 sass-lang.com##.sl-c-alert--info.sl-c-alert
 zdnet.com##.breaking-news-container
+imdb.com##.banner-container
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
