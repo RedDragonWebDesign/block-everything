@@ -28,6 +28,7 @@ foxnews.com##.fox-bet-promo
 regex101.com##._3Brs_._2C1Ky
 exrx.net##.hutman-ads
 imdb.com###promoted-partner-bar
+kickass.onl##[src="https://i.imgur.com/Bmmm4yw.png"]:upward(6)
 ! [/ADS]
 
 ! FEED INLINE
