@@ -137,6 +137,7 @@ sitepoint.com##.roller-door-placeholder
 theverge.com##aside:has(.c-read-more)
 bbc.com,bbc.co.uk##.article-body__pull-quote
 imdb.com###titleAwardsRanks
+sfgate.com##.article--content-inline:has-text(Top Picks In Shopping)
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
