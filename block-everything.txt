@@ -15,6 +15,7 @@ programiz.com##.notice-bar-top
 smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
 smashingmagazine.com##.c-promo-box--ad
 usmagazine.com##.right-rail, .link-related.article
+vuetifyjs.com##.v-vuetify-ad
 vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
 yahoo.com##a[href*="ad.doubleclick.net"]
 ibb.co##.viewer-title
@@ -29,6 +30,7 @@ regex101.com##._3Brs_._2C1Ky
 exrx.net##.hutman-ads
 imdb.com###promoted-partner-bar
 kickass.onl##[src="https://i.imgur.com/Bmmm4yw.png"]:upward(6)
+vueschool.io##a[class^="vs-banners"]
 ! [/ADS]
 
 ! FEED INLINE
@@ -197,7 +199,8 @@ wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 cnn.com##.editor-note
 
 ! non-floating alert bars (covid, blm, voting, etc.)
-jquery.com###banner-blm
+###banner-blm
+##.blm-banner
 youtube.com###clarify-box
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
 ncbi.nlm.nih.gov##.ncbi-alerts
@@ -207,6 +210,11 @@ hightimes.com###tpbr_topbar
 sass-lang.com##.sl-c-alert--info.sl-c-alert
 zdnet.com##.breaking-news-container
 imdb.com##.banner-container
+nodejs.org##.home-blacklivesmatterblock
+golang.org##.Header-banner
+www.electronjs.org##.announcement-banner
+developers.google.com##.devsite-banner-message
+developer.android.com##.devsite-banner-announcement.devsite-banner
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
@@ -289,3 +297,6 @@ mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 wikipedia.org###XFDcloser-showhide
 wikipedia.org###mwe-pt-list-stats-nav
+
+! Useless floating Apple Music webplayer
+||genius.com/*/apple_music_player$subdocument
