@@ -3,6 +3,10 @@
 
 ! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple of minutes to go live.
 
+! Tips:
+! - Try to avoid using upward(). Easy to break things when the website changes their layout.
+! - :has-text() works best without RegEx. RegEx seems to be buggy. Example: :has-text(/^Test$/) doesn't usually work for me.
+
 ! ads missed by the main lists
 codewars.com##.panel.marketing, #_carbonad
 cornell.edu###block-lii-justia-find-lawyers-sidebar
@@ -297,6 +301,5 @@ mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 wikipedia.org###XFDcloser-showhide
 wikipedia.org###mwe-pt-list-stats-nav
-
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
