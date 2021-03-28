@@ -303,3 +303,4 @@ wikipedia.org###XFDcloser-showhide
 wikipedia.org###mwe-pt-list-stats-nav
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
+researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
