@@ -58,6 +58,7 @@ youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 !youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
+expedia.com##[data-stid="messaging-card"]:has-text(You could be seeing lower prices)
 ! [/FEEDS]
 
 ! ARTICLE INLINE
