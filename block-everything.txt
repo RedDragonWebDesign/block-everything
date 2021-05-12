@@ -225,6 +225,7 @@ golang.org##.Header-banner
 www.electronjs.org##.announcement-banner
 developers.google.com##.devsite-banner-message
 developer.android.com##.devsite-banner-announcement.devsite-banner
+! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
 discussingfilm.net##+js(aeld, mousewheel)
@@ -310,6 +311,7 @@ wikipedia.org###mwe-pt-list-stats-nav
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 themuslimvibe.com##.promo
@@ -339,10 +341,6 @@ influencewatch.org##.main-navigation:style(position: static !important;)
 watchuseek.com##.p-header:style(position: absolute !important;)
 nme.com##.wpb_wrapper:style(position: static !important;)
 patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
-
- 
-
- 
 insight.kellogg.northwestern.edu##.scrollrecs
 insight.kellogg.northwestern.edu##.fixed:style(position: absolute !important;)
 insight.kellogg.northwestern.edu##.alertbar:style(display: block !important;)
