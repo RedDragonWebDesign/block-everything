@@ -310,3 +310,111 @@ wikipedia.org###mwe-pt-list-stats-nav
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+
+! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+themuslimvibe.com##.promo
+knowyourmeme.com##.ads
+win.gg##.c-Adhesion
+flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
+flickr.com###search-unified-content:style(margin-top: 0 !important;)
+punchng.com##.site-header-ad, .site-header-placeholder
+
+! COOKIES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! cookie modals
+###onetrust-consent-sdk
+! comicbook.com has a $generichide, must override
+comicbook.com###onetrust-consent-sdk
+pubpub.org##.legal-banner-component
+
+! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+emerald.com##.fixed-top:style(position: absolute !important;)
+emerald.com###feedback-strip
+iot.eetimes.com###main-nav-wrap:style(position: static !important;)
+iot.eetimes.com###body-main-wrap:style(padding-top: 15px !important;)
+iot.eetimes.com###head-main-top
+cambridge.org###article-tabs-wrapper
+cambridge.org###toc:style(position: static !important;)
+tubefilter.com##.fancybox-wrap, #sticky-navigation-holder
+influencewatch.org##.main-navigation:style(position: static !important;)
+watchuseek.com##.p-header:style(position: absolute !important;)
+nme.com##.wpb_wrapper:style(position: static !important;)
+patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
+
+ 
+
+ 
+insight.kellogg.northwestern.edu##.scrollrecs
+insight.kellogg.northwestern.edu##.fixed:style(position: absolute !important;)
+insight.kellogg.northwestern.edu##.alertbar:style(display: block !important;)
+insight.kellogg.northwestern.edu##header:style(height: 89px !important;)
+insight.kellogg.northwestern.edu##.footer-trigger:style(position: static !important;)
+insight.kellogg.northwestern.edu##.sticky.stuck:style(position: static !important;)
+freenode.net##.navbar:style(position: absolute !important;)
+lexico.com##.mainHeader:style(position: static !important;)
+cell.com##.article-tools__wrapper
+quarry.wmflabs.org##.navbar:style(position: static !important;)
+tandfonline.com##.sticky:style(position: absolute !important;)
+aa.com.tr##.fixed-top:style(position: absolute !important;)
+aa.com.tr##.sticky-top:style(position: static !important;)
+theregreview.org###post_info
+pubpub.org##.pub-header-background-component:style(position: static !important;)
+supermoney.com##.sm-search-wrapper:style(position: absolute !important;)
+thefocus.news##.navbar, #sidebar:style(position: static !important;)
+themuslimvibe.com###page-header:style(position: absolute !important;)
+themuslimvibe.com##.wpb_wrapper:style(position: static !important;)
+hrw.org##.hrw-share
+crisisgroup.org##.s-header:style(position: absolute !important;)
+crisisgroup.org##.js-ann-adder
+seventeen.com##.nav:style(position: static !important;)
+seventeen.com##.nav-placeholder
+egypttoday.com##.Menu:style(position: static !important;)
+knowyourmeme.com##.contentFload, .contentFloadmenu:style(position: absolute !important;)
+futurestud.io##.affix-wrapper:style(position: static !important;)
+theatlantic.com##[class^="NonMeteredNudge"]
+marketwatch.com##.container--trending
+namesilo.com###sticky-header
+voanews.com##.site-header:style(position: static !important;)
+justia.com###sticky-block:style(position: static !important;)
+hightimes.com##.cs-header.cs-header-three:style(position: static !important;)
+win.gg##.c-HeaderContainer:style(position: absolute !important;)
+! github: block a floating topbar that appears when scrolling down in an issue
+github.com##.gh-header-shadow
+cnbc.com##[class^="HighlightShare"]
+flickr.com##.search-slender-advanced-panel-view:style(position: static !important;)
+flickr.com##.search-subnav:style(position: static !important;)
+dailykos.com##.sidebar.label-heading.sidebar-heading:style(position: static !important;)
+investor.vanguard.com##.watch-bar-container:style(position: static !important;)
+cntraveler.com##.persistent-top, .sticky-box:style(position: static !important;)
+cntraveler.com##.page:style(padding-top: 0 !important;)
+hindustantimes.com##.shareSticky
+hindustantimes.com###header:style(height: 93px !important;)
+othena.com##.header:style(position: absolute !important;)
+punchng.com###masthead:style(position: static !important;)
+researchgate.net##.js-target-authorHeader:style(position: static !important;)
+! github: block a floating topbar that appears when scrolling down on a project's homepage (readme.md header floats)
+github.com##.js-sticky:style(position: static !important;)
+fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
+mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
+nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
+! [/FLOATING]
+
+! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+
+! MODAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+foreignpolicy.com##.tp-modal, .tp-backdrop
+watchuseek.com###welcome_back
+insight.kellogg.northwestern.edu##.tp-modal
+themuslimvibe.com##.conv-container
+afp.com##.mfp-wrap
+afp.com##html:style(overflow: auto !important;)
+afp.com##.mfp-bg:style(opacity: 0 !important;)
+hightimes.com##div:has(ins)
+hightimes.com##section:has-text(Support High Times By Disabling Ad-Blocker)
+nationalgeographic.com##.Modal.EmailStickyFooter__Modal
+nationalgeographic.com##body:style(overflow: auto !important; position: static !important;)
+
+! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+newstatesman.com##.cta:upward(3)
+hrw.org###block-signupbarblock
+
+! SOCIAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
