@@ -226,6 +226,8 @@ golang.org##.Header-banner
 www.electronjs.org##.announcement-banner
 developers.google.com##.devsite-banner-message
 developer.android.com##.devsite-banner-announcement.devsite-banner
+ishares.com##.alert-bar
+
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
@@ -395,6 +397,7 @@ github.com##.js-sticky:style(position: static !important;)
 fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
 mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
+ishares.com##.sticky-header:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
