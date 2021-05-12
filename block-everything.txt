@@ -398,6 +398,7 @@ fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !impo
 mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
 ishares.com##.sticky-header:style(position: absolute !important;)
+techrepublic.com##.sticky-element-placeholder
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
