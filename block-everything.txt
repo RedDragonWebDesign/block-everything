@@ -401,6 +401,8 @@ ishares.com##.sticky-header:style(position: absolute !important;)
 techrepublic.com##.sticky-element-placeholder
 ! wikipedia commons preferences floating footer. will probably need to add more domains to this:
 wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
+etonline.com##.header-container:style(position: static !important;)
+etonline.com###main:style(margin-top: 0 !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
