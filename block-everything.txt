@@ -399,6 +399,8 @@ mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:s
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
 ishares.com##.sticky-header:style(position: absolute !important;)
 techrepublic.com##.sticky-element-placeholder
+! wikipedia commons preferences floating footer. will probably need to add more domains to this:
+wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
