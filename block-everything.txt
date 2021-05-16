@@ -226,7 +226,7 @@ www.electronjs.org##.announcement-banner
 developers.google.com##.devsite-banner-message
 developer.android.com##.devsite-banner-announcement.devsite-banner
 ishares.com##.alert-bar
-
+baltimoresun.com##[data-pb-name="Screamer"]
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
@@ -421,6 +421,8 @@ hightimes.com##div:has(ins)
 hightimes.com##section:has-text(Support High Times By Disabling Ad-Blocker)
 nationalgeographic.com##.Modal.EmailStickyFooter__Modal
 nationalgeographic.com##body:style(overflow: auto !important; position: static !important;)
+baltimoresun.com##html,body:style(overflow: auto !important;)
+baltimoresun.com##+js(aeld, scroll)
 
 ! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 newstatesman.com##.cta:upward(3)
