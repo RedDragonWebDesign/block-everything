@@ -150,6 +150,7 @@ sfgate.com##.article--content-inline:has-text(Top Picks In Shopping)
 foxbusiness.com##.article-body > p:has(a[href*="foxbusiness.com"] > strong)
 marketplace.org##.top-latest-stories
 aarp.org##.textimage.parbase.section:has-text(For ways to save and more,)
+baltimoresun.com##[data-type="interstitial_link"]
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
