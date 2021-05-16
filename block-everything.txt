@@ -126,7 +126,6 @@ popularmechanics.com##.watch-next-in-body, .embed.gallery-module, .embed.gallery
 popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
 popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
-knowyourmeme.com##.entry-insert.top-entries
 quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
 foxnews.com##.featured-video
 foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
@@ -369,7 +368,6 @@ crisisgroup.org##.js-ann-adder
 seventeen.com##.nav:style(position: static !important;)
 seventeen.com##.nav-placeholder
 egypttoday.com##.Menu:style(position: static !important;)
-knowyourmeme.com##.contentFload, .contentFloadmenu:style(position: absolute !important;)
 futurestud.io##.affix-wrapper:style(position: static !important;)
 theatlantic.com##[class^="NonMeteredNudge"]
 marketwatch.com##.container--trending
@@ -403,6 +401,9 @@ techrepublic.com##.sticky-element-placeholder
 wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
 etonline.com##.header-container:style(position: static !important;)
 etonline.com###main:style(margin-top: 0 !important;)
+knowyourmeme.com###global-message, #leaderboard, #trending-bar, .contentFload
+knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
+knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
