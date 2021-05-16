@@ -404,6 +404,7 @@ etonline.com###main:style(margin-top: 0 !important;)
 knowyourmeme.com###global-message, #leaderboard, #trending-bar, .contentFload
 knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
 knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
+knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
