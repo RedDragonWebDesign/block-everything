@@ -424,6 +424,8 @@ nationalgeographic.com##.Modal.EmailStickyFooter__Modal
 nationalgeographic.com##body:style(overflow: auto !important; position: static !important;)
 baltimoresun.com##html,body:style(overflow: auto !important;)
 baltimoresun.com##+js(aeld, scroll)
+dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !important;)
+dailymail.co.uk##html, body:style(overflow: auto !important;)
 
 ! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 newstatesman.com##.cta:upward(3)
