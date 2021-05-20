@@ -151,6 +151,7 @@ foxbusiness.com##.article-body > p:has(a[href*="foxbusiness.com"] > strong)
 marketplace.org##.top-latest-stories
 aarp.org##.textimage.parbase.section:has-text(For ways to save and more,)
 baltimoresun.com##[data-type="interstitial_link"]
+tutsplus.com##.roundup-block__contents
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
@@ -323,6 +324,7 @@ win.gg##.c-Adhesion
 flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
 flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
+tutsplus.com##.avert
 
 ! COOKIES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
