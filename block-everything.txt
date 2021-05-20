@@ -229,6 +229,7 @@ developers.google.com##.devsite-banner-message
 developer.android.com##.devsite-banner-announcement.devsite-banner
 ishares.com##.alert-bar
 baltimoresun.com##[data-pb-name="Screamer"]
+freecodecamp.org###banner
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
