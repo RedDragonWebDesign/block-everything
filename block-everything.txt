@@ -409,6 +409,7 @@ knowyourmeme.com###global-message, #leaderboard, #trending-bar, .contentFload
 knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
 knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
 knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
+phpunit.de##.navbar:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
