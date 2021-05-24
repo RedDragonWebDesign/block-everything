@@ -36,6 +36,7 @@ imdb.com###promoted-partner-bar
 kickass.onl##[src="https://i.imgur.com/Bmmm4yw.png"]:upward(6)
 vueschool.io##a[class^="vs-banners"]
 loseit.com##h2:has-text(Do more with Lose It! Premium):upward(6)
+lambdatest.com##.sitekitwebinar
 ! [/ADS]
 
 ! FEED INLINE
@@ -411,6 +412,8 @@ knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
 knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
 knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
 phpunit.de##.navbar:style(position: static !important;)
+lambdatest.com##.tagline:style(top: 60px !important;)
+lambdatest.com##.header, .tagline:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
