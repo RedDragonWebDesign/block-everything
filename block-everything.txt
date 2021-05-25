@@ -211,6 +211,8 @@ wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width:
 influencewatch.org##.tippy-content:style(font-size: 14px !important;)
 wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 cnn.com##.editor-note
+sender.net##.checkboxes-content-wrapper, .checkboxes-content:style(width: 500px !important;)
+sender.net##.checkbox-row-title:style(width: 100% !important;)
 
 ! non-floating alert bars (covid, blm, voting, etc.)
 ###banner-blm
