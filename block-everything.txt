@@ -165,7 +165,7 @@ linkedin.com##h2:has-text(Your Dashboard):upward(5)
 linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
 linkedin.com##p:has-text(Are these search results helpful):upward(4)
 linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
-linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
+!linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 researchgate.net##.js-lite-promo.post-details__section
 ! [/BLOCK INLINE]
 
