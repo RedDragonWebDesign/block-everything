@@ -37,6 +37,7 @@ kickass.onl##[src="https://i.imgur.com/Bmmm4yw.png"]:upward(6)
 vueschool.io##a[class^="vs-banners"]
 loseit.com##h2:has-text(Do more with Lose It! Premium):upward(6)
 lambdatest.com##.sitekitwebinar
+ralphs.com##[src*="monetization"]
 ! [/ADS]
 
 ! FEED INLINE
