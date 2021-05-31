@@ -416,6 +416,7 @@ knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
 phpunit.de##.navbar:style(position: static !important;)
 lambdatest.com##.tagline:style(top: 60px !important;)
 lambdatest.com##.header, .tagline:style(position: absolute !important;)
+sciencebasedmedicine.org##.headroom--pinned
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
