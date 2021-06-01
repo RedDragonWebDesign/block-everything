@@ -38,6 +38,7 @@ vueschool.io##a[class^="vs-banners"]
 loseit.com##h2:has-text(Do more with Lose It! Premium):upward(6)
 lambdatest.com##.sitekitwebinar
 ralphs.com##[src*="monetization"]
+thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
 ! [/ADS]
 
 ! FEED INLINE
