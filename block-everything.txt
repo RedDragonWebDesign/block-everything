@@ -238,6 +238,7 @@ ishares.com##.alert-bar
 baltimoresun.com##[data-pb-name="Screamer"]
 freecodecamp.org###banner
 ralphs.com##[data-testid="GlobalMessageWrapper"]
+ncbi.nlm.nih.gov##.container-fluid:has(.unite-text-box)
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
