@@ -39,6 +39,7 @@ loseit.com##h2:has-text(Do more with Lose It! Premium):upward(6)
 lambdatest.com##.sitekitwebinar
 ralphs.com##[src*="monetization"]
 thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
+wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND NEEDS WILLAMETTE WEEK.)
 ! [/ADS]
 
 ! FEED INLINE
