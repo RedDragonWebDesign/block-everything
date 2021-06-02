@@ -157,6 +157,7 @@ aarp.org##.textimage.parbase.section:has-text(For ways to save and more,)
 baltimoresun.com##[data-type="interstitial_link"]
 tutsplus.com##.roundup-block__contents
 thebulletin.org##.IRPP_button
+techrepublic.com##p:has(strong:has-text(SEE:))
 ! [/ARTICLE INLINE]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
