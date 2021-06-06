@@ -159,6 +159,7 @@ baltimoresun.com##[data-type="interstitial_link"]
 tutsplus.com##.roundup-block__contents
 thebulletin.org##.IRPP_button
 techrepublic.com##p:has(strong:has-text(SEE:))
+hollywoodreporter.com##.injected-related-story
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
