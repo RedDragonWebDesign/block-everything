@@ -430,6 +430,7 @@ lambdatest.com##.header, .tagline:style(position: absolute !important;)
 sciencebasedmedicine.org##.headroom--pinned
 massivesci.com##.navigation:style(position: static !important;)
 chessprogramming.net###header:style(position: absolute !important;)
+hollywoodreporter.com##.js-Header-contents:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
