@@ -248,6 +248,7 @@ momentjs.com##.hero-title h2:has-text(Get Involved)
 dotnetfoundation.org##.align-items-center.justify-content-center.flash
 rxjs.dev##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
 rxjs-dev.firebaseapp.com##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
+mdxjs.com##.css-1kikbsc.searchable-content > div:has-text(#BlackLivesMatter →)
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
