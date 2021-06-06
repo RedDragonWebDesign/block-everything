@@ -159,7 +159,12 @@ baltimoresun.com##[data-type="interstitial_link"]
 tutsplus.com##.roundup-block__contents
 thebulletin.org##.IRPP_button
 techrepublic.com##p:has(strong:has-text(SEE:))
+hollywoodreporter.com##.injected-related-story
 ! [/ARTICLE INLINE]
+
+! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
+theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
+![/PULL QUOTES]
 
 ! [BLOCK INLINE] - linkedin, forum, etc.
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
@@ -434,6 +439,7 @@ lambdatest.com##.header, .tagline:style(position: absolute !important;)
 sciencebasedmedicine.org##.headroom--pinned
 massivesci.com##.navigation:style(position: static !important;)
 chessprogramming.net###header:style(position: absolute !important;)
+hollywoodreporter.com##.js-Header-contents:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
