@@ -432,6 +432,8 @@ sciencebasedmedicine.org##.headroom--pinned
 massivesci.com##.navigation:style(position: static !important;)
 chessprogramming.net###header:style(position: absolute !important;)
 hollywoodreporter.com##.js-Header-contents:style(position: absolute !important;)
+spectator.us##.otherheader:style(position: absolute !important;)
+spectator.us##.article_set_wrap:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
