@@ -436,6 +436,7 @@ spectator.us##.otherheader:style(position: absolute !important;)
 spectator.us##.article_set_wrap:style(position: static !important;)
 sender.net###chat-widget-container
 dreamhost.com##.Feedback
+panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
