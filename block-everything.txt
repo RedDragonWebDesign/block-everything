@@ -213,6 +213,7 @@ telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
 ! telegraph.co.uk, scmp.com
 ||tinypass.com^$3p
 washingtontimes.com##.tp-modal
+https://s3-prod.autonews.com/s3fs-public/js/js_WTmgcF6xZivpS-TUSmoAd8GqFXyeEn0XUDFDZ5nnDH4.js
 ![/PAYWALLS]
 
 ! CSS improvements/fixes
@@ -437,6 +438,8 @@ spectator.us##.article_set_wrap:style(position: static !important;)
 sender.net###chat-widget-container
 dreamhost.com##.Feedback
 panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
+autonews.com##header[role="banner"]:style(position: absolute !important;)
+autonews.com##.block-crain-recommend-flyout-block
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
