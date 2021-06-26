@@ -4,16 +4,15 @@
 ! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple of minutes to go live.
 
 ! Tips:
-! - Try to avoid using upward(). Easy to break things when the website changes their layout.
+! - Don't use upward(). Easy to break things when the website changes their layout.
 ! - :has-text() works best without RegEx. RegEx seems to be buggy. Example: :has-text(/^Test$/) doesn't usually work for me.
 
 ! ads missed by the main lists
 codewars.com##.panel.marketing, #_carbonad
-cornell.edu###block-lii-justia-find-lawyers-sidebar
+cornell.edu###block-lii-justia-find-lawyers-sidebarlinked
 geeksforgeeks.org##.ad_course_banner
 geeksforgeeks.org##p:has-text(/^Attention reader!/)
 jsfiddle.net###s-bottom
-linkedin.com##a:has-text(Try Premium for free):upward(3)
 narkive.com##[class^="adslot_"]
 programiz.com##.notice-bar-top
 smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
@@ -33,9 +32,7 @@ foxnews.com##.fox-bet-promo
 regex101.com##._3Brs_._2C1Ky
 exrx.net##.hutman-ads
 imdb.com###promoted-partner-bar
-kickass.onl##[src="https://i.imgur.com/Bmmm4yw.png"]:upward(6)
 vueschool.io##a[class^="vs-banners"]
-loseit.com##h2:has-text(Do more with Lose It! Premium):upward(6)
 lambdatest.com##.sitekitwebinar
 ralphs.com##[src*="monetization"]
 thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
@@ -45,9 +42,6 @@ wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND N
 ! FEED INLINE
 ! junk in feeds
 reddit.com###TrendingPostsContainer
-! upward(5) works on card mode, but not on classic or compact mode
-reddit.com##h3:has-text(/^Top broadcast right now$/):upward(5)
-reddit.com##h3:has-text(/^Top broadcast$/):upward(5)
 youtube.com##ytd-primetime-promo-renderer
 ! using RegEx in this style :has-text(/^blah blah/) doesn't appear to work for some reason
 youtube.com##ytd-rich-section-renderer:has-text(COVID)
@@ -94,7 +88,6 @@ independent.co.uk##p:has-text(Read more:)
 independent.co.uk##.related
 nationalobserver.com##.inline-content-links
 thehill.com##.left-sidebar-2
-news.yahoo.com##[src="https://s.yimg.com/ny/api/res/1.2/pUQGGjlm4wn9KGY0aj.grQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTEwNS43NDUxNDAzODg3Njg5/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-11/c0a90f00-1d31-11eb-bfd1-711e9348736a"]:upward(4)
 thelondoneconomic.com##.jnews_inline_related_post_wrapper
 truthout.org##.inline-callout-container
 thehill.com##.incontent-plugin
@@ -170,13 +163,6 @@ theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
 ! [BLOCK INLINE] - linkedin, forum, etc.
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 linkedin.com##.search-result--cross-promo
-linkedin.com##h2:has-text(Profile Strength:):upward(4)
-linkedin.com##h2:has-text(Strengthen your profile):upward(5)
-linkedin.com##h2:has-text(Your Dashboard):upward(5)
-linkedin.com##h4:has-text(, complete these steps to get the most out of LinkedIn):upward(4)
-linkedin.com##p:has-text(Are these search results helpful):upward(4)
-linkedin.com##p:has-text(Help us identify relevant opportunities and content for your connections):upward(6)
-!linkedin.com##strong:has-text(Show recruiters you’re open to work):upward(14)
 researchgate.net##.js-lite-promo.post-details__section
 ! [/BLOCK INLINE]
 
@@ -311,8 +297,6 @@ dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
 darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
-!facebook.com##span:has-text(Coronavirus (COVID-19) Information):upward(18)
-!facebook.com##span:has-text(It's Time to Register to Vote):upward(16)
 geeksforgeeks.org##.code-gutter
 github.com##.js-vote-banner
 godbolt.org###ces, #motd
@@ -321,8 +305,6 @@ pcgamer.com##.future__jwplayer--carousel
 ralphs.com##.dpr.WithAmpDataInnerContainer
 reddit.com###redesign-beta-optin-btn
 reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
-reddit.com##button:has-text(/^Try Now$/):upward(4)
-reddit.com##h2:has-text(/^Updates from reddit$/):upward(1)
 reddit.com##textarea[name="title"]:style(text-transform: none !important;)
 runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
 urbandictionary.com##.def-panel:has-text(Word of the Day)
@@ -474,7 +456,6 @@ dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !
 dailymail.co.uk##html, body:style(overflow: auto !important;)
 
 ! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-newstatesman.com##.cta:upward(3)
 hrw.org###block-signupbarblock
 
 ! SOCIAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
