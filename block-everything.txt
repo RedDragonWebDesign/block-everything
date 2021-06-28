@@ -338,7 +338,7 @@ flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
 
-! COOKIES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
 ###onetrust-consent-sdk
 ! comicbook.com has a $generichide, must override
@@ -408,7 +408,7 @@ researchgate.net##.js-target-authorHeader:style(position: static !important;)
 ! github: block a floating topbar that appears when scrolling down on a project's homepage (readme.md header floats)
 github.com##.js-sticky:style(position: static !important;)
 fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
-mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
+mccourtfoundation.org,santamonicaclassic.com###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
 ishares.com##.sticky-header:style(position: absolute !important;)
 techrepublic.com##.sticky-element-placeholder
@@ -438,7 +438,7 @@ autonews.com##.block-crain-recommend-flyout-block
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 
-! MODAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! MODALS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 foreignpolicy.com##.tp-modal, .tp-backdrop
 watchuseek.com###welcome_back
 insight.kellogg.northwestern.edu##.tp-modal
@@ -455,7 +455,7 @@ baltimoresun.com##+js(aeld, scroll)
 dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !important;)
 dailymail.co.uk##html, body:style(overflow: auto !important;)
 
-! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
 
-! SOCIAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
