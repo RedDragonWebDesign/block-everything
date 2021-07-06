@@ -447,6 +447,9 @@ autonews.com##.block-crain-recommend-flyout-block
 mxtoolbox.com###ctl00_divFooter
 easydmarc.com##.fixed-top:style(position: absolute !important;)
 parade.com###main-navigation:style(position: absolute !important;)
+linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
+linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
+linkedin.com##.search-results-container:style(padding-top: 1em !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
