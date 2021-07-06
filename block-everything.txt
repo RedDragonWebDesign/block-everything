@@ -168,6 +168,9 @@ theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
 ! [BLOCK INLINE] - linkedin, forum, etc.
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 linkedin.com##.search-result--cross-promo
+linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
+linkedin.com##.pv-profile-section:has(h2:has-text(Your Dashboard))
+linkedin.com##.pv-open-to-carousel
 researchgate.net##.js-lite-promo.post-details__section
 ! [/BLOCK INLINE]
 
