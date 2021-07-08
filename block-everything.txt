@@ -454,7 +454,7 @@ linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
 linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
 linkedin.com##.search-results-container:style(padding-top: 1em !important;)
 rexegg.com##.topanchor:style(position: static !important;)
-my.castandcrew.com##.MuiAppBar-positionSticky:style(position: static !important;)
+my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
