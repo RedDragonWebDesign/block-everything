@@ -208,7 +208,9 @@ fortune.com##.paywall:style(filter: none !important;)
 telegraph.co.uk/martech/js/core.min.js
 telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
 ! telegraph.co.uk, scmp.com
-||tinypass.com^$3p
+@@||tinypass.com^$frame,script,xhr,domain=thedailybeast.com
+||buy.tinypass.com/$subdocument
+||cdn.tinypass.com^$script
 washingtontimes.com##.tp-modal
 https://s3-prod.autonews.com/s3fs-public/js/js_WTmgcF6xZivpS-TUSmoAd8GqFXyeEn0XUDFDZ5nnDH4.js
 washingtonpost.com##[id^="paywall"]
