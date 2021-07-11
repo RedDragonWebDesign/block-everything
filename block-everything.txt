@@ -37,6 +37,10 @@ lambdatest.com##.sitekitwebinar
 ralphs.com##[src*="monetization"]
 thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
 wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND NEEDS WILLAMETTE WEEK.)
+mxtoolbox.com###supertool_ad_variation, #divAd_1
+aws.amazon.com##.GK5V5FYCPIB
+mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.delivery-pitch)
+mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
 ! [/ADS]
 
 ! FEED INLINE
@@ -154,6 +158,7 @@ thebulletin.org##.IRPP_button
 techrepublic.com##p:has(strong:has-text(SEE:))
 hollywoodreporter.com##.injected-related-story
 washingtonpost.com##.interstitial
+parade.com##p:has-text(Related:)
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
@@ -163,6 +168,9 @@ theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
 ! [BLOCK INLINE] - linkedin, forum, etc.
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
 linkedin.com##.search-result--cross-promo
+linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
+linkedin.com##.pv-profile-section:has(h2:has-text(Your Dashboard))
+linkedin.com##.pv-open-to-carousel
 researchgate.net##.js-lite-promo.post-details__section
 ! [/BLOCK INLINE]
 
@@ -179,6 +187,8 @@ https://a.thumbs.redditmedia.com/YcWFXMChx1LH2KWWmUn7pk8Uo3HsaQMUM0isec6--F8.css
 https://a.thumbs.redditmedia.com/x1YavKhPfQh8zbHA1DmZA6GS8Kym0j9mwwbJaAYVlt0.png
 https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
 https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
+https://b.thumbs.redditmedia.com/PgziqQhCiiKrwTLzmP9ifXbyx4epvuaSbwC02bblCNo.css
+https://b.thumbs.redditmedia.com/JuZ5Z6mZBpXH5xNBHTJ9BdFgBi2El8AiEAgw_gDWlFY.css
 ! [/REDDIT]
 
 ! paywalls, premium nags, regwalls, X free articles remaining, etc.
@@ -198,7 +208,9 @@ fortune.com##.paywall:style(filter: none !important;)
 telegraph.co.uk/martech/js/core.min.js
 telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
 ! telegraph.co.uk, scmp.com
-||tinypass.com^$3p
+@@||tinypass.com^$frame,script,xhr,domain=thedailybeast.com
+||buy.tinypass.com/$subdocument
+||cdn.tinypass.com^$script
 washingtontimes.com##.tp-modal
 https://s3-prod.autonews.com/s3fs-public/js/js_WTmgcF6xZivpS-TUSmoAd8GqFXyeEn0XUDFDZ5nnDH4.js
 washingtonpost.com##[id^="paywall"]
@@ -212,6 +224,7 @@ wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 cnn.com##.editor-note
 sender.net##.checkboxes-content-wrapper, .checkboxes-content:style(width: 500px !important;)
 sender.net##.checkbox-row-title:style(width: 100% !important;)
+rexegg.com##body:style(background-color: white !important;)
 
 ! non-floating alert bars (covid, blm, voting, etc.)
 ###banner-blm
@@ -338,7 +351,7 @@ flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
 
-! COOKIES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
 ###onetrust-consent-sdk
 ! comicbook.com has a $generichide, must override
@@ -408,7 +421,7 @@ researchgate.net##.js-target-authorHeader:style(position: static !important;)
 ! github: block a floating topbar that appears when scrolling down on a project's homepage (readme.md header floats)
 github.com##.js-sticky:style(position: static !important;)
 fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
-mccourtfoundation.org###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
+mccourtfoundation.org,santamonicaclassic.com,rosebowlhalf.com###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
 ishares.com##.sticky-header:style(position: absolute !important;)
 techrepublic.com##.sticky-element-placeholder
@@ -434,11 +447,19 @@ dreamhost.com##.Feedback
 panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
 autonews.com##header[role="banner"]:style(position: absolute !important;)
 autonews.com##.block-crain-recommend-flyout-block
+mxtoolbox.com###ctl00_divFooter
+easydmarc.com##.fixed-top:style(position: absolute !important;)
+parade.com###main-navigation:style(position: absolute !important;)
+linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
+linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
+linkedin.com##.search-results-container:style(padding-top: 1em !important;)
+rexegg.com##.topanchor:style(position: static !important;)
+my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 
-! MODAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! MODALS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 foreignpolicy.com##.tp-modal, .tp-backdrop
 watchuseek.com###welcome_back
 insight.kellogg.northwestern.edu##.tp-modal
@@ -454,8 +475,11 @@ baltimoresun.com##html,body:style(overflow: auto !important;)
 baltimoresun.com##+js(aeld, scroll)
 dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !important;)
 dailymail.co.uk##html, body:style(overflow: auto !important;)
+miniwebtool.com###blocknotice
+mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
+mxtoolbox.com##html, body:style(overflow: auto !important;)
 
-! NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
 
-! SOCIAL - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
