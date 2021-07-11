@@ -228,6 +228,7 @@ rexegg.com##body:style(background-color: white !important;)
 
 ! non-floating alert bars (covid, blm, voting, etc.)
 ###banner-blm
+###blm-banner
 ##.blm-banner
 youtube.com###clarify-box
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
