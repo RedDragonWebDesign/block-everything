@@ -479,6 +479,8 @@ dailymail.co.uk##html, body:style(overflow: auto !important;)
 miniwebtool.com###blocknotice
 mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
 mxtoolbox.com##html, body:style(overflow: auto !important;)
+law.com##.modal-backdrop, #reg-modal
+law.com##html, body:style(overflow: auto !important;)
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
