@@ -129,7 +129,6 @@ popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
 popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
 quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
-foxnews.com##.featured-video
 foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
 foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
 washingtontimes.com##.article-toplinks
