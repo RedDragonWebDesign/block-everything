@@ -454,6 +454,7 @@ linkedin.com##.search-results-container:style(padding-top: 1em !important;)
 rexegg.com##.topanchor:style(position: static !important;)
 my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
 linkedin.com##.org-sticky-top-card
+usatoday.com##.gnt_nb
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
