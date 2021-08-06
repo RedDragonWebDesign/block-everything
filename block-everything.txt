@@ -227,6 +227,7 @@ rexegg.com##body:style(background-color: white !important;)
 
 ! non-floating alert bars (covid, blm, voting, etc.)
 ###banner-blm
+###blm-banner
 ##.blm-banner
 youtube.com###clarify-box
 pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
@@ -349,6 +350,7 @@ flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
 flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
+genius.com##div[class^='LeaderboardOrMarquee']
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
