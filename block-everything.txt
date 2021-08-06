@@ -350,6 +350,7 @@ flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
 flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
+genius.com##div[class^='LeaderboardOrMarquee']
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
