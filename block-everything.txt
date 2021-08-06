@@ -129,7 +129,6 @@ popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
 popularmechanics.com##.body-h3:has-text(Stuff We Love:)
 seventeen.com##.watch-next-in-body
 quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
-foxnews.com##.featured-video
 foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
 foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
 washingtontimes.com##.article-toplinks
@@ -440,7 +439,6 @@ lambdatest.com##.header, .tagline:style(position: absolute !important;)
 sciencebasedmedicine.org##.headroom--pinned
 massivesci.com##.navigation:style(position: static !important;)
 chessprogramming.net###header:style(position: absolute !important;)
-hollywoodreporter.com##.js-Header-contents:style(position: absolute !important;)
 spectator.us##.otherheader:style(position: absolute !important;)
 spectator.us##.article_set_wrap:style(position: static !important;)
 sender.net###chat-widget-container
@@ -456,6 +454,8 @@ linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
 linkedin.com##.search-results-container:style(padding-top: 1em !important;)
 rexegg.com##.topanchor:style(position: static !important;)
 my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
+linkedin.com##.org-sticky-top-card
+usatoday.com##.gnt_nb
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -479,6 +479,8 @@ dailymail.co.uk##html, body:style(overflow: auto !important;)
 miniwebtool.com###blocknotice
 mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
 mxtoolbox.com##html, body:style(overflow: auto !important;)
+law.com##.modal-backdrop, #reg-modal
+law.com##html, body:style(overflow: auto !important;)
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
