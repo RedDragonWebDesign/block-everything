@@ -352,6 +352,8 @@ flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
 genius.com##div[class^='LeaderboardOrMarquee']
+online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
+online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
