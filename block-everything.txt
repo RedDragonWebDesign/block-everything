@@ -292,12 +292,15 @@ boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
 ! flyout video players
 cnn.com##.video__stuck
 
-! miscellaneous
-adespresso.com###black-studio-tinymce-24
+! unnecessary notices/messages
+messages.google.com##.information-banner:has-text(Using mobile data)
 ally.com###alert_banner
 ally.com##.accounts-card-mbox-footer
 ally.com##.tips--collection
 ally.com##[aria-label="Message from Ally"]
+
+! miscellaneous
+adespresso.com###black-studio-tinymce-24
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
