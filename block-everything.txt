@@ -41,6 +41,8 @@ mxtoolbox.com###supertool_ad_variation, #divAd_1
 aws.amazon.com##.GK5V5FYCPIB
 mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.delivery-pitch)
 mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
+filehippo.com##.video-player:has([id$="display_ad_container"])
+filehippo.com##.message-download
 ! [/ADS]
 
 ! FEED INLINE
