@@ -474,6 +474,7 @@ github.community###main .d-header-wrap:style(position: static !important;)
 github.community##.topic-navigation:style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
 theserverside.com###page-header:style(position: static !important;)
+linkedin.com##.focus-page__header:style(position: absolute !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
