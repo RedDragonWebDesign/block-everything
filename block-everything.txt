@@ -345,6 +345,7 @@ wikipedia.org###XFDcloser-showhide
 wikipedia.org###mwe-pt-list-stats-nav
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
+genius.com##.apple_music_player_container
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
 ! [/MISCELLANEOUS]
 
@@ -357,6 +358,7 @@ flickr.com###search-unified-content:style(margin-top: 0 !important;)
 punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
 genius.com##div[class^='LeaderboardOrMarquee']
+genius.com##.interstitial
 online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 
