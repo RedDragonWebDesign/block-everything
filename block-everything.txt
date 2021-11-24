@@ -369,6 +369,7 @@ online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, off
 comicbook.com###onetrust-consent-sdk
 pubpub.org##.legal-banner-component
 lambdatest.com##.cookiesdiv
+theserverside.com###cmp-banner
 
 ! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 emerald.com##.fixed-top:style(position: absolute !important;)
@@ -472,6 +473,7 @@ lambdatest.com##.zsiq_custommain
 github.community###main .d-header-wrap:style(position: static !important;)
 github.community##.topic-navigation:style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
+theserverside.com###page-header:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
