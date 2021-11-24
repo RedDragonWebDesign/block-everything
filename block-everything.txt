@@ -41,6 +41,8 @@ mxtoolbox.com###supertool_ad_variation, #divAd_1
 aws.amazon.com##.GK5V5FYCPIB
 mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.delivery-pitch)
 mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
+filehippo.com##.video-player:has([id$="display_ad_container"])
+filehippo.com##.message-download
 ! [/ADS]
 
 ! FEED INLINE
@@ -292,12 +294,15 @@ boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
 ! flyout video players
 cnn.com##.video__stuck
 
-! miscellaneous
-adespresso.com###black-studio-tinymce-24
+! unnecessary notices/messages
+messages.google.com##.information-banner:has-text(Using mobile data)
 ally.com###alert_banner
 ally.com##.accounts-card-mbox-footer
 ally.com##.tips--collection
 ally.com##[aria-label="Message from Ally"]
+
+! miscellaneous
+adespresso.com###black-studio-tinymce-24
 amazon.com###issuancePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com##[id^="image-map_image-map_"]
@@ -354,6 +359,8 @@ punchng.com##.site-header-ad, .site-header-placeholder
 tutsplus.com##.avert
 genius.com##div[class^='LeaderboardOrMarquee']
 genius.com##.interstitial
+online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
+online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
@@ -361,6 +368,7 @@ genius.com##.interstitial
 ! comicbook.com has a $generichide, must override
 comicbook.com###onetrust-consent-sdk
 pubpub.org##.legal-banner-component
+lambdatest.com##.cookiesdiv
 
 ! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 emerald.com##.fixed-top:style(position: absolute !important;)
@@ -423,7 +431,7 @@ othena.com##.header:style(position: absolute !important;)
 punchng.com###masthead:style(position: static !important;)
 researchgate.net##.js-target-authorHeader:style(position: static !important;)
 ! github: block a floating topbar that appears when scrolling down on a project's homepage (readme.md header floats)
-github.com##.js-sticky:style(position: static !important;)
+github.com##.js-sticky:style(position: relative !important; left: unset !important; width: unset !important; margin-top: unset !important;)
 fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
 mccourtfoundation.org,santamonicaclassic.com,rosebowlhalf.com###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
 nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
@@ -460,6 +468,7 @@ rexegg.com##.topanchor:style(position: static !important;)
 my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
 linkedin.com##.org-sticky-top-card
 usatoday.com##.gnt_nb
+lambdatest.com##.zsiq_custommain
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -485,6 +494,7 @@ mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
 mxtoolbox.com##html, body:style(overflow: auto !important;)
 law.com##.modal-backdrop, #reg-modal
 law.com##html, body:style(overflow: auto !important;)
+lambdatest.com###sgpb-popup-dialog-main-div-wrapper
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
