@@ -43,6 +43,9 @@ mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.de
 mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
 filehippo.com##.video-player:has([id$="display_ad_container"])
 filehippo.com##.message-download
+bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
+wikipedia.org###siteNotice
+regex101.com##.jyUE5.XNbml
 ! [/ADS]
 
 ! FEED INLINE
@@ -475,6 +478,7 @@ github.community##.topic-navigation:style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
 theserverside.com###page-header:style(position: static !important;)
 linkedin.com##.focus-page__header:style(position: absolute !important;)
+wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
