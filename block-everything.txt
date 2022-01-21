@@ -46,6 +46,7 @@ filehippo.com##.message-download
 bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
 wikipedia.org###siteNotice
 regex101.com##.jyUE5.XNbml
+urbandictionary.com##.mug-ad
 ! [/ADS]
 
 ! FEED INLINE
