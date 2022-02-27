@@ -47,6 +47,7 @@ bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
 wikipedia.org###siteNotice
 regex101.com##.jyUE5.XNbml
 urbandictionary.com##.mug-ad
+quora.com##.q-box.qu-zIndex--inline_overlay:has-text(Upgrade to Quora+)
 ! [/ADS]
 
 ! FEED INLINE
@@ -480,6 +481,8 @@ github.community##.topic-avatar:style(position: static !important;)
 theserverside.com###page-header:style(position: static !important;)
 linkedin.com##.focus-page__header:style(position: absolute !important;)
 wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
+reuters.com##[class^="toolbar__container___"]
+apnews.com###usntA40Toggle
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
