@@ -165,6 +165,7 @@ techrepublic.com##p:has(strong:has-text(SEE:))
 hollywoodreporter.com##.injected-related-story
 washingtonpost.com##.interstitial
 parade.com##p:has-text(Related:)
+theguardian.com##gu-island:has-text(Support the Guardian from)
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
@@ -352,6 +353,8 @@ wikipedia.org###mwe-pt-list-stats-nav
 ||genius.com/*/apple_music_player$subdocument
 genius.com##.apple_music_player_container
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
+reddit.com##.stickied
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -483,6 +486,7 @@ linkedin.com##.focus-page__header:style(position: absolute !important;)
 wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
 reuters.com##[class^="toolbar__container___"]
 apnews.com###usntA40Toggle
+reddit.com##.pinned-controls
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
