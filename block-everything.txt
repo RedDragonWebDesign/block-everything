@@ -166,6 +166,9 @@ hollywoodreporter.com##.injected-related-story
 washingtonpost.com##.interstitial
 parade.com##p:has-text(Related:)
 theguardian.com##gu-island:has-text(Support the Guardian from)
+express.co.uk##.two-related-articles
+express.co.uk##p:has(strong:has-text(READ MORE))
+express.co.uk##p:has(strong:has-text(DON'T MISS))
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
@@ -378,6 +381,7 @@ comicbook.com###onetrust-consent-sdk
 pubpub.org##.legal-banner-component
 lambdatest.com##.cookiesdiv
 theserverside.com###cmp-banner
+express.co.uk##.qc-cmp-cleanslate
 
 ! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 emerald.com##.fixed-top:style(position: absolute !important;)
