@@ -169,6 +169,7 @@ theguardian.com##gu-island:has-text(Support the Guardian from)
 express.co.uk##.two-related-articles
 express.co.uk##p:has(strong:has-text(READ MORE))
 express.co.uk##p:has(strong:has-text(DON'T MISS))
+apnews.com##[class^="Component-hubPeekEmbed-"]
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
