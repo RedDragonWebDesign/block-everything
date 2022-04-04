@@ -271,6 +271,7 @@ rxjs-dev.firebaseapp.com##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
 mdxjs.com##.css-1kikbsc.searchable-content > div:has-text(#BlackLivesMatter →)
 go.dev##.Banner
 pkg.go.dev##.go-Banner
+reuters.com##[class^="breaking-news__container__"]
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
@@ -492,6 +493,9 @@ wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
 reuters.com##[class^="toolbar__container___"]
 apnews.com###usntA40Toggle
 reddit.com##.pinned-controls
+reuters.com##[aria-label="My View navigation"]
+reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important;)
+reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
