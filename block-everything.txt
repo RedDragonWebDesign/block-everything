@@ -374,6 +374,7 @@ genius.com##div[class^='LeaderboardOrMarquee']
 genius.com##.interstitial
 online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
+businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
