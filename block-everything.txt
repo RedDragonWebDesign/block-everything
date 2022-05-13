@@ -72,6 +72,7 @@ youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
 youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
 expedia.com##[data-stid="messaging-card"]:has-text(You could be seeing lower prices)
+youtube.com##ytd-emergency-onebox-renderer
 ! [/FEEDS]
 
 ! ARTICLE INLINE
@@ -289,6 +290,10 @@ newstatesman.com##.clearfix
 instagram.com##._9AhH0
 flickr.com##.facade-of-protection-zoom
 
+! video player junk on pause screen (dark overlay, logo, etc.)
+espn.com##.btm-media-clients:style(opacity: 1 !important;)
+espn.com###partner-logo-btn
+
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
 
@@ -375,6 +380,9 @@ genius.com##.interstitial
 online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
+yahoo.com##[id$="-MonalixaComponent"]
+bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"]
+bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
