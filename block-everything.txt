@@ -384,6 +384,7 @@ yahoo.com##[id$="-MonalixaComponent"]
 bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"], a[href="https://bjj-world.com/webffound"], a[href="https://bjj-world.com/revcjkarate"]
 bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
 bjj-world.com##.td-ss-main-sidebar
+evolve-mma.com###text-2, .facebook-like-us, author
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
@@ -506,6 +507,8 @@ reddit.com##.pinned-controls
 reuters.com##[aria-label="My View navigation"]
 reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important;)
 reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
+evolve-mma.com###primary-navigation:style(position: static !important;)
+evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -535,5 +538,6 @@ lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
+evolve-mma.com##.subscribe-section
 
 ! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
