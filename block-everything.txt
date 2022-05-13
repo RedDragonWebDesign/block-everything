@@ -381,8 +381,9 @@ online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
 yahoo.com##[id$="-MonalixaComponent"]
-bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"]
+bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"], a[href="https://bjj-world.com/webffound"], a[href="https://bjj-world.com/revcjkarate"]
 bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
+bjj-world.com##.td-ss-main-sidebar
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
