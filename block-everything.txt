@@ -290,9 +290,10 @@ newstatesman.com##.clearfix
 instagram.com##._9AhH0
 flickr.com##.facade-of-protection-zoom
 
-! video player junk on pause screen (dark overlay, logo, etc.)
+! video player junk on pause screen (dark overlay, logo, pause icon, etc.)
 espn.com##.btm-media-clients:style(opacity: 1 !important;)
 espn.com###partner-logo-btn
+ufcfightpass.com##.discovery, [data-test-id="app-logo"], #pause
 
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
