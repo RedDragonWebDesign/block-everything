@@ -171,6 +171,8 @@ express.co.uk##.two-related-articles
 express.co.uk##p:has(strong:has-text(READ MORE))
 express.co.uk##p:has(strong:has-text(DON'T MISS))
 apnews.com##[class^="Component-hubPeekEmbed-"]
+##.recirc-module
+businessinsider.com##p:has-text(/^Read /)
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
@@ -389,6 +391,8 @@ bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-wo
 bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
 bjj-world.com##.td-ss-main-sidebar
 evolve-mma.com###text-2, .facebook-like-us, author
+eztv.re##.forum_header_border_normal:has-text(WARNING)
+space.com##.post-gallery-item-ad
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
@@ -513,6 +517,10 @@ reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important
 reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
 evolve-mma.com###primary-navigation:style(position: static !important;)
 evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
+stackoverflow.com##.s-topbar:style(position: static !important;)
+stackoverflow.com##.question-page:style(padding-top: 0 !important;)
+eztv.re##.forum_header_border:style(position: static !important;)
+businessinsider.com##.sticky-toc-aside:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -545,3 +553,10 @@ hrw.org###block-signupbarblock
 evolve-mma.com##.subscribe-section
 
 ! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+
+! Unsorted. Getting tired of sorting :P
+fandom.com##.page__right-rail, .fandom-sticky-header, .page-side-tools__wrapper, .marketing-notifications
+fandom.com##.main-container:style(width: unset !important;)
+fandom.com##.mw-prefs-buttons:style(position: static !important;)
+fandom.com##.ve-init-mw-desktopArticleTarget-originalContent:style(height: unset !important; overflow-y: unset !important;)
+theguardian.com##section:has(a[href*="support.theguardian.com"])
