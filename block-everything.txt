@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
