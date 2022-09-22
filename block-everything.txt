@@ -518,8 +518,6 @@ reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important
 reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
 evolve-mma.com###primary-navigation:style(position: static !important;)
 evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
-stackoverflow.com##.s-topbar:style(position: static !important;)
-stackoverflow.com##.question-page:style(padding-top: 0 !important;)
 eztv.re##.forum_header_border:style(position: static !important;)
 businessinsider.com##.sticky-toc-aside:style(position: static !important;)
 ! [/FLOATING]
