@@ -371,7 +371,7 @@ wikipedia.org###mwe-pt-list-stats-nav
 genius.com##.apple_music_player_container
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
 ! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
-reddit.com##.stickied
+reddit.com##.comment:has(.moderator):has-text(AutoModerator)
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -563,3 +563,10 @@ linkedin.com###promo:upward(1)
 linkedin.com###insights:upward(1)
 linkedin.com###resources:upward(1)
 linkedin.com###recent_activity:upward(1)
+reuters.com##[data-testid="Latest Updates"]
+reuters.com##[class^="registration-prompt"]
+restofworld.org##.reading-header, .masthead, .progress-bar:style(position: relative !important;)
+restofworld.org##.pullquote
+themoscowtimes.com##.contribute-modal
+themoscowtimes.com##body:style(overflow: auto !important;)
+themoscowtimes.com##.article__related-article:upward(1)
