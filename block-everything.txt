@@ -570,3 +570,10 @@ restofworld.org##.pullquote
 themoscowtimes.com##.contribute-modal
 themoscowtimes.com##body:style(overflow: auto !important;)
 themoscowtimes.com##.article__related-article:upward(1)
+reuters.com##[class^="article-prompt__container"]
+wikipedia.org,wikimedia.org##img[alt="Fly transparent.gif"]
+fundraiseup.com$third-party
+refactoring.guru##.prom, .russia-stop
+refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
+apnews.com##[class^="imageCaption-"]:style(height: 50px !important;)
+apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
