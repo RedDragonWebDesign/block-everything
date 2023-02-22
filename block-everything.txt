@@ -592,3 +592,7 @@ evite.com##.section__cms-content:has-text(Featured Content)
 amazon.com##.a-section.sc-sss-box:has-text(You are getting FREE Same)
 amazon.com##.savingPriceOverride
 amazon.com##.basisPrice:upward(2)
+citi.com##.transaction-chip:has-text(Eligible for Citi)
+citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicoffercalttile, app-dynamicoffervpbotile
+citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
+citi.com##.left-field-sticky:style(position: static !important;)
