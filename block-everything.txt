@@ -596,3 +596,4 @@ citi.com##.transaction-chip:has-text(Eligible for Citi)
 citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicoffercalttile, app-dynamicoffervpbotile
 citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
 citi.com##.left-field-sticky:style(position: static !important;)
+bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
