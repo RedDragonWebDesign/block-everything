@@ -597,3 +597,5 @@ citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicofferca
 citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
 citi.com##.left-field-sticky:style(position: static !important;)
 bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
+costco.com###order-summary-column:style(transform: unset !important;)
+costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
