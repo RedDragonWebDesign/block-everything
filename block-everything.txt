@@ -571,7 +571,7 @@ themoscowtimes.com##.contribute-modal
 themoscowtimes.com##body:style(overflow: auto !important;)
 themoscowtimes.com##.article__related-article:upward(1)
 reuters.com##[class^="article-prompt__container"]
-wikipedia.org,wikimedia.org##img[alt="Fly transparent.gif"]
+wikipedia.org,wikimedia.org##img[alt="Fly transparent.gif"], img[alt="Jimbo Peeking.gif"]
 fundraiseup.com$third-party
 refactoring.guru##.prom, .russia-stop
 refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
@@ -599,3 +599,6 @@ citi.com##.left-field-sticky:style(position: static !important;)
 bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
 costco.com###order-summary-column:style(transform: unset !important;)
 costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
+salon.com##.layout_template_wrapper > .related_article, .left_quote
+# auto-playing video on apnews.com homepage I don't want to see
+apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
