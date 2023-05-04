@@ -602,3 +602,5 @@ costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
 salon.com##.layout_template_wrapper > .related_article, .left_quote
 # auto-playing video on apnews.com homepage I don't want to see
 apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
+apnews.com##.Content.WireStory [data-key="media-placeholder"]:has-text(AP Top Stories)
+themanual.com##.dt-primis--related, .b-related-links, .b-editors-recs, .b-editors-recs-title
