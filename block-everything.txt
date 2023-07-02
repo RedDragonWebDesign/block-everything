@@ -289,6 +289,8 @@ egypttoday.com##+js(aeld, pointermove)
 egypttoday.com##+js(aeld, pointerup)
 egypttoday.com##+js(aeld, pointerdown)
 newstatesman.com##.clearfix
+musixmatch.com##body:remove-attr("style")
+musixmatch.com##body:remove-attr("oncontextmenu")
 
 ! anti save image overlays
 instagram.com##._9AhH0
