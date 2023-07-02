@@ -604,3 +604,8 @@ salon.com##.layout_template_wrapper > .related_article, .left_quote
 apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
 apnews.com##.Content.WireStory [data-key="media-placeholder"]:has-text(AP Top Stories)
 themanual.com##.dt-primis--related, .b-related-links, .b-editors-recs, .b-editors-recs-title
+apnews.com##.Page-trending, .Page-header-leaderboardAd, .Advertisement
+apnews.com##.Page-header-bar:style(top: 0 !important;)
+apnews.com##.Page-header:style(position: static !important;)
+apnews.com##.Enhancement:has(.PageListHubPeek)
+apnews.com##.Enhancement:has(.PageListStandardB)
