@@ -45,7 +45,6 @@ mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
 filehippo.com##.video-player:has([id$="display_ad_container"])
 filehippo.com##.message-download
 bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
-wikipedia.org###siteNotice
 regex101.com##.jyUE5.XNbml
 urbandictionary.com##.mug-ad
 quora.com##.q-box.qu-zIndex--inline_overlay:has-text(Upgrade to Quora+)
@@ -235,9 +234,7 @@ washingtonpost.com##[id^="paywall"]
 
 ! CSS improvements/fixes
 big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
-wikipedia.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 influencewatch.org##.tippy-content:style(font-size: 14px !important;)
-wikipedia.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 cnn.com##.editor-note
 sender.net##.checkboxes-content-wrapper, .checkboxes-content:style(width: 500px !important;)
 sender.net##.checkbox-row-title:style(width: 100% !important;)
@@ -366,8 +363,6 @@ amazon.com###sitbReaderMessageContainer
 reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
-wikipedia.org###XFDcloser-showhide
-wikipedia.org###mwe-pt-list-stats-nav
 ! Useless floating Apple Music webplayer
 ||genius.com/*/apple_music_player$subdocument
 genius.com##.apple_music_player_container
@@ -511,7 +506,6 @@ github.community##.topic-navigation:style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
 theserverside.com###page-header:style(position: static !important;)
 linkedin.com##.focus-page__header:style(position: absolute !important;)
-wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
 reuters.com##[class^="toolbar__container___"]
 apnews.com###usntA40Toggle
 reddit.com##.pinned-controls
@@ -573,7 +567,6 @@ themoscowtimes.com##.contribute-modal
 themoscowtimes.com##body:style(overflow: auto !important;)
 themoscowtimes.com##.article__related-article:upward(1)
 reuters.com##[class^="article-prompt__container"]
-wikipedia.org,wikimedia.org##img[alt="Fly transparent.gif"], img[alt="Jimbo Peeking.gif"]
 fundraiseup.com$third-party
 refactoring.guru##.prom, .russia-stop
 refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
@@ -611,3 +604,10 @@ apnews.com##.Page-header-bar:style(top: 0 !important;)
 apnews.com##.Page-header:style(position: static !important;)
 apnews.com##.Enhancement:has(.PageListHubPeek)
 apnews.com##.Enhancement:has(.PageListStandardB)
+amazon.com##.cart-mario-regular-message:has-text(Exclusive Prime price)
+# wikimedia.org includes commons, meta, wikitech
+wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav, img[alt="Fly transparent.gif"], img[alt="Jimbo Peeking.gif"]
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position: static !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
