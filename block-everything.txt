@@ -606,8 +606,11 @@ apnews.com##.Enhancement:has(.PageListHubPeek)
 apnews.com##.Enhancement:has(.PageListStandardB)
 amazon.com##.cart-mario-regular-message:has-text(Exclusive Prime price)
 # wikimedia.org includes commons, meta, wikitech
-wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav, img[alt="Fly transparent.gif"], img[alt="Jimbo Peeking.gif"]
+wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position: static !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
+||upload.wikimedia.org/wikipedia/commons/b/bc/Fly_transparent.gif$image
+||upload.wikimedia.org/wikipedia/commons/6/6c/Jimbo_Peeking.gif$image
+apnews.com##.RichTextStoryBody .Enhancement:has(.VideoEnhancement:has-text(AP Top Stories))
