@@ -614,3 +614,9 @@ wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(pos
 ||upload.wikimedia.org/wikipedia/commons/b/bc/Fly_transparent.gif$image
 ||upload.wikimedia.org/wikipedia/commons/6/6c/Jimbo_Peeking.gif$image
 apnews.com##.RichTextStoryBody .Enhancement:has(.VideoEnhancement:has-text(AP Top Stories))
+mozilla.org##.top-banner, .pong-box
+mozilla.org##.main-document-header-container, .sidebar-container, #sidebar-quicklinks, .toc-container:style(position: static !important;)
+mozilla.org##.sidebar, .sidebar-container, .toc-container, #sidebar-quicklinks, .sidebar-container:style(max-height: unset !important;)
+mozilla.org##.toc-container:style(height: unset !important;)
+deepstatemap.live##.cl-dialog
+laravel.com##div.hidden.from-red-500.to-red-600
