@@ -620,3 +620,8 @@ mozilla.org##.sidebar, .sidebar-container, .toc-container, #sidebar-quicklinks, 
 mozilla.org##.toc-container:style(height: unset !important;)
 deepstatemap.live##.cl-dialog
 laravel.com##div.hidden.from-red-500.to-red-600
+medium.com##.m.zs.acp.acq
+medium.com##.l.m.n.o.c:style(position: static !important;)
+dreamhost.com###auto-toc:style(position: static !important;)
+understandingwar.org##iframe[title="Persistent Donate Button"], iframe[title="Donation Activity Popup"]
+apnews.com##.TaboolaRecommendationModule
