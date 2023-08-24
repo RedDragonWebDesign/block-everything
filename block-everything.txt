@@ -625,3 +625,8 @@ medium.com##.l.m.n.o.c:style(position: static !important;)
 dreamhost.com###auto-toc:style(position: static !important;)
 understandingwar.org##iframe[title="Persistent Donate Button"], iframe[title="Donation Activity Popup"]
 apnews.com##.TaboolaRecommendationModule
+github.com##.Box-sc-g0xbh4-0.gBKNLX.react-blob-view-header-sticky:style(position: static !important;)
+github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
+github.com##.Box-sc-g0xbh4-0.gvCnwW
+github.com##.Box-sc-g0xbh4-0.edLsev.panel-content-narrow-styles.inner-panel-content-not-narrow
+github.com##.Box-sc-g0xbh4-0.bgyiQy.panel-content-narrow-styles.inner-panel-content-not-narrow
