@@ -630,3 +630,7 @@ github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
 github.com##.Box-sc-g0xbh4-0.gvCnwW
 github.com##.Box-sc-g0xbh4-0.edLsev.panel-content-narrow-styles.inner-panel-content-not-narrow
 github.com##.Box-sc-g0xbh4-0.bgyiQy.panel-content-narrow-styles.inner-panel-content-not-narrow
+gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
+gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
+github.com##[data-testid="copilot-popover-button"]
