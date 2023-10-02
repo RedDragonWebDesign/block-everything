@@ -634,3 +634,16 @@ gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
 gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
 gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
 github.com##[data-testid="copilot-popover-button"]
+gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
+gitlab.wikimedia.org##.right-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
+amazon.com##span.a-size-base.a-color-secondary:has-text(bought in past month)
+amazon.com##[id^="BEST_DEAL_"], .s-coupon-unclipped
+apnews.com##.Enhancement:has(#related-coverage)
+apnews.com##.PageListEnhancementB:has(#related-coverage)
+apnews.com##.Page-header-stickyWrap:style(position: static !important;)
+amazon.com###aod-sticky-pinned-offer
+amazon.com##.a-declarative:has(.sc-climate-pledge-friendly-badge)
+apnews.com##.Enhancement:has(.PageList-header)
+amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-section-spc-desktop
+expedia.com##[data-stid="one-key-message-card"], [data-test-id="branded-deal-banner"]
