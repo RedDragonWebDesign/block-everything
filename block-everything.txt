@@ -646,4 +646,12 @@ amazon.com###aod-sticky-pinned-offer
 amazon.com##.a-declarative:has(.sc-climate-pledge-friendly-badge)
 apnews.com##.Enhancement:has(.PageList-header)
 amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-section-spc-desktop
-expedia.com##[data-stid="one-key-message-card"], [data-test-id="branded-deal-banner"]
+expedia.com##[data-stid="one-key-message-card"], [data-test-id="branded-deal-banner"], .uitk-table-row:has([aria-describedby="onekeycash-description"]), #one-key-loyalty-earn-module-desktop-view, #one-key-banner
+expedia.com##[data-test-id="page-notifications"]:has-text(We recommend booking a flight with no change fees in case your plans change.)
+expedia.com##.uitk-badge:has-text( CO2)
+apnews.com##.jw-nextup-container, .jw-related-shelf-container
+amazon.com###nav-flyout-ewc
+amazon.com##body:style(padding-right: 0 !important;)
+amazon.com###navbar-main:style(position: static !important;)
+aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
+google.com##promo-throttler + div
