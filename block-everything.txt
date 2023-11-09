@@ -655,3 +655,4 @@ amazon.com##body:style(padding-right: 0 !important;)
 amazon.com###navbar-main:style(position: static !important;)
 aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
 google.com##promo-throttler + div
+aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
