@@ -656,3 +656,7 @@ amazon.com###navbar-main:style(position: static !important;)
 aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
 google.com##promo-throttler + div
 aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
+developer.mozilla.org##.sticky-header-container:style(position: static !important;)
+medium.com##.ab.ca:has-text(Already have an account)
+facebook.com##[role="banner"] > *:style(position: absolute !important;)
+facebook.com##[role="main"] > div:nth-child(3):style(position: static !important;)
