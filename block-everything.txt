@@ -663,3 +663,8 @@ facebook.com##[role="main"] > div:nth-child(3):style(position: static !important
 aljazeera.com##.update-popup
 github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
 github.com##.pr-toolbar:style(position: static !important;)
+nytimes.com###dock-container, #in-story-masthead
+washingtonpost.com##[aria-label="Primary"], .sticky:style(position: static !important;)
+washingtonpost.com###leaderboard-overlay, .wpds-c-dFTccK, [data-qa="more-from-the-post"]
+washingtonpost.com###slug_leaderboard:upward(4)
+washingtonpost.com##[data-qa="interstitial-link"]:upward(3)
