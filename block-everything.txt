@@ -660,3 +660,6 @@ developer.mozilla.org##.sticky-header-container:style(position: static !importan
 medium.com##.ab.ca:has-text(Already have an account)
 facebook.com##[role="banner"] > *:style(position: absolute !important;)
 facebook.com##[role="main"] > div:nth-child(3):style(position: static !important;)
+aljazeera.com##.update-popup
+github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
+github.com##.pr-toolbar:style(position: static !important;)
