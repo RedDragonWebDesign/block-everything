@@ -2,672 +2,589 @@
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
-! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple of minutes to go live.
+! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple minutes to go live.
 
 ! Tips:
 ! - Don't use upward(). Easy to break things when the website changes their layout.
 ! - :has-text() works best without RegEx. RegEx seems to be buggy. Example: :has-text(/^Test$/) doesn't usually work for me.
 
-! ads missed by the main lists
-codewars.com##.panel.marketing, #_carbonad
-cornell.edu###block-lii-justia-find-lawyers-sidebarlinked
-geeksforgeeks.org##.ad_course_banner
-geeksforgeeks.org##p:has-text(/^Attention reader!/)
-jsfiddle.net###s-bottom
-narkive.com##[class^="adslot_"]
-programiz.com##.notice-bar-top
-smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
-smashingmagazine.com##.c-promo-box--ad
-usmagazine.com##.right-rail, .link-related.article
-vuetifyjs.com##.v-vuetify-ad
-vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
-yahoo.com##a[href*="ad.doubleclick.net"]
-ibb.co##.viewer-title
-mayoclinic.org##.internal-promo-stack-order
-namesilo.com##.container-fluid:has-text(Get Hosting)
-jacobinmag.com##.bn-at.prt-x
-dailymail.co.uk##.moduleFull:has(#fff-hub-banner)
-paypal.com##[data-pa-click$="_Login_CT_Banner"]
-quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
-foxnews.com##.fox-bet-promo
-regex101.com##._3Brs_._2C1Ky
-exrx.net##.hutman-ads
-imdb.com###promoted-partner-bar
-vueschool.io##a[class^="vs-banners"]
-lambdatest.com##.sitekitwebinar
-ralphs.com##[src*="monetization"]
-thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
-wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND NEEDS WILLAMETTE WEEK.)
-mxtoolbox.com###supertool_ad_variation, #divAd_1
-aws.amazon.com##.GK5V5FYCPIB
-mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.delivery-pitch)
-mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
-filehippo.com##.video-player:has([id$="display_ad_container"])
-filehippo.com##.message-download
-bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
-regex101.com##.jyUE5.XNbml
-urbandictionary.com##.mug-ad
-quora.com##.q-box.qu-zIndex--inline_overlay:has-text(Upgrade to Quora+)
-! [/ADS]
-
-! FEED INLINE
-! junk in feeds
-reddit.com###TrendingPostsContainer
-youtube.com##ytd-primetime-promo-renderer
-! using RegEx in this style :has-text(/^blah blah/) doesn't appear to work for some reason
-youtube.com##ytd-rich-section-renderer:has-text(COVID)
-youtube.com##ytd-rich-section-renderer:has-text(Featured)
-youtube.com##ytd-rich-section-renderer:has-text(Learn with YouTube)
-youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
-youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
-youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
-youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
-youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
-youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
-youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
-!youtube.com##ytd-shelf-renderer:has(#dismissable)  Commenting out. False positive on channel -> home tab -> uploads
-youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
-youtube.com##ytd-shelf-renderer:has(#title):has-text(People also watched)
-youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
-youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
-apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
-expedia.com##[data-stid="messaging-card"]:has-text(You could be seeing lower prices)
-youtube.com##ytd-emergency-onebox-renderer
-! [/FEEDS]
-
-! ARTICLE INLINE
-! junk in blog posts, newspaper articles, etc.
-! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
-businessinsider.com##.post-content-more
-businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
-businessinsider.com##p:has-text(Read more:)
-techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
-vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
-vice.com##.abc__textblock.size--article:has-text(by signing up for our newsletter)
-wired.co.uk##.bb-card, aside.a-sidebar-content
-wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
-wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
-globalnews.ca##p:has-text(READ MORE:)
-etcanada.com##p:has-text(RELATED:)
-azcentral.com##[aria-label*="subscription callout"]
-washingtonpost.com##[data-qa="interstitial-link-wrapper"]
-billboard.com##p:has(a):has(strong)
-azcentral.com##[aria-label="NEWS Subscribe callout"]
-washingtonpost.com##[data-qa="elex-cta"]
-cbc.ca##.similarLinks
-aljazeera.com##.more-on
-independent.co.uk##p:has-text(Read more:)
-independent.co.uk##.related
-nationalobserver.com##.inline-content-links
-thehill.com##.left-sidebar-2
-thelondoneconomic.com##.jnews_inline_related_post_wrapper
-truthout.org##.inline-callout-container
-thehill.com##.incontent-plugin
-wired.com##.callout
-euronews.com##[data-event="widget_related"]
-nbcnews.com##.related
-washingtonpost.com##p.italic:has(a[href^="https://www.washingtonpost.com/"])
-politico.com##section.page-content__row:has(.coronavirus-parent)
-chicagotribune.com##[data-type="interstitial_link"]
-chicagotribune.com##.crd.clln--it:has-text(MOST READ ENTERTAINMENT NEWS THIS HOUR)
-foxnews.com##p:has(strong > a[href^="https://www.foxnews.com"])
-nytimes.com##.related-links-block, .css-1q1hscp
-newrepublic.com##.ad-container-house
-marketwatch.com##p:has(strong)
-businessinsider.com##.inline-recirc
-forbes.com##.recirc-module.seo
-news.yahoo.com##p:has-text(Read Next:)
-news.yahoo.com##a[href="https://www.nytimes.com/newsletters?partner=yahoo"]
-nbcnews.com##.ArticleRelated
-dailymail.co.uk##.related-carousel
-newsweek.com##.promo-link
-newsweek.com##[data-gtm-category="Related In-Text A"]
-mprnews.org##.apm-related-list
-rollcall.com##p:has(em > strong > a)
-cbr.com##.tldr-btn-section.tldr-btn-nc
-cbr.com##p:has(.related-single)
-nme.com##.post-content-read-more
-bbc.com,bbc.co.uk##[data-component="unordered-list-block"]:has(ul > li > a[href*="bbc.co"])
-nbcwashington.com##.wp-block-nbc-localized-block, .recirc-module
-pbs.org##p:has-text(READ MORE:)
-usnews.com##[class*="AnchorBlock__"]:has-text(READ:)
-theatlantic.com##.c-recirculation-link, .ad-boxinjector-m-wrapper
-popularmechanics.com##.watch-next-in-body, .embed.gallery-module, .embed.gallery-module + hr, .embed-editorial-links, .embed-product, .embed-poll
-popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
-popularmechanics.com##.body-h3:has-text(Stuff We Love:)
-seventeen.com##.watch-next-in-body
-quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
-foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
-foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
-washingtontimes.com##.article-toplinks
-mayoclinic.org##.acces-list-container.rc-list:has-text(Products & Services)
-mayoclinic.org##.requestappt
-apnews.com##[class^="relatedStory-"]
-apnews.com##[data-key="hub-link-embed"]
-zdnet.com##p:has-text(See also:)
-cnbc.com##p:has-text(More from Personal Finance:)
-nytimes.com###NYT_MAIN_CONTENT_3_REGION, [aria-labelledby="storyline-latest-updates"], #covid-signup-module
-cnbc.com##p:has-text(Don’t miss:)
-politico.com##.story-enhancement
-zdnet.com##p:has(strong:has-text(Also:))
-zdnet.com##.relatedContent
-sitepoint.com##.roller-door-placeholder
-theverge.com##aside:has(.c-read-more)
-bbc.com,bbc.co.uk##.article-body__pull-quote
-imdb.com###titleAwardsRanks
-sfgate.com##.article--content-inline:has-text(Top Picks In Shopping)
-foxbusiness.com##.article-body > p:has(a[href*="foxbusiness.com"] > strong)
-marketplace.org##.top-latest-stories
-aarp.org##.textimage.parbase.section:has-text(For ways to save and more,)
-baltimoresun.com##[data-type="interstitial_link"]
-tutsplus.com##.roundup-block__contents
-thebulletin.org##.IRPP_button
-techrepublic.com##p:has(strong:has-text(SEE:))
-hollywoodreporter.com##.injected-related-story
-washingtonpost.com##.interstitial
-parade.com##p:has-text(Related:)
-theguardian.com##gu-island:has-text(Support the Guardian from)
-express.co.uk##.two-related-articles
-express.co.uk##p:has(strong:has-text(READ MORE))
-express.co.uk##p:has(strong:has-text(DON'T MISS))
-apnews.com##[class^="Component-hubPeekEmbed-"]
-##.recirc-module
-businessinsider.com##p:has-text(/^Read /)
-! [/ARTICLE INLINE]
-
-! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
-theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
-![/PULL QUOTES]
-
-! [BLOCK INLINE] - linkedin, forum, etc.
-linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
-linkedin.com##.search-result--cross-promo
-linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
-linkedin.com##.pv-profile-section:has(h2:has-text(Your Dashboard))
-linkedin.com##.pv-open-to-carousel
-researchgate.net##.js-lite-promo.post-details__section
-! [/BLOCK INLINE]
-
-! couple of filters for subreddits with annoying custom stylesheets, this turns them off
-https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
-https://b.thumbs.redditmedia.com/8iym2dMk_xtsu4TiDHR-oo6eCKgd90OL-0qlE1qi-bc.png
-https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
-https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
-https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
-https://a.thumbs.redditmedia.com/xkFY8S8bSo8_lTDtX7T89UgyDFdmEOGsKGySJBPb3n4.css
-https://b.thumbs.redditmedia.com/g7UCuMDgq4U7GP10SoRxxMbE2w0u1LN1CFp1D3aE0Lw.css
-https://b.thumbs.redditmedia.com/O00RDbigfINYlIoqkMq7USCJtnSeZFD0QDPUlXPuIVY.css
-https://a.thumbs.redditmedia.com/YcWFXMChx1LH2KWWmUn7pk8Uo3HsaQMUM0isec6--F8.css
-https://a.thumbs.redditmedia.com/x1YavKhPfQh8zbHA1DmZA6GS8Kym0j9mwwbJaAYVlt0.png
-https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
-https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
-https://b.thumbs.redditmedia.com/PgziqQhCiiKrwTLzmP9ifXbyx4epvuaSbwC02bblCNo.css
-https://b.thumbs.redditmedia.com/JuZ5Z6mZBpXH5xNBHTJ9BdFgBi2El8AiEAgw_gDWlFY.css
-https://a.thumbs.redditmedia.com/qXsn87hnyunQjBHMMKUY_RnPK7LplK5_3rT9y1-8hI0.css
-https://b.thumbs.redditmedia.com/pyMhtb-UIq_kUrq8CJEZR8fPsI36-_IKSL5u8lRmnic.css
-! [/REDDIT]
-
-! paywalls, premium nags, regwalls, X free articles remaining, etc.
-cnn.com##[data-testid="preview-component"]
-telegraph.co.uk##.martech-modal-component-overlay
-! need overflow-y here to get rid of bottom scrollbar
-telegraph.co.uk##body:style(overflow-y: auto !important;)
-mediapost.com##body:style(overflow: auto !important;)
-mediapost.com###accesswall-modal, .modal-backdrop
-mediapost.com##div:style(filter: none !important;)
-newrepublic.com###pwPopups
-theatlantic.com##[class^="Paywall_root__"]
-slate.com##.slate-paywall
-time.com##iframe[title="registration-form"], .registration-wall
-fortune.com##p:has([id^="offer"])
-fortune.com##.paywall:style(filter: none !important;)
-telegraph.co.uk/martech/js/core.min.js
-telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
-! telegraph.co.uk, scmp.com
-@@||tinypass.com^$frame,script,xhr,domain=thedailybeast.com
-||buy.tinypass.com/$subdocument
-||cdn.tinypass.com^$script
-washingtontimes.com##.tp-modal
-https://s3-prod.autonews.com/s3fs-public/js/js_WTmgcF6xZivpS-TUSmoAd8GqFXyeEn0XUDFDZ5nnDH4.js
-washingtonpost.com##[id^="paywall"]
-![/PAYWALLS]
-
-! CSS improvements/fixes
-big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
-influencewatch.org##.tippy-content:style(font-size: 14px !important;)
-cnn.com##.editor-note
-sender.net##.checkboxes-content-wrapper, .checkboxes-content:style(width: 500px !important;)
-sender.net##.checkbox-row-title:style(width: 100% !important;)
-rexegg.com##body:style(background-color: white !important;)
-
-! non-floating alert bars (covid, blm, voting, etc.)
 ###banner-blm
 ###blm-banner
+###onetrust-consent-sdk
 ##.blm-banner
-youtube.com###clarify-box
-pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
-ncbi.nlm.nih.gov##.ncbi-alerts
-nlm.nih.gov##.alert
-mayoclinic.org##.globalnotice.warning
-hightimes.com###tpbr_topbar
-sass-lang.com##.sl-c-alert--info.sl-c-alert
-zdnet.com##.breaking-news-container
-imdb.com##.banner-container
-nodejs.org##.home-blacklivesmatterblock
-golang.org##.Header-banner
-www.electronjs.org##.announcement-banner
-developers.google.com##.devsite-banner-message
-developer.android.com##.devsite-banner-announcement.devsite-banner
-ishares.com##.alert-bar
-baltimoresun.com##[data-pb-name="Screamer"]
-freecodecamp.org###banner
-ralphs.com##[data-testid="GlobalMessageWrapper"]
-ncbi.nlm.nih.gov##.container-fluid:has(.unite-text-box)
-momentjs.com###donate
-momentjs.com##.hero-title h1:has-text(Black Lives Matter)
-momentjs.com##.hero-title h2:has-text(Audre Lorde)
-momentjs.com##.hero-title h2:has-text(Get Involved)
-dotnetfoundation.org##.align-items-center.justify-content-center.flash
-rxjs.dev##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
-rxjs-dev.firebaseapp.com##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
-mdxjs.com##.css-1kikbsc.searchable-content > div:has-text(#BlackLivesMatter →)
-go.dev##.Banner
-pkg.go.dev##.go-Banner
-reuters.com##[class^="breaking-news__container__"]
-! [/NON FLOATING ALERT BARS]
-
-! jerky/nonstandard scroll wheel behavior
-discussingfilm.net##+js(aeld, mousewheel)
-thelancet.com##+js(aeld, scroll)
-
-! allow text to be selected
-euronews.com##+js(aeld, pointerdown)
-egypttoday.com##+js(aeld, pointermove)
-egypttoday.com##+js(aeld, pointerup)
-egypttoday.com##+js(aeld, pointerdown)
-newstatesman.com##.clearfix
-musixmatch.com##body:remove-attr("style")
-musixmatch.com##body:remove-attr("oncontextmenu")
-
-! anti save image overlays
-instagram.com##._9AhH0
-flickr.com##.facade-of-protection-zoom
-
-! video player junk on pause screen (dark overlay, logo, pause icon, etc.)
-espn.com##.btm-media-clients:style(opacity: 1 !important;)
-espn.com###partner-logo-btn
-ufcfightpass.com##.discovery, [data-test-id="app-logo"], .play-icon
-ufcfightpass.com###pause:style(width: 100% !important; height: 100% !important;)
-ufcfightpass.com##.dice-player-wrapper .btn-play:style(background-color: transparent !important;)
-
-! tickers/excessive page motion
-mediabiasfactcheck.com###ticker
-
-! news quality
-! too biased, states opinions as facts
-news.yahoo.com##li.js-stream-content:has-text(National Review)
-! product placements
-news.yahoo.com##li.js-stream-content:has-text(Architectural Digest)
-! block Boing Boing product placements
-boingboing.net##.fromtheshop, .next-post-list-container
-boingboing.net##[class^="post-"]:has-text(Boing Boing Gadgets)
-boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
-
-! flyout video players
-cnn.com##.video__stuck
-
-! unnecessary notices/messages
-messages.google.com##.information-banner:has-text(Using mobile data)
+##.recirc-module
+@@||tinypass.com^$frame,script,xhr,domain=thedailybeast.com
+aa.com.tr##.fixed-top:style(position: absolute !important;)
+aa.com.tr##.sticky-top:style(position: static !important;)
+aarp.org##.textimage.parbase.section:has-text(For ways to save and more,)
+adespresso.com###black-studio-tinymce-24
+afp.com##.mfp-bg:style(opacity: 0 !important;)
+afp.com##.mfp-wrap
+afp.com##html:style(overflow: auto !important;)
+aljazeera.com##.more-on
+aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
+aljazeera.com##.update-popup
 ally.com###alert_banner
 ally.com##.accounts-card-mbox-footer
 ally.com##.tips--collection
 ally.com##[aria-label="Message from Ally"]
-
-! miscellaneous
-adespresso.com###black-studio-tinymce-24
+amazon.com###aod-sticky-pinned-offer
+amazon.com###gutterCartViewForm .a-section.sc-sss-box:has-text(eligible items)
 amazon.com###issuancePriceblockAmabot_feature_div
+amazon.com###nav-flyout-ewc
+amazon.com###navbar-main:style(position: static !important;)
 amazon.com###percolate-ui-ilm_div
+amazon.com###sitbReaderMessageContainer
+amazon.com##.a-declarative:has(.sc-climate-pledge-friendly-badge)
+amazon.com##.a-section.sc-sss-box:has-text(You are getting FREE Same)
+amazon.com##.basisPrice:upward(2)
+amazon.com##.cart-mario-regular-message:has-text(Exclusive Prime price)
+amazon.com##.prime-ad-banner-content
+amazon.com##.prime-ad-banner-content, [cel_widget_id="typ-prominentUpsellSlot-prime"]
+amazon.com##.savingPriceOverride
+amazon.com##.sc-product-scarcity, .sc-product-availability, #availability
+amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-section-spc-desktop
+amazon.com##body:style(padding-right: 0 !important;)
+amazon.com##span.a-size-base.a-color-secondary:has-text(bought in past month)
+amazon.com##[id^="BEST_DEAL_"], .s-coupon-unclipped
 amazon.com##[id^="image-map_image-map_"]
+apnews.com###usntA40Toggle
+apnews.com##.Content.WireStory [data-key="media-placeholder"]:has-text(AP Top Stories)
+apnews.com##.Enhancement:has(#related-coverage)
+apnews.com##.Enhancement:has(.PageList-header)
+apnews.com##.Enhancement:has(.PageListHubPeek)
+apnews.com##.Enhancement:has(.PageListStandardB)
+apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
+apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
+apnews.com##.Infobox
+apnews.com##.jw-nextup-container, .jw-related-shelf-container
+apnews.com##.Page-header-bar:style(top: 0 !important;)
+apnews.com##.Page-header-stickyWrap:style(position: static !important;)
+apnews.com##.Page-header:style(position: static !important;)
+apnews.com##.Page-trending, .Page-header-leaderboardAd, .Advertisement
+apnews.com##.PageListEnhancementB:has(#related-coverage)
+apnews.com##.RichTextStoryBody .Enhancement:has(.VideoEnhancement:has-text(AP Top Stories))
+apnews.com##.TaboolaRecommendationModule
+apnews.com##.taboola_readmore:upward(4)
+apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
+apnews.com##[class^="Component-hubPeekEmbed-"]
+apnews.com##[class^="imageCaption-"]:style(height: 50px !important;)
+apnews.com##[class^="relatedStory-"]
+apnews.com##[data-key="hub-link-embed"]
+autonews.com##.block-crain-recommend-flyout-block
+autonews.com##header[role="banner"]:style(position: absolute !important;)
+aws.amazon.com##.GK5V5FYCPIB
+azcentral.com##[aria-label*="subscription callout"]
+azcentral.com##[aria-label="NEWS Subscribe callout"]
+baltimoresun.com##+js(aeld, scroll)
+baltimoresun.com##html,body:style(overflow: auto !important;)
+baltimoresun.com##[data-pb-name="Screamer"]
+baltimoresun.com##[data-type="interstitial_link"]
+bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
+bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
+bbc.com,bbc.co.uk##.article-body__pull-quote
+bbc.com,bbc.co.uk##[data-component="unordered-list-block"]:has(ul > li > a[href*="bbc.co"])
+big-brother-22-blog.blogspot.com###wrap2:style(margin-top: 0 !important; padding: 14px !important;)
+billboard.com##p:has(a):has(strong)
+bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
+bjj-world.com##.td-ss-main-sidebar
+bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"], a[href="https://bjj-world.com/webffound"], a[href="https://bjj-world.com/revcjkarate"]
+boingboing.net##.boingarticle.feature:has-text(Boing Boing Gadgets)
+boingboing.net##.fromtheshop, .next-post-list-container
+boingboing.net##[class^="post-"]:has-text(Boing Boing Gadgets)
+businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
+businessinsider.com##.inline-recirc
+businessinsider.com##.post-content-more
+businessinsider.com##.sticky-toc-aside:style(position: static !important;)
+businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
+businessinsider.com##p:has-text(/^Read /)
+businessinsider.com##p:has-text(Read more:)
+cambridge.org###article-tabs-wrapper
+cambridge.org###toc:style(position: static !important;)
 carprousa.com##img:style(transform: none !important;)
+cbc.ca##.similarLinks
+cbr.com##.tldr-btn-section.tldr-btn-nc
+cbr.com##p:has(.related-single)
+cell.com##.article-tools__wrapper
+chessprogramming.net###header:style(position: absolute !important;)
+chicagotribune.com##.crd.clln--it:has-text(MOST READ ENTERTAINMENT NEWS THIS HOUR)
+chicagotribune.com##[data-type="interstitial_link"]
+citi.com##.left-field-sticky:style(position: static !important;)
+citi.com##.transaction-chip:has-text(Eligible for Citi)
+citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicoffercalttile, app-dynamicoffervpbotile
+citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
+cnbc.com##p:has-text(Don’t miss:)
+cnbc.com##p:has-text(More from Personal Finance:)
+cnbc.com##[class^="HighlightShare"]
+cnn.com##.editor-note
+cnn.com##.video__stuck
+cnn.com##[data-testid="preview-component"]
+cntraveler.com##.page:style(padding-top: 0 !important;)
+cntraveler.com##.persistent-top, .sticky-box:style(position: static !important;)
+codewars.com##.panel.marketing, #_carbonad
 colorlib.com###custom_html-6
+comicbook.com###onetrust-consent-sdk
+cornell.edu###block-lii-justia-find-lawyers-sidebarlinked
+costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
+costco.com###order-summary-column:style(transform: unset !important;)
 crackmes.one##.container.grid-lg.wrapper:style(max-width: unset !important;)
 crackmes.one##th:style(width: unset !important;)
+crisisgroup.org##.js-ann-adder
+crisisgroup.org##.s-header:style(position: absolute !important;)
+dailykos.com##.sidebar.label-heading.sidebar-heading:style(position: static !important;)
+dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !important;)
 dailymail.co.uk##.hp-swipe
+dailymail.co.uk##.moduleFull:has(#fff-hub-banner)
 dailymail.co.uk##.more
-dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
+dailymail.co.uk##.related-carousel
 dailymail.co.uk##div[data-api-host="https://www.newzit.com/api"]
+dailymail.co.uk##html, body:style(overflow: auto !important;)
+dailymail.co.uk##[class^="promo-"]:has-text(Want BREAKING NEWS)
 darkreading.com##body:style(margin-top: 0 !important;)
 darkreading.com##div.ub-emb-container
+deepstatemap.live##.cl-dialog
+developer.android.com##.devsite-banner-announcement.devsite-banner
+developer.mozilla.org##.sticky-header-container:style(position: static !important;)
+developers.google.com##.devsite-banner-message
+discussingfilm.net##+js(aeld, mousewheel)
+dominos.com###pageContent:style(margin-top: 0 !important;)
+dominos.com##.pageRightColumn--checkout:style(margin-top: 0 !important;)
+dominos.com##.st-jude-roundup, .upsell-stages--container, .js-inlineUpsellBottomContainer, .js-mainFooter, .prop65-disclaimer, .inline-upsell
+dominos.com##header[role="banner"]:style(position: static !important;)
+dotnetfoundation.org##.align-items-center.justify-content-center.flash
+dreamhost.com###auto-toc:style(position: static !important;)
+dreamhost.com##.Feedback
+easydmarc.com##.fixed-top:style(position: absolute !important;)
+egypttoday.com##+js(aeld, pointerdown)
+egypttoday.com##+js(aeld, pointermove)
+egypttoday.com##+js(aeld, pointerup)
+egypttoday.com##.Menu:style(position: static !important;)
+emerald.com###feedback-strip
+emerald.com##.fixed-top:style(position: absolute !important;)
+espn.com###partner-logo-btn
+espn.com##.btm-media-clients:style(opacity: 1 !important;)
+etcanada.com##p:has-text(RELATED:)
+etonline.com###main:style(margin-top: 0 !important;)
+etonline.com##.header-container:style(position: static !important;)
+euronews.com##+js(aeld, pointerdown)
+euronews.com##[data-event="widget_related"]
+evite.com##.marketing-banner
+evite.com##.section__cms-content:has-text(Featured Content)
+evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
+evolve-mma.com###primary-navigation:style(position: static !important;)
+evolve-mma.com###text-2, .facebook-like-us, author
+evolve-mma.com##.subscribe-section
+expedia.com##.uitk-badge:has-text( CO2)
+expedia.com##[data-stid="messaging-card"]:has-text(You could be seeing lower prices)
+expedia.com##[data-stid="one-key-message-card"], [data-test-id="branded-deal-banner"], .uitk-table-row:has([aria-describedby="onekeycash-description"]), #one-key-loyalty-earn-module-desktop-view, #one-key-banner
+expedia.com##[data-test-id="page-notifications"]:has-text(We recommend booking a flight with no change fees in case your plans change.)
+express.co.uk##.qc-cmp-cleanslate
+express.co.uk##.two-related-articles
+express.co.uk##p:has(strong:has-text(DON'T MISS))
+express.co.uk##p:has(strong:has-text(READ MORE))
+exrx.net##.hutman-ads
+eztv.re##.forum_header_border:style(position: static !important;)
+eztv.re##.forum_header_border_normal:has-text(WARNING)
+facebook.com##[role="banner"] > *:style(position: absolute !important;)
+facebook.com##[role="main"] > div:nth-child(3):style(position: static !important;)
+fandom.com##.main-container:style(width: unset !important;)
+fandom.com##.mw-prefs-buttons:style(position: static !important;)
+fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
+fandom.com##.page__right-rail, .fandom-sticky-header, .page-side-tools__wrapper, .marketing-notifications
+fandom.com##.ve-init-mw-desktopArticleTarget-originalContent:style(height: unset !important; overflow-y: unset !important;)
+filehippo.com##.message-download
+filehippo.com##.video-player:has([id$="display_ad_container"])
+flickr.com###search-unified-content:style(margin-top: 0 !important;)
+flickr.com##.facade-of-protection-zoom
+flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
+flickr.com##.search-slender-advanced-panel-view:style(position: static !important;)
+flickr.com##.search-subnav:style(position: static !important;)
+flickriver.com##.photo-protector
+forbes.com##.recirc-module.seo
+foreignpolicy.com##.tp-modal, .tp-backdrop
+fortune.com##.paywall:style(filter: none !important;)
+fortune.com##p:has([id^="offer"])
+foxbusiness.com##.article-body > p:has(a[href*="foxbusiness.com"] > strong)
+foxnews.com##.fox-bet-promo
+foxnews.com##p:has(strong > a[href^="https://www.foxnews.com"])
+foxnews.com##p:has([href^="https://www.foxnews.com"] > strong)
+foxnews.com##p:has-text(CLICK HERE TO GET THE FOX NEWS APP)
+freecodecamp.org###banner
+freenode.net##.navbar:style(position: absolute !important;)
+fundraiseup.com$third-party
+futurestud.io##.affix-wrapper:style(position: static !important;)
+geeksforgeeks.org##.ad_course_banner
 geeksforgeeks.org##.code-gutter
+geeksforgeeks.org##p:has-text(/^Attention reader!/)
+genius.com##.apple_music_player_container
+genius.com##.interstitial
+genius.com##div[class^='LeaderboardOrMarquee']
+github.com##.Box-sc-g0xbh4-0.bgyiQy.panel-content-narrow-styles.inner-panel-content-not-narrow
+github.com##.Box-sc-g0xbh4-0.edLsev.panel-content-narrow-styles.inner-panel-content-not-narrow
+github.com##.Box-sc-g0xbh4-0.gBKNLX.react-blob-view-header-sticky:style(position: static !important;)
+github.com##.Box-sc-g0xbh4-0.gvCnwW
+github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
+github.com##.gh-header-shadow
+github.com##.js-sticky:style(position: relative !important; left: unset !important; width: unset !important; margin-top: unset !important;)
 github.com##.js-vote-banner
+github.com##.pr-toolbar:style(position: static !important;)
+github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
+github.com##[data-testid="copilot-popover-button"]
+github.community###main .d-header-wrap:style(position: static !important;)
+github.community##.topic-avatar:style(position: static !important;)
+github.community##.topic-navigation:style(position: static !important;)
+gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
+gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
+gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
+gitlab.wikimedia.org##.right-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
+globalnews.ca##p:has-text(READ MORE:)
+go.dev##.Banner
 godbolt.org###ces, #motd
+golang.org##.Header-banner
+google.com##promo-throttler + div
+hightimes.com###tpbr_topbar
+hightimes.com##.cs-header.cs-header-three:style(position: static !important;)
+hightimes.com##div:has(ins)
+hightimes.com##section:has-text(Support High Times By Disabling Ad-Blocker)
+hindustantimes.com###header:style(height: 93px !important;)
+hindustantimes.com##.shareSticky
+hollywoodreporter.com##.injected-related-story
+hrw.org###block-signupbarblock
+hrw.org##.hrw-share
+https://a.thumbs.redditmedia.com/qXsn87hnyunQjBHMMKUY_RnPK7LplK5_3rT9y1-8hI0.css
+https://a.thumbs.redditmedia.com/x1YavKhPfQh8zbHA1DmZA6GS8Kym0j9mwwbJaAYVlt0.png
+https://a.thumbs.redditmedia.com/xkFY8S8bSo8_lTDtX7T89UgyDFdmEOGsKGySJBPb3n4.css
+https://a.thumbs.redditmedia.com/y6Olt_Y8atFaE2VPbkVyI_ROxHbQ3Orpc_PWr86Lz14.css
+https://a.thumbs.redditmedia.com/YcWFXMChx1LH2KWWmUn7pk8Uo3HsaQMUM0isec6--F8.css
+https://b.thumbs.redditmedia.com/8iym2dMk_xtsu4TiDHR-oo6eCKgd90OL-0qlE1qi-bc.png
+https://b.thumbs.redditmedia.com/A6w-mBd0Fb0YAdbP9p1sPH8JZADfiGtM6UBcfPFit2U.css
+https://b.thumbs.redditmedia.com/g7UCuMDgq4U7GP10SoRxxMbE2w0u1LN1CFp1D3aE0Lw.css
+https://b.thumbs.redditmedia.com/JuZ5Z6mZBpXH5xNBHTJ9BdFgBi2El8AiEAgw_gDWlFY.css
+https://b.thumbs.redditmedia.com/lWRuZNxM0ySPLxEP77xUTRNBiYn_T6HExh9b4wikYpE.css
+https://b.thumbs.redditmedia.com/O00RDbigfINYlIoqkMq7USCJtnSeZFD0QDPUlXPuIVY.css
+https://b.thumbs.redditmedia.com/PgziqQhCiiKrwTLzmP9ifXbyx4epvuaSbwC02bblCNo.css
+https://b.thumbs.redditmedia.com/pyMhtb-UIq_kUrq8CJEZR8fPsI36-_IKSL5u8lRmnic.css
+https://b.thumbs.redditmedia.com/R27Hw7ql95fErYgn5Uwbz3BzPyLMe41P4irhGiYWFFY.css
+https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
+https://b.thumbs.redditmedia.com/XP9ZNQ-lk8wNtf58RCzDkwf7Zv3wypOH2goYrw2ajGI.css
+https://s3-prod.autonews.com/s3fs-public/js/js_WTmgcF6xZivpS-TUSmoAd8GqFXyeEn0XUDFDZ5nnDH4.js
+ibb.co##.viewer-title
+imdb.com###promoted-partner-bar
+imdb.com###titleAwardsRanks
+imdb.com##.banner-container
+independent.co.uk##.related
+independent.co.uk##p:has-text(Read more:)
+influencewatch.org##.main-navigation:style(position: static !important;)
+influencewatch.org##.tippy-content:style(font-size: 14px !important;)
+insight.kellogg.northwestern.edu##.alertbar:style(display: block !important;)
+insight.kellogg.northwestern.edu##.fixed:style(position: absolute !important;)
+insight.kellogg.northwestern.edu##.footer-trigger:style(position: static !important;)
+insight.kellogg.northwestern.edu##.scrollrecs
+insight.kellogg.northwestern.edu##.sticky.stuck:style(position: static !important;)
+insight.kellogg.northwestern.edu##.tp-modal
+insight.kellogg.northwestern.edu##header:style(height: 89px !important;)
+instagram.com##._9AhH0
+investor.vanguard.com##.watch-bar-container:style(position: static !important;)
+iot.eetimes.com###body-main-wrap:style(padding-top: 15px !important;)
+iot.eetimes.com###head-main-top
+iot.eetimes.com###main-nav-wrap:style(position: static !important;)
+ishares.com##.alert-bar
+ishares.com##.sticky-header:style(position: absolute !important;)
+jacobinmag.com##.bn-at.prt-x
+jacobinmag.com##.po-fr__endmark.prt-x
+jsfiddle.net###s-bottom
+justia.com###sticky-block:style(position: static !important;)
+knowyourmeme.com###global-message, #leaderboard, #trending-bar, .contentFload
+knowyourmeme.com##.ads
+knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
+knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
+knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
+lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+lambdatest.com##.cookiesdiv
+lambdatest.com##.header, .tagline:style(position: absolute !important;)
+lambdatest.com##.sitekitwebinar
+lambdatest.com##.tagline:style(top: 60px !important;)
+lambdatest.com##.zsiq_custommain
+laravel.com##div.hidden.from-red-500.to-red-600
 latimes.com##.enhancement
+law.com##.modal-backdrop, #reg-modal
+law.com##html, body:style(overflow: auto !important;)
+lexico.com##.mainHeader:style(position: static !important;)
+linkedin.com###insights:upward(1)
+linkedin.com###promo:upward(1)
+linkedin.com###recent_activity:upward(1)
+linkedin.com###resources:upward(1)
+linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
+linkedin.com##.focus-page__header:style(position: absolute !important;)
+linkedin.com##.org-sticky-top-card
+linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
+linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
+linkedin.com##.pv-open-to-carousel
+linkedin.com##.pv-profile-section:has(h2:has-text(Your Dashboard))
+linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
+linkedin.com##.search-result--cross-promo
+linkedin.com##.search-results-container:style(padding-top: 1em !important;)
+marketplace.org##.top-latest-stories
+marketwatch.com##.container--trending
+marketwatch.com##p:has(strong)
+massivesci.com##.navigation:style(position: static !important;)
+mayoclinic.org##.acces-list-container.rc-list:has-text(Products & Services)
+mayoclinic.org##.globalnotice.warning
+mayoclinic.org##.internal-promo-stack-order
+mayoclinic.org##.requestappt
+mccourtfoundation.org,santamonicaclassic.com,rosebowlhalf.com###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
+mdxjs.com##.css-1kikbsc.searchable-content > div:has-text(#BlackLivesMatter →)
+mediabiasfactcheck.com###super_rss_reader-4
+mediabiasfactcheck.com###ticker
+mediapost.com###accesswall-modal, .modal-backdrop
+mediapost.com##body:style(overflow: auto !important;)
+mediapost.com##div:style(filter: none !important;)
+medium.com##.ab.ca:has-text(Already have an account)
+medium.com##.l.m.n.o.c:style(position: static !important;)
+medium.com##.m.zs.acp.acq
+messages.google.com##.information-banner:has-text(Using mobile data)
+miniwebtool.com###blocknotice
+momentjs.com###donate
+momentjs.com##.hero-title h1:has-text(Black Lives Matter)
+momentjs.com##.hero-title h2:has-text(Audre Lorde)
+momentjs.com##.hero-title h2:has-text(Get Involved)
+mozilla.org##.main-document-header-container, .sidebar-container, #sidebar-quicklinks, .toc-container:style(position: static !important;)
+mozilla.org##.sidebar, .sidebar-container, .toc-container, #sidebar-quicklinks, .sidebar-container:style(max-height: unset !important;)
+mozilla.org##.toc-container:style(height: unset !important;)
+mozilla.org##.top-banner, .pong-box
+mprnews.org##.apm-related-list
+musixmatch.com##body:remove-attr("oncontextmenu")
+musixmatch.com##body:remove-attr("style")
+mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
+mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.delivery-pitch)
+mxtoolbox.com###ctl00_divFooter
+mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
+mxtoolbox.com###supertool_ad_variation, #divAd_1
+mxtoolbox.com##html, body:style(overflow: auto !important;)
+my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
+namesilo.com###sticky-header
+namesilo.com##.container-fluid:has-text(Get Hosting)
+narkive.com##[class^="adslot_"]
+nationalgeographic.com##.Modal.EmailStickyFooter__Modal
+nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
+nationalgeographic.com##body:style(overflow: auto !important; position: static !important;)
+nationalobserver.com##.inline-content-links
+nbcnews.com##.ArticleRelated
+nbcnews.com##.related
+nbcwashington.com##.wp-block-nbc-localized-block, .recirc-module
+ncbi.nlm.nih.gov##.container-fluid:has(.unite-text-box)
+ncbi.nlm.nih.gov##.ncbi-alerts
+newrepublic.com###pwPopups
+newrepublic.com##.ad-container-house
+news.yahoo.com##a[href="https://www.nytimes.com/newsletters?partner=yahoo"]
+news.yahoo.com##li.js-stream-content:has-text(Architectural Digest)
+news.yahoo.com##li.js-stream-content:has-text(National Review)
+news.yahoo.com##p:has-text(Read Next:)
+newstatesman.com##.clearfix
+newsweek.com##.promo-link
+newsweek.com##[data-gtm-category="Related In-Text A"]
+nlm.nih.gov##.alert
+nme.com##.post-content-read-more
+nme.com##.wpb_wrapper:style(position: static !important;)
+nodejs.org##.home-blacklivesmatterblock
+nytimes.com###dock-container, #in-story-masthead
+nytimes.com###NYT_MAIN_CONTENT_3_REGION, [aria-labelledby="storyline-latest-updates"], #covid-signup-module
+nytimes.com##.related-links-block, .css-1q1hscp
+nytimes.com##[aria-labelledby="styln-toplinks-title"]
+online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
+online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
+othena.com##.header:style(position: absolute !important;)
+panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
+parade.com###main-navigation:style(position: absolute !important;)
+parade.com##p:has-text(Related:)
+patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
+paypal.com##[data-pa-click$="_Login_CT_Banner"]
+pbs.org##p:has-text(READ MORE:)
 pcgamer.com##.future__jwplayer--carousel
+phpunit.de##.navbar:style(position: static !important;)
+pkg.go.dev##.go-Banner
+politico.com##.story-enhancement
+politico.com##section.page-content__row:has(.coronavirus-parent)
+popularmechanics.com##.body-h3:has-text(Stuff We Love:)
+popularmechanics.com##.watch-next-in-body, .embed.gallery-module, .embed.gallery-module + hr, .embed-editorial-links, .embed-product, .embed-poll
+popularmechanics.com##hr:has(+ .body-h3:has-text(Stuff We Love:))
+programiz.com##.notice-bar-top
+pubmed.ncbi.nlm.nih.gov###ncov-alert-from-server
+pubpub.org##.legal-banner-component
+pubpub.org##.pub-header-background-component:style(position: static !important;)
+punchng.com###masthead:style(position: static !important;)
+punchng.com##.site-header-ad, .site-header-placeholder
+quarry.wmflabs.org##.navbar:style(position: static !important;)
+quora.com##.q-box.qu-zIndex--inline_overlay:has-text(Upgrade to Quora+)
+quora.com##[class^="CssComponent-sc-"]:has-text(Related Questions)
+quora.com##[class^="CssComponent-sc-"]:has-text(Sponsored by)
 ralphs.com##.dpr.WithAmpDataInnerContainer
+ralphs.com##[data-testid="GlobalMessageWrapper"]
+ralphs.com##[src*="monetization"]
+reddit.com###mail:before
 reddit.com###redesign-beta-optin-btn
+reddit.com###TrendingPostsContainer
 reddit.com##.arrow.down:style(display: block !important; visibility: visible !important;)
+reddit.com##.comment:has(.moderator):has-text(AutoModerator)
+reddit.com##.pinned-controls
 reddit.com##textarea[name="title"]:style(text-transform: none !important;)
+refactoring.guru##.prom, .russia-stop
+refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
+regex101.com##.jyUE5.XNbml
+regex101.com##._3Brs_._2C1Ky
+researchgate.net##.js-lite-promo.post-details__section
+researchgate.net##.js-target-authorHeader:style(position: static !important;)
+researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+restofworld.org##.pullquote
+restofworld.org##.reading-header, .masthead, .progress-bar:style(position: relative !important;)
+reuters.com##[aria-label="My View navigation"]
+reuters.com##[class^="article-prompt__container"]
+reuters.com##[class^="breaking-news__container__"]
+reuters.com##[class^="registration-prompt"]
+reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important;)
+reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
+reuters.com##[class^="toolbar__container___"]
+reuters.com##[data-testid="Latest Updates"]
+rexegg.com##.topanchor:style(position: static !important;)
+rexegg.com##body:style(background-color: white !important;)
+rollcall.com##p:has(em > strong > a)
 runnersworld.com###pageBanner, .affiliate-disclaimer.bar-content-disclaimer
+ruwix.com###please
+rxjs-dev.firebaseapp.com##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
+rxjs.dev##.ng-trigger-hideAnimation.ng-trigger.ng-tns-c22-0
+salon.com##.layout_template_wrapper > .related_article, .left_quote
+sass-lang.com##.sl-c-alert--info.sl-c-alert
+sciencebasedmedicine.org##.headroom--pinned
+sender.net###chat-widget-container
+sender.net##.checkbox-row-title:style(width: 100% !important;)
+sender.net##.checkboxes-content-wrapper, .checkboxes-content:style(width: 500px !important;)
+seventeen.com##.nav-placeholder
+seventeen.com##.nav:style(position: static !important;)
+seventeen.com##.watch-next-in-body
+sfgate.com##.article--content-inline:has-text(Top Picks In Shopping)
+sitepoint.com##.roller-door-placeholder
+slate.com##.slate-paywall
+smashingmagazine.com###span-class-rh-further-reading-span-on-smashingmag, #span-class-rh-further-reading-span-on-smashingmag + ul, .feature-panel.envato-ad, .book-grid
+smashingmagazine.com##.c-promo-box--ad
+space.com##.post-gallery-item-ad
+spectator.us##.article_set_wrap:style(position: static !important;)
+spectator.us##.otherheader:style(position: absolute !important;)
+supermoney.com##.sm-search-wrapper:style(position: absolute !important;)
+tandfonline.com##.sticky:style(position: absolute !important;)
+techrepublic.com##.sticky-element-placeholder
+techrepublic.com##p:has(strong:has-text(SEE:))
+techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
+telegraph.co.uk##.martech-modal-component-overlay
+telegraph.co.uk##body:style(overflow-y: auto !important;)
+telegraph.co.uk/etc/designs/telegraph/core/clientlibs/piano.min.5-76--1.js
+telegraph.co.uk/martech/js/core.min.js
+theatlantic.com##.c-recirculation-link, .ad-boxinjector-m-wrapper
+theatlantic.com##.pullquote, [class^="ArticlePullquote_root__"]
+theatlantic.com##[class^="NonMeteredNudge"]
+theatlantic.com##[class^="Paywall_root__"]
+thebulletin.org##.fl-row-content-wrap:has-text(ADVERTISEMENT)
+thebulletin.org##.IRPP_button
+thefocus.news##.navbar, #sidebar:style(position: static !important;)
+theguardian.com##gu-island:has-text(Support the Guardian from)
+theguardian.com##section:has(a[href*="support.theguardian.com"])
+thehill.com##.incontent-plugin
+thehill.com##.left-sidebar-2
+thelancet.com##+js(aeld, scroll)
+thelondoneconomic.com##.jnews_inline_related_post_wrapper
+themanual.com##.dt-primis--related, .b-related-links, .b-editors-recs, .b-editors-recs-title
+themoscowtimes.com##.article__related-article:upward(1)
+themoscowtimes.com##.contribute-modal
+themoscowtimes.com##body:style(overflow: auto !important;)
+themuslimvibe.com###page-header:style(position: absolute !important;)
+themuslimvibe.com##.conv-container
+themuslimvibe.com##.promo
+themuslimvibe.com##.wpb_wrapper:style(position: static !important;)
+theregreview.org###post_info
+theserverside.com###cmp-banner
+theserverside.com###page-header:style(position: static !important;)
+theverge.com##aside:has(.c-read-more)
+time.com##iframe[title="registration-form"], .registration-wall
+truthout.org##.inline-callout-container
+tubefilter.com##.fancybox-wrap, #sticky-navigation-holder
+tutsplus.com##.avert
+tutsplus.com##.roundup-block__contents
+ufcfightpass.com###pause:style(width: 100% !important; height: 100% !important;)
+ufcfightpass.com##.dice-player-wrapper .btn-play:style(background-color: transparent !important;)
+ufcfightpass.com##.discovery, [data-test-id="app-logo"], .play-icon
+understandingwar.org##iframe[title="Persistent Donate Button"], iframe[title="Donation Activity Popup"]
 urbandictionary.com##.def-panel:has-text(Word of the Day)
+urbandictionary.com##.mug-ad
+usatoday.com##.gnt_nb
+usmagazine.com##.right-rail, .link-related.article
+usnews.com##[class*="AnchorBlock__"]:has-text(READ:)
 vanityfair.com##.consumer-marketing-unit--article-mid-content
+vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
+vice.com##.abc__textblock.size--article:has-text(by signing up for our newsletter)
+voanews.com##.site-header:style(position: static !important;)
+vueschool.io##a[class^="vs-banners"]
+vuetifyjs.com##.mb-12.v-card.v-sheet:has-text(ads by Vuetify)
+vuetifyjs.com##.v-vuetify-ad
+washingtonpost.com###leaderboard-overlay, .wpds-c-dFTccK, [data-qa="more-from-the-post"]
+washingtonpost.com###slug_leaderboard:upward(4)
+washingtonpost.com##.interstitial
+washingtonpost.com##p.italic:has(a[href^="https://www.washingtonpost.com/"])
+washingtonpost.com##[aria-label="Primary"], .sticky:style(position: static !important;)
+washingtonpost.com##[data-qa="elex-cta"]
+washingtonpost.com##[data-qa="interstitial-link"]:upward(3)
+washingtonpost.com##[data-qa="interstitial-link-wrapper"]
+washingtonpost.com##[id^="paywall"]
+washingtontimes.com##.article-toplinks
+washingtontimes.com##.tp-modal
+watchuseek.com###welcome_back
+watchuseek.com##.p-header:style(position: absolute !important;)
+wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
+wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position: static !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
+win.gg##.c-Adhesion
+win.gg##.c-HeaderContainer:style(position: absolute !important;)
+wired.co.uk##.bb-card, aside.a-sidebar-content
+wired.com##.callout
+wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
+wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
+wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND NEEDS WILLAMETTE WEEK.)
+www.electronjs.org##.announcement-banner
+yahoo.com##a[href*="ad.doubleclick.net"]
+yahoo.com##[id$="-MonalixaComponent"]
+youtube.com###clarify-box
+youtube.com##ytd-emergency-onebox-renderer
+youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
+youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
+youtube.com##ytd-primetime-promo-renderer
+youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
+youtube.com##ytd-rich-section-renderer:has-text(COVID)
+youtube.com##ytd-rich-section-renderer:has-text(Featured)
+youtube.com##ytd-rich-section-renderer:has-text(Latest YouTube posts)
+youtube.com##ytd-rich-section-renderer:has-text(Learn with YouTube)
+youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
+youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
+youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
+youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
+youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
+youtube.com##ytd-shelf-renderer:has(#title):has-text(People also watched)
+zdnet.com##.breaking-news-container
+zdnet.com##.relatedContent
+zdnet.com##p:has(strong:has-text(Also:))
+zdnet.com##p:has-text(See also:)
 ||1.bp.blogspot.com/-EKNGTo--wsA/Xyqzo33h3mI/AAAAAAAAyng/_nwF7l9C_zQQ1d57FLWSjEiWtxPFqF_fgCLcBGAsYHQ/s600/3065-867254.jpg$image
 ||1.bp.blogspot.com/-nRWSgg6DFhw/Xyq0gHglXiI/AAAAAAAAyno/EhuEvH47zWk16U5olfKeMKKLRkPe82TtgCLcBGAsYHQ/s640/bb22_all_stars_blog_header.png$image
 ||3.bp.blogspot.com/-7Zaw4_TIFLo/WVe8uqukM5I/AAAAAAAApVg/1RCuAAdA06I_ltM5Q7zM3hOZrx6tD_7owCLcBGAs/s1600/showlettermn9-1.gif$image
+||buy.tinypass.com/$subdocument
+||cdn.tinypass.com^$script
+||genius.com/*/apple_music_player$subdocument
 ||graphics.ctyme.com/gif/ctymehost.gif$image
 ||graphics.ctyme.com/gif/spamlogo.gif$image
 ||graphics.ctyme.com/jpeg/cor.jpg$image
 ||graphics.ctyme.com/sexads/ff1o_ani.gif$image
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
-jacobinmag.com##.po-fr__endmark.prt-x
-amazon.com###sitbReaderMessageContainer
-reddit.com###mail:before
-mediabiasfactcheck.com###super_rss_reader-4
-flickriver.com##.photo-protector
-! Useless floating Apple Music webplayer
-||genius.com/*/apple_music_player$subdocument
-genius.com##.apple_music_player_container
-researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
-! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
-reddit.com##.comment:has(.moderator):has-text(AutoModerator)
-! [/MISCELLANEOUS]
-
-! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-themuslimvibe.com##.promo
-knowyourmeme.com##.ads
-win.gg##.c-Adhesion
-flickr.com##.main.moola-search-div:has(.upgrade-to-pro-cta)
-flickr.com###search-unified-content:style(margin-top: 0 !important;)
-punchng.com##.site-header-ad, .site-header-placeholder
-tutsplus.com##.avert
-genius.com##div[class^='LeaderboardOrMarquee']
-genius.com##.interstitial
-online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
-online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
-businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
-yahoo.com##[id$="-MonalixaComponent"]
-bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"], a[href="https://bjj-world.com/webffound"], a[href="https://bjj-world.com/revcjkarate"]
-bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
-bjj-world.com##.td-ss-main-sidebar
-evolve-mma.com###text-2, .facebook-like-us, author
-eztv.re##.forum_header_border_normal:has-text(WARNING)
-space.com##.post-gallery-item-ad
-
-! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-! cookie modals
-###onetrust-consent-sdk
-! comicbook.com has a $generichide, must override
-comicbook.com###onetrust-consent-sdk
-pubpub.org##.legal-banner-component
-lambdatest.com##.cookiesdiv
-theserverside.com###cmp-banner
-express.co.uk##.qc-cmp-cleanslate
-
-! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-emerald.com##.fixed-top:style(position: absolute !important;)
-emerald.com###feedback-strip
-iot.eetimes.com###main-nav-wrap:style(position: static !important;)
-iot.eetimes.com###body-main-wrap:style(padding-top: 15px !important;)
-iot.eetimes.com###head-main-top
-cambridge.org###article-tabs-wrapper
-cambridge.org###toc:style(position: static !important;)
-tubefilter.com##.fancybox-wrap, #sticky-navigation-holder
-influencewatch.org##.main-navigation:style(position: static !important;)
-watchuseek.com##.p-header:style(position: absolute !important;)
-nme.com##.wpb_wrapper:style(position: static !important;)
-patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
-insight.kellogg.northwestern.edu##.scrollrecs
-insight.kellogg.northwestern.edu##.fixed:style(position: absolute !important;)
-insight.kellogg.northwestern.edu##.alertbar:style(display: block !important;)
-insight.kellogg.northwestern.edu##header:style(height: 89px !important;)
-insight.kellogg.northwestern.edu##.footer-trigger:style(position: static !important;)
-insight.kellogg.northwestern.edu##.sticky.stuck:style(position: static !important;)
-freenode.net##.navbar:style(position: absolute !important;)
-lexico.com##.mainHeader:style(position: static !important;)
-cell.com##.article-tools__wrapper
-quarry.wmflabs.org##.navbar:style(position: static !important;)
-tandfonline.com##.sticky:style(position: absolute !important;)
-aa.com.tr##.fixed-top:style(position: absolute !important;)
-aa.com.tr##.sticky-top:style(position: static !important;)
-theregreview.org###post_info
-pubpub.org##.pub-header-background-component:style(position: static !important;)
-supermoney.com##.sm-search-wrapper:style(position: absolute !important;)
-thefocus.news##.navbar, #sidebar:style(position: static !important;)
-themuslimvibe.com###page-header:style(position: absolute !important;)
-themuslimvibe.com##.wpb_wrapper:style(position: static !important;)
-hrw.org##.hrw-share
-crisisgroup.org##.s-header:style(position: absolute !important;)
-crisisgroup.org##.js-ann-adder
-seventeen.com##.nav:style(position: static !important;)
-seventeen.com##.nav-placeholder
-egypttoday.com##.Menu:style(position: static !important;)
-futurestud.io##.affix-wrapper:style(position: static !important;)
-theatlantic.com##[class^="NonMeteredNudge"]
-marketwatch.com##.container--trending
-namesilo.com###sticky-header
-voanews.com##.site-header:style(position: static !important;)
-justia.com###sticky-block:style(position: static !important;)
-hightimes.com##.cs-header.cs-header-three:style(position: static !important;)
-win.gg##.c-HeaderContainer:style(position: absolute !important;)
-! github: block a floating topbar that appears when scrolling down in an issue
-github.com##.gh-header-shadow
-cnbc.com##[class^="HighlightShare"]
-flickr.com##.search-slender-advanced-panel-view:style(position: static !important;)
-flickr.com##.search-subnav:style(position: static !important;)
-dailykos.com##.sidebar.label-heading.sidebar-heading:style(position: static !important;)
-investor.vanguard.com##.watch-bar-container:style(position: static !important;)
-cntraveler.com##.persistent-top, .sticky-box:style(position: static !important;)
-cntraveler.com##.page:style(padding-top: 0 !important;)
-hindustantimes.com##.shareSticky
-hindustantimes.com###header:style(height: 93px !important;)
-othena.com##.header:style(position: absolute !important;)
-punchng.com###masthead:style(position: static !important;)
-researchgate.net##.js-target-authorHeader:style(position: static !important;)
-! github: block a floating topbar that appears when scrolling down on a project's homepage (readme.md header floats)
-github.com##.js-sticky:style(position: relative !important; left: unset !important; width: unset !important; margin-top: unset !important;)
-fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
-mccourtfoundation.org,santamonicaclassic.com,rosebowlhalf.com###shopify-section-header, #shopify-section-menu-marathon:style(position: absolute !important;)
-nationalgeographic.com##.StickyBar--sticky:style(position: static !important;)
-ishares.com##.sticky-header:style(position: absolute !important;)
-techrepublic.com##.sticky-element-placeholder
-! wikipedia commons preferences floating footer. will probably need to add more domains to this:
-wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
-etonline.com##.header-container:style(position: static !important;)
-etonline.com###main:style(margin-top: 0 !important;)
-knowyourmeme.com###global-message, #leaderboard, #trending-bar, .contentFload
-knowyourmeme.com##.contentFloadmenu:style(display: block !important;)
-knowyourmeme.com##.longcat.wrap.redesign:style(position: static !important;)
-knowyourmeme.com##[class^="submenu-"]:style(top: 60px !important;)
-phpunit.de##.navbar:style(position: static !important;)
-lambdatest.com##.tagline:style(top: 60px !important;)
-lambdatest.com##.header, .tagline:style(position: absolute !important;)
-sciencebasedmedicine.org##.headroom--pinned
-massivesci.com##.navigation:style(position: static !important;)
-chessprogramming.net###header:style(position: absolute !important;)
-spectator.us##.otherheader:style(position: absolute !important;)
-spectator.us##.article_set_wrap:style(position: static !important;)
-sender.net###chat-widget-container
-dreamhost.com##.Feedback
-panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
-autonews.com##header[role="banner"]:style(position: absolute !important;)
-autonews.com##.block-crain-recommend-flyout-block
-mxtoolbox.com###ctl00_divFooter
-easydmarc.com##.fixed-top:style(position: absolute !important;)
-parade.com###main-navigation:style(position: absolute !important;)
-linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
-linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
-linkedin.com##.search-results-container:style(padding-top: 1em !important;)
-rexegg.com##.topanchor:style(position: static !important;)
-my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: static !important;)
-linkedin.com##.org-sticky-top-card
-usatoday.com##.gnt_nb
-lambdatest.com##.zsiq_custommain
-github.community###main .d-header-wrap:style(position: static !important;)
-github.community##.topic-navigation:style(position: static !important;)
-github.community##.topic-avatar:style(position: static !important;)
-theserverside.com###page-header:style(position: static !important;)
-linkedin.com##.focus-page__header:style(position: absolute !important;)
-reuters.com##[class^="toolbar__container___"]
-apnews.com###usntA40Toggle
-reddit.com##.pinned-controls
-reuters.com##[aria-label="My View navigation"]
-reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important;)
-reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
-evolve-mma.com###primary-navigation:style(position: static !important;)
-evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
-eztv.re##.forum_header_border:style(position: static !important;)
-businessinsider.com##.sticky-toc-aside:style(position: static !important;)
-! [/FLOATING]
-
-! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-
-! MODALS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-foreignpolicy.com##.tp-modal, .tp-backdrop
-watchuseek.com###welcome_back
-insight.kellogg.northwestern.edu##.tp-modal
-themuslimvibe.com##.conv-container
-afp.com##.mfp-wrap
-afp.com##html:style(overflow: auto !important;)
-afp.com##.mfp-bg:style(opacity: 0 !important;)
-hightimes.com##div:has(ins)
-hightimes.com##section:has-text(Support High Times By Disabling Ad-Blocker)
-nationalgeographic.com##.Modal.EmailStickyFooter__Modal
-nationalgeographic.com##body:style(overflow: auto !important; position: static !important;)
-baltimoresun.com##html,body:style(overflow: auto !important;)
-baltimoresun.com##+js(aeld, scroll)
-dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: unset !important;)
-dailymail.co.uk##html, body:style(overflow: auto !important;)
-miniwebtool.com###blocknotice
-mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
-mxtoolbox.com##html, body:style(overflow: auto !important;)
-law.com##.modal-backdrop, #reg-modal
-law.com##html, body:style(overflow: auto !important;)
-lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
-
-! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-hrw.org###block-signupbarblock
-evolve-mma.com##.subscribe-section
-
-! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
-
-! Unsorted. Getting tired of sorting :P
-fandom.com##.page__right-rail, .fandom-sticky-header, .page-side-tools__wrapper, .marketing-notifications
-fandom.com##.main-container:style(width: unset !important;)
-fandom.com##.mw-prefs-buttons:style(position: static !important;)
-fandom.com##.ve-init-mw-desktopArticleTarget-originalContent:style(height: unset !important; overflow-y: unset !important;)
-theguardian.com##section:has(a[href*="support.theguardian.com"])
-linkedin.com###promo:upward(1)
-linkedin.com###insights:upward(1)
-linkedin.com###resources:upward(1)
-linkedin.com###recent_activity:upward(1)
-reuters.com##[data-testid="Latest Updates"]
-reuters.com##[class^="registration-prompt"]
-restofworld.org##.reading-header, .masthead, .progress-bar:style(position: relative !important;)
-restofworld.org##.pullquote
-themoscowtimes.com##.contribute-modal
-themoscowtimes.com##body:style(overflow: auto !important;)
-themoscowtimes.com##.article__related-article:upward(1)
-reuters.com##[class^="article-prompt__container"]
-fundraiseup.com$third-party
-refactoring.guru##.prom, .russia-stop
-refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
-apnews.com##[class^="imageCaption-"]:style(height: 50px !important;)
-apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
-! block stuff on amazon that influences you to buy more or buy faster
-amazon.com###gutterCartViewForm .a-section.sc-sss-box:has-text(eligible items)
-amazon.com##.sc-product-scarcity, .sc-product-availability, #availability
-amazon.com##.prime-ad-banner-content, [cel_widget_id="typ-prominentUpsellSlot-prime"]
-ruwix.com###please
-dominos.com##.st-jude-roundup, .upsell-stages--container, .js-inlineUpsellBottomContainer, .js-mainFooter, .prop65-disclaimer, .inline-upsell
-dominos.com##.pageRightColumn--checkout:style(margin-top: 0 !important;)
-dominos.com###pageContent:style(margin-top: 0 !important;)
-dominos.com##header[role="banner"]:style(position: static !important;)
-amazon.com##.prime-ad-banner-content
-evite.com##.marketing-banner
-evite.com##.section__cms-content:has-text(Featured Content)
-amazon.com##.a-section.sc-sss-box:has-text(You are getting FREE Same)
-amazon.com##.savingPriceOverride
-amazon.com##.basisPrice:upward(2)
-citi.com##.transaction-chip:has-text(Eligible for Citi)
-citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicoffercalttile, app-dynamicoffervpbotile
-citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
-citi.com##.left-field-sticky:style(position: static !important;)
-bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
-costco.com###order-summary-column:style(transform: unset !important;)
-costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
-salon.com##.layout_template_wrapper > .related_article, .left_quote
-# auto-playing video on apnews.com homepage I don't want to see
-apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
-apnews.com##.Content.WireStory [data-key="media-placeholder"]:has-text(AP Top Stories)
-themanual.com##.dt-primis--related, .b-related-links, .b-editors-recs, .b-editors-recs-title
-apnews.com##.Page-trending, .Page-header-leaderboardAd, .Advertisement
-apnews.com##.Page-header-bar:style(top: 0 !important;)
-apnews.com##.Page-header:style(position: static !important;)
-apnews.com##.Enhancement:has(.PageListHubPeek)
-apnews.com##.Enhancement:has(.PageListStandardB)
-amazon.com##.cart-mario-regular-message:has-text(Exclusive Prime price)
-# wikimedia.org includes commons, meta, wikitech
-wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav
-wikipedia.org,wikimedia.org,mediawiki.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
-wikipedia.org,wikimedia.org,mediawiki.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
-wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position: static !important;)
-wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
-||upload.wikimedia.org/wikipedia/commons/b/bc/Fly_transparent.gif$image
 ||upload.wikimedia.org/wikipedia/commons/6/6c/Jimbo_Peeking.gif$image
-apnews.com##.RichTextStoryBody .Enhancement:has(.VideoEnhancement:has-text(AP Top Stories))
-mozilla.org##.top-banner, .pong-box
-mozilla.org##.main-document-header-container, .sidebar-container, #sidebar-quicklinks, .toc-container:style(position: static !important;)
-mozilla.org##.sidebar, .sidebar-container, .toc-container, #sidebar-quicklinks, .sidebar-container:style(max-height: unset !important;)
-mozilla.org##.toc-container:style(height: unset !important;)
-deepstatemap.live##.cl-dialog
-laravel.com##div.hidden.from-red-500.to-red-600
-medium.com##.m.zs.acp.acq
-medium.com##.l.m.n.o.c:style(position: static !important;)
-dreamhost.com###auto-toc:style(position: static !important;)
-understandingwar.org##iframe[title="Persistent Donate Button"], iframe[title="Donation Activity Popup"]
-apnews.com##.TaboolaRecommendationModule
-github.com##.Box-sc-g0xbh4-0.gBKNLX.react-blob-view-header-sticky:style(position: static !important;)
-github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
-github.com##.Box-sc-g0xbh4-0.gvCnwW
-github.com##.Box-sc-g0xbh4-0.edLsev.panel-content-narrow-styles.inner-panel-content-not-narrow
-github.com##.Box-sc-g0xbh4-0.bgyiQy.panel-content-narrow-styles.inner-panel-content-not-narrow
-gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
-gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
-github.com##[data-testid="copilot-popover-button"]
-gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
-gitlab.wikimedia.org##.right-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
-amazon.com##span.a-size-base.a-color-secondary:has-text(bought in past month)
-amazon.com##[id^="BEST_DEAL_"], .s-coupon-unclipped
-apnews.com##.Enhancement:has(#related-coverage)
-apnews.com##.PageListEnhancementB:has(#related-coverage)
-apnews.com##.Page-header-stickyWrap:style(position: static !important;)
-amazon.com###aod-sticky-pinned-offer
-amazon.com##.a-declarative:has(.sc-climate-pledge-friendly-badge)
-apnews.com##.Enhancement:has(.PageList-header)
-amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-section-spc-desktop
-expedia.com##[data-stid="one-key-message-card"], [data-test-id="branded-deal-banner"], .uitk-table-row:has([aria-describedby="onekeycash-description"]), #one-key-loyalty-earn-module-desktop-view, #one-key-banner
-expedia.com##[data-test-id="page-notifications"]:has-text(We recommend booking a flight with no change fees in case your plans change.)
-expedia.com##.uitk-badge:has-text( CO2)
-apnews.com##.jw-nextup-container, .jw-related-shelf-container
-amazon.com###nav-flyout-ewc
-amazon.com##body:style(padding-right: 0 !important;)
-amazon.com###navbar-main:style(position: static !important;)
-aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
-google.com##promo-throttler + div
-aljazeera.com##.navigation-bar--sticky:style(position: static !important;)
-developer.mozilla.org##.sticky-header-container:style(position: static !important;)
-medium.com##.ab.ca:has-text(Already have an account)
-facebook.com##[role="banner"] > *:style(position: absolute !important;)
-facebook.com##[role="main"] > div:nth-child(3):style(position: static !important;)
-aljazeera.com##.update-popup
-github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
-github.com##.pr-toolbar:style(position: static !important;)
-nytimes.com###dock-container, #in-story-masthead
-washingtonpost.com##[aria-label="Primary"], .sticky:style(position: static !important;)
-washingtonpost.com###leaderboard-overlay, .wpds-c-dFTccK, [data-qa="more-from-the-post"]
-washingtonpost.com###slug_leaderboard:upward(4)
-washingtonpost.com##[data-qa="interstitial-link"]:upward(3)
-apnews.com##.Infobox
-apnews.com##.taboola_readmore:upward(4)
-nytimes.com##[aria-labelledby="styln-toplinks-title"]
+||upload.wikimedia.org/wikipedia/commons/b/bc/Fly_transparent.gif$image
