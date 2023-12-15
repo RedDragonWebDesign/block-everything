@@ -668,3 +668,6 @@ washingtonpost.com##[aria-label="Primary"], .sticky:style(position: static !impo
 washingtonpost.com###leaderboard-overlay, .wpds-c-dFTccK, [data-qa="more-from-the-post"]
 washingtonpost.com###slug_leaderboard:upward(4)
 washingtonpost.com##[data-qa="interstitial-link"]:upward(3)
+apnews.com##.Infobox
+apnews.com##.taboola_readmore:upward(4)
+nytimes.com##[aria-labelledby="styln-toplinks-title"]
