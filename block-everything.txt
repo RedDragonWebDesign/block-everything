@@ -588,3 +588,11 @@ zdnet.com##p:has-text(See also:)
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 ||upload.wikimedia.org/wikipedia/commons/6/6c/Jimbo_Peeking.gif$image
 ||upload.wikimedia.org/wikipedia/commons/b/bc/Fly_transparent.gif$image
+amazon.com##div.a-section.sc-sss-box:has-text(You are getting FREE Overnight delivery!)
+amazon.com##div.a-row.a-size-base.a-color-secondary:has-text( left in stock - order soon)
+amazon.com##div.a-section.a-spacing-none.a-spacing-top-micro:has-text(Small Business)
+amazon.com###climatePledgeFriendlyATF_feature_div
+gerrit.wikimedia.org##.block
+github.com###repos-sticky-header:style(position: static !important;)
+evite.com##.overview__side:style(position: static !important;)
+evite.com##.view-invitation__sticky-wrapper
