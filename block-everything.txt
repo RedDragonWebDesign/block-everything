@@ -595,4 +595,3 @@ amazon.com###climatePledgeFriendlyATF_feature_div
 gerrit.wikimedia.org##.block
 github.com###repos-sticky-header:style(position: static !important;)
 evite.com##.overview__side:style(position: static !important;)
-evite.com##.view-invitation__sticky-wrapper
