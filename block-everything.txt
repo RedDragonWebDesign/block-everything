@@ -71,6 +71,8 @@ apnews.com##[class^="Component-hubPeekEmbed-"]
 apnews.com##[class^="imageCaption-"]:style(height: 50px !important;)
 apnews.com##[class^="relatedStory-"]
 apnews.com##[data-key="hub-link-embed"]
+askubuntu.com##.tex2jax_ignore
+askubuntu.com##.s-anchors
 autonews.com##.block-crain-recommend-flyout-block
 autonews.com##header[role="banner"]:style(position: absolute !important;)
 aws.amazon.com##.GK5V5FYCPIB
@@ -146,6 +148,7 @@ deepstatemap.live##.cl-dialog
 developer.android.com##.devsite-banner-announcement.devsite-banner
 developer.mozilla.org##.sticky-header-container:style(position: static !important;)
 developers.google.com##.devsite-banner-message
+dictionary.cambridge.org##div.lmb-25
 discussingfilm.net##+js(aeld, mousewheel)
 dominos.com###pageContent:style(margin-top: 0 !important;)
 dominos.com##.pageRightColumn--checkout:style(margin-top: 0 !important;)
@@ -225,6 +228,8 @@ github.com##.Box-sc-g0xbh4-0.gBKNLX.react-blob-view-header-sticky:style(position
 github.com##.Box-sc-g0xbh4-0.gvCnwW
 github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
 github.com##.gh-header-shadow
+github.com##.js-feed-item-view:has-text("Trending repositories")
+github.com##.js-feed-item-view:has-text("Recommended for you")
 github.com##.js-sticky:style(position: relative !important; left: unset !important; width: unset !important; margin-top: unset !important;)
 github.com##.js-vote-banner
 github.com##.pr-toolbar:style(position: static !important;)
@@ -471,7 +476,13 @@ smashingmagazine.com##.c-promo-box--ad
 space.com##.post-gallery-item-ad
 spectator.us##.article_set_wrap:style(position: static !important;)
 spectator.us##.otherheader:style(position: absolute !important;)
+stackexchange.com##.tex2jax_ignore
+stackexchange.com##.s-anchors
+stackoverflow.com##.tex2jax_ignore
+stackoverflow.com##.s-anchors
 supermoney.com##.sm-search-wrapper:style(position: absolute !important;)
+superuser.com##.tex2jax_ignore
+superuser.com##.s-anchors
 tandfonline.com##.sticky:style(position: absolute !important;)
 techrepublic.com##.sticky-element-placeholder
 techrepublic.com##p:has(strong:has-text(SEE:))
@@ -553,6 +564,9 @@ wpbeginner.com##.orangeribbon, .sidebar-primary, .wptoolkit
 wpbeginner.com##.singleadthumbcontainer:has([title="Free WordPress Video Tutorials on YouTube by WPBeginner"])
 wweek.com##.pb-feature.pb-layout-item.pb-f-global-blank-html:has-text(PORTLAND NEEDS WILLAMETTE WEEK.)
 www.electronjs.org##.announcement-banner
+www.soczewki365.pl##.medicalInfo
+www.xda-developers.com###secondary
+www.xda-developers.com##.article-widget-feed
 yahoo.com##a[href*="ad.doubleclick.net"]
 yahoo.com##[id$="-MonalixaComponent"]
 youtube.com###clarify-box
