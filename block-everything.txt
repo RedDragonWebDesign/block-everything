@@ -233,11 +233,11 @@ github.com##[data-testid="copilot-popover-button"]
 github.community###main .d-header-wrap:style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
 github.community##.topic-navigation:style(position: static !important;)
-gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
-gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
-gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
-gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
+gitlab.com,gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
+gitlab.com,gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
+gitlab.com,gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
+gitlab.com,gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
+gitlab.com,gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
 globalnews.ca##p:has-text(READ MORE:)
 go.dev##.Banner
 godbolt.org###ces, #motd
@@ -594,9 +594,9 @@ amazon.com###climatePledgeFriendlyATF_feature_div
 gerrit.wikimedia.org##.block
 github.com###repos-sticky-header:style(position: static !important;)
 evite.com##.overview__side:style(position: static !important;)
-gitlab.wikimedia.org##.top-bar-fixed:style(position: static !important;)
-gitlab.wikimedia.org##.content-wrapper:style(padding-top: 0 !important;)
-gitlab.wikimedia.org##.issue-sticky-header
-gitlab.wikimedia.org##.issuable-context-form.inline-update.js-issuable-update:style(position: static !important; height: unset !important;)
-gitlab.wikimedia.org##.issuable-sidebar.is-merge-request, .right-sidebar-merge-requests:style(height: unset !important;)
+gitlab.com,gitlab.wikimedia.org##.top-bar-fixed:style(position: static !important;)
+gitlab.com,gitlab.wikimedia.org##.content-wrapper:style(padding-top: 0 !important;)
+gitlab.com,gitlab.wikimedia.org##.issue-sticky-header
+gitlab.com,gitlab.wikimedia.org##.issuable-context-form.inline-update.js-issuable-update:style(position: static !important; height: unset !important;)
+gitlab.com,gitlab.wikimedia.org##.issuable-sidebar.is-merge-request, .right-sidebar-merge-requests:style(height: unset !important;)
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
