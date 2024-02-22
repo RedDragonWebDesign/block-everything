@@ -600,3 +600,7 @@ gitlab.wikimedia.org##.issue-sticky-header
 gitlab.wikimedia.org##.issuable-context-form.inline-update.js-issuable-update:style(position: static !important; height: unset !important;)
 gitlab.wikimedia.org##.issuable-sidebar.is-merge-request, .right-sidebar-merge-requests:style(height: unset !important;)
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
+gitlab.com##[data-testid="navbar"]:style(position: static !important;)
+gitlab.com##[data-testid="top-bar"]:style(position: absolute !important;)
+gitlab.com##.content-wrapper:style(padding-top: 0 !important;)
+gitlab.com###super-sidebar:style(position: absolute !important;)
