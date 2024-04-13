@@ -610,3 +610,10 @@ doc.wikimedia.org##.flex-col--start:has(#nav--main):style(position: static !impo
 messages.google.com#@#.container:style(overflow-y: auto !important;)
 messages.google.com#@#.content-container:style(overflow: unset !important;)
 amazon.com##.celwidget:has-text(You saved)
+codewars.com##.description-footer:has([data-tippy-content^="The code engine that powers Codewars"])
+codewars.com##.poweredby_link
+instacart.com##[aria-label="announcement"]
+instacart.com###commonHeader:style(position: static !important;)
+instacart.com###home-content-tab-panel [aria-label="carousel"]
+instacart.com##[role="banner"]:style(position: static !important;)
+instacart.com##.e-1ado4ao
