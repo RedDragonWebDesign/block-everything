@@ -617,3 +617,9 @@ instacart.com###commonHeader:style(position: static !important;)
 instacart.com###home-content-tab-panel [aria-label="carousel"]
 instacart.com##[role="banner"]:style(position: static !important;)
 instacart.com##.e-1ado4ao
+gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
+gitlab.wikimedia.org##.gl-broadcast-message
+messages.google.com##.banner-container
+stackoverflow.com##.left-sidebar--sticky-container:style(max-height: unset !important;)
+gitlab.wikimedia.org##.gl-broadcast-message
+gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
