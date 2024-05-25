@@ -623,3 +623,5 @@ messages.google.com##.banner-container
 stackoverflow.com##.left-sidebar--sticky-container:style(max-height: unset !important;)
 gitlab.wikimedia.org##.gl-broadcast-message
 gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
+youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
+youtube.com###contentContainer:style(padding-top: 0 !important;)
