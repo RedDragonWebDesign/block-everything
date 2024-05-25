@@ -266,11 +266,9 @@ gitlab.com###super-sidebar:style(position: absolute !important;)
 gitlab.wikimedia.org##.content-wrapper:style(padding-top: 0 !important;)
 gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
 gitlab.wikimedia.org##.gl-broadcast-message
-gitlab.wikimedia.org##.gl-broadcast-message
 gitlab.wikimedia.org##.issuable-context-form.inline-update.js-issuable-update:style(position: static !important; height: unset !important;)
 gitlab.wikimedia.org##.issuable-sidebar.is-merge-request, .right-sidebar-merge-requests:style(height: unset !important;)
 gitlab.wikimedia.org##.issue-sticky-header
-gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
 gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
 gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
 gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
