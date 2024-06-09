@@ -602,7 +602,6 @@ yahoo.com##[id$="-MonalixaComponent"]
 yahoo.com##a[href*="ad.doubleclick.net"]
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
 youtube.com###clarify-box
-youtube.com###contentContainer:style(padding-top: 0 !important;)
 youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
 youtube.com##ytd-emergency-onebox-renderer
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
