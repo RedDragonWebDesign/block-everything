@@ -622,3 +622,4 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
+youtube.com###contentContainer:style(padding-top: 0 !important;)
