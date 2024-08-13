@@ -353,7 +353,6 @@ latimes.com##.enhancement
 law.com##.modal-backdrop, #reg-modal
 law.com##html, body:style(overflow: auto !important;)
 lexico.com##.mainHeader:style(position: static !important;)
-linkedin.com##.authentication-outlet:style(padding-top: 0 !important;)
 linkedin.com##.focus-page__header:style(position: absolute !important;)
 linkedin.com##.org-sticky-top-card
 linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
@@ -623,3 +622,4 @@ zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
 youtube.com###contentContainer:style(padding-top: 0 !important;)
+eventyay.com##.fav-count, .do_not_record
