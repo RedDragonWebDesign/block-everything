@@ -623,3 +623,11 @@ zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
 youtube.com###contentContainer:style(padding-top: 0 !important;)
 eventyay.com##.fav-count, .do_not_record
+github.com##[aria-label$="requesting changes"]:style(color: red !important;)
+moosend.com##.MyTep, .iORtza, .iNTQup:style(position: static !important;)
+moosend.com##.bpJEvE:style(padding-top: 0 !important;)
+moosend.com##.fMnJsf:style(padding-top: 0 !important; padding-bottom: 0 !important;)
+moosend.com##.iqNUVV
+x.com##.css-175oi2r.r-aqfbo4.r-gtdqiz.r-1gn8etr.r-1g40b8q:style(position: static !important;)
+nebula.tv##.css-aordek, .css-skrm2x:style(position: static !important;)
+nebula.tv##.css-1sgip3r:style(margin-top: 0 !important;)
