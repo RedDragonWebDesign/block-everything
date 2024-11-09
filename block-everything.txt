@@ -631,3 +631,9 @@ moosend.com##.iqNUVV
 x.com##.css-175oi2r.r-aqfbo4.r-gtdqiz.r-1gn8etr.r-1g40b8q:style(position: static !important;)
 nebula.tv##.css-aordek, .css-skrm2x:style(position: static !important;)
 nebula.tv##.css-1sgip3r:style(margin-top: 0 !important;)
+google.com#@##js-header, #searchform, .O-j-k, .header:not(#menu.header--primary):not(.column-section):not(.viewed):not(.ng-star-inserted):not([class*="_ngcontent"]):not([role="heading"]), .js-header.chr-header, .mobile-action-bar, body > .ng-scope, #flt-nav, .gws-flights__scrollbar-padding.gws-flights__selection-bar, .gws-flights__selection-bar-shadow-mask:style(position: absolute !important;)
+amazon.com###nav-flyout-rufus
+autozone.com###fixedHeaderWrapper:style(position: static !important;)
+autozone.com##[aria-label="Contact Us"]
+github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
+amazon.com###primeExclusivePricingMessage, .promoPriceBlockMessage, #applicablePromotionList_feature_div, .delightPricingBadge, #mir-layout-DELIVERY_BLOCK-slot-SECONDARY_DELIVERY_MESSAGE_LARGE
