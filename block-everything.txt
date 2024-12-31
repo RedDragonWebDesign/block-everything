@@ -637,3 +637,8 @@ autozone.com###fixedHeaderWrapper:style(position: static !important;)
 autozone.com##[aria-label="Contact Us"]
 github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
 amazon.com###primeExclusivePricingMessage, .promoPriceBlockMessage, #applicablePromotionList_feature_div, .delightPricingBadge, #mir-layout-DELIVERY_BLOCK-slot-SECONDARY_DELIVERY_MESSAGE_LARGE
+ebay.com##.s-item__lastOne, .x-wtb-signals, .x-quantity__availability
+starbucks.com##.pt1:has([data-e2e="starCost"])
+amazon.com###dealBadge_feature_div
+diffchecker.com##.sidebar_above__HdKZx, .diff-checker_ads__k93fp, .diff-desktop-banner_container__RDvkE, .ad-box_container__q9Jhx
+speedcubedb.com##.scdb-panel:has(a[href*="discount"]), .recommendation-container
