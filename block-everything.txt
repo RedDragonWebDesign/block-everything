@@ -642,3 +642,4 @@ starbucks.com##.pt1:has([data-e2e="starCost"])
 amazon.com###dealBadge_feature_div
 diffchecker.com##.sidebar_above__HdKZx, .diff-checker_ads__k93fp, .diff-desktop-banner_container__RDvkE, .ad-box_container__q9Jhx
 speedcubedb.com##.scdb-panel:has(a[href*="discount"]), .recommendation-container
+github.com##[data-testid="issue-metadata-sticky"]:style(position: static !important;)
