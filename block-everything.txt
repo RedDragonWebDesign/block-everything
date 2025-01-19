@@ -252,7 +252,7 @@ github.com##.Box-sc-g0xbh4-0.react-blob-sticky-header
 github.com##.gh-header-shadow
 github.com##.js-sticky:style(position: relative !important; left: unset !important; width: unset !important; margin-top: unset !important;)
 github.com##.js-vote-banner
-github.com##.pr-toolbar:style(position: static !important;)
+github.com##.pr-toolbar:style(position: static !important; margin-bottom: 2em !important;)
 github.com##[data-testid="copilot-popover-button"]
 github.com###repos-sticky-header:style(position: static !important;)
 github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
