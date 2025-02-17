@@ -643,3 +643,13 @@ amazon.com###dealBadge_feature_div
 diffchecker.com##.sidebar_above__HdKZx, .diff-checker_ads__k93fp, .diff-desktop-banner_container__RDvkE, .ad-box_container__q9Jhx
 speedcubedb.com##.scdb-panel:has(a[href*="discount"]), .recommendation-container
 github.com##[data-testid="issue-metadata-sticky"]:style(position: static !important;)
+youtube.com##ytd-compact-video-renderer:has([aria-label="Members first"])
+youtube.com##ytd-rich-item-renderer:has([aria-label="Members only"])
+amazon.com##[data-a-badge-type="deal"], [data-cy="certification-recipe"]
+amazon.com##.aok-inline-block:has-text(List)
+amazon.com##.aok-inline-block:has-text(Typical)
+amazon.com###btf-sub-nav-desktop-tabs
+amazon.com###delightPricingBadge_feature_div, .apex-savings-badge.reinventPriceSavingsPercentageMargin
+amazon.com##.itemPriceDrop
+nytimes.com##.css-wqhysl, [data-testid="masthead-container"]:style(position: relative !important;)
+latimes.com##ps-header.ct-sticky-top:style(position: static !important;)
