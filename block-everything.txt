@@ -621,7 +621,6 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
-youtube.com###contentContainer:style(padding-top: 0 !important;)
 eventyay.com##.fav-count, .do_not_record
 github.com##[aria-label$="requesting changes"]:style(color: red !important;)
 moosend.com##.MyTep, .iORtza, .iNTQup:style(position: static !important;)
