@@ -14,7 +14,7 @@ I recommend uBlock Origin ad block plugin.
 
 The default uBlock Origin lists block most ads and tracking.
 
-[Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) blocks most floating items.
+[Web Annoyances Ultralist](https://github.com/LanikSJ/webannoyances) blocks most floating items.
 
 This list is for the few ads and annoyances that these two lists don't cover.
 
@@ -37,7 +37,7 @@ Examples:
 
 ## Who Can Contribute
 
-Contributions welcome! Just make sure you have uBlock Origin installed, check all 7 of the "Annoyances" lists (even the non default, hidden ones), and add [Web Annoyances Ultralist](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist). Anything not blocked by these lists is welcome to be included here.
+Contributions welcome! Just make sure you have uBlock Origin installed, check all 7 of the "Annoyances" lists (even the non default, hidden ones), and add [Web Annoyances Ultralist](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LanikSJ/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist). Anything not blocked by these lists is welcome to be included here.
 
 ## How to block ads on Android
 
