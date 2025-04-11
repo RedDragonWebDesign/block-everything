@@ -654,3 +654,6 @@ nytimes.com##.css-wqhysl, [data-testid="masthead-container"]:style(position: rel
 latimes.com##ps-header.ct-sticky-top:style(position: static !important;)
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
 theatlantic.com##.ArticleInjector_clsAvoider__dqIAm
+ralphs.com##.SavingsZone--Card-Default
+starbucks.com#@#.menuPadding___TZ12b
+github.com##.file-header:style(position: static !important;)
