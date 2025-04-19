@@ -657,3 +657,7 @@ theatlantic.com##.ArticleInjector_clsAvoider__dqIAm
 ralphs.com##.SavingsZone--Card-Default
 starbucks.com#@#.menuPadding___TZ12b
 github.com##.file-header:style(position: static !important;)
+nytimes.com##.css-v21ltd
+nytimes.com##.live-blog-above-main-content:style(position: static !important;)
+amazon.com##[data-component-type="s-result-info-bar"]:style(position: static !important;)
+apnews.com##.HTMLModuleEnhancement:has([id^="hearken-embed-module-"])
