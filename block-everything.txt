@@ -211,11 +211,6 @@ eztv.re##.forum_header_border_normal:has-text(WARNING)
 eztv.re##.forum_header_border:style(position: static !important;)
 facebook.com##[role="banner"] > *:style(position: absolute !important;)
 facebook.com##[role="main"] > div:nth-child(3):style(position: static !important;)
-fandom.com##.main-container:style(width: unset !important;)
-fandom.com##.mw-prefs-buttons:style(position: static !important;)
-fandom.com##.oo-ui-toolbar-bar, .ve-ui-summaryPanel:style(position: static !important;)
-fandom.com##.page__right-rail, .fandom-sticky-header, .page-side-tools__wrapper, .marketing-notifications
-fandom.com##.ve-init-mw-desktopArticleTarget-originalContent:style(height: unset !important; overflow-y: unset !important;)
 filehippo.com##.message-download
 filehippo.com##.video-player:has([id$="display_ad_container"])
 flickr.com##.facade-of-protection-zoom
@@ -661,3 +656,13 @@ nytimes.com##.css-v21ltd
 nytimes.com##.live-blog-above-main-content:style(position: static !important;)
 amazon.com##[data-component-type="s-result-info-bar"]:style(position: static !important;)
 apnews.com##.HTMLModuleEnhancement:has([id^="hearken-embed-module-"])
+washingtonpost.com##.type-topic-follow-interstitial:has-text(Trump’s first 100 Days)
+washingtonpost.com##.type-story.subtype-context-box:has-text(Help us report on DOGE)
+youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
+amazon.com##[aria-label="Lowest price in 30 days"]
+gitlab.wikimedia.org###super-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##.project-page-sidebar:style(position: static !important;)
+diff.wikimedia.org###masthead:style(position: relative !important;)
+diff.wikimedia.org##.site-start:style(margin-top: 20px !important;)
+screenrant.com##.video:has(.w-adsninja-video-player)
+screenrant.com##.display-card:has-text(Related)
