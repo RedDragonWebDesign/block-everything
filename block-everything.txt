@@ -666,3 +666,4 @@ diff.wikimedia.org###masthead:style(position: relative !important;)
 diff.wikimedia.org##.site-start:style(margin-top: 20px !important;)
 screenrant.com##.video:has(.w-adsninja-video-player)
 screenrant.com##.display-card:has-text(Related)
+fandom.com##.notifications-placeholder
