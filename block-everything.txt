@@ -88,7 +88,6 @@ apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
 apnews.com##.Infobox
 apnews.com##.jw-nextup-container, .jw-related-shelf-container
 apnews.com##.Page-header-bar:style(top: 0 !important;)
-apnews.com##.Page-header-stickyWrap:style(position: static !important;)
 apnews.com##.Page-header:style(position: static !important;)
 apnews.com##.Page-trending, .Page-header-leaderboardAd, .Advertisement
 apnews.com##.PageListEnhancementB:has(#related-coverage)
@@ -667,3 +666,6 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
+
+# remove when web annoynances ultralist PR is merged
+apnews.com#@#.Page-header-stickyWrap:style(position: relative !important; top: 0 !important;)
