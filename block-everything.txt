@@ -666,3 +666,16 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
+pandora.com##.nowPlayingTopInfo__current__inner:style(width: 500px !important;)
+linkedin.com##.artdeco-card:has-text(Stand out with Premium)
+linkedin.com##.jobs-post-job
+linkedin.com##.artdeco-card:has-text(more exclusive features with Premium)
+linkedin.com###msg-overlay
+amazon.com###mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE .a-text-bold
+amazon.com###dealProgress_feature_div
+phabricator.wikimedia.org##.phui-two-column-container:has(.policy-header-callout:has(.fa-certificate, .fa-lock)):style(background: #ff9999 !important;)
+github.com###sticky-header-backdrop:style(position: static !important;)
+wikitech.wikimedia.org##.tpl-contentgrid:style(width:600px !important;)
+thepiratebay.org###search:style(width:600px !important;)
+youtube.com##yt-lockup-view-model:has-text(Members only)
+youtube.com##ytd-rich-shelf-renderer:has(#title-text:has-text(Shorts))
