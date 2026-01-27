@@ -1,13 +1,13 @@
-[uBlock Origin]
-! Title: Block Everything!
-! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
-! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple minutes to go live.
 
-! Tips:
-! - Don't use upward(). Easy to break things when the website changes their layout.
+
 ! - :has-text() works best without RegEx. RegEx seems to be buggy. Example: :has-text(/^Test$/) doesn't usually work for me.
-
+! - Don't use upward(). Easy to break things when the website changes their layout.
+! Homepage: https://github.com/RedDragonWebDesign/block-everything
+! Note: There is a delay between updates to GitHub, and when GitHub updates raw.githubusercontent.com. Therefore changes to GitHub will take a couple minutes to go live.
+! Tips:
+! Title: Block Everything!
+[uBlock Origin]
 @@||tinypass.com^$frame,script,xhr,domain=thedailybeast.com
 ##.blm-banner
 ##.recirc-module
@@ -54,6 +54,7 @@ amazon.com##.prime-ad-banner-content, [cel_widget_id="typ-prominentUpsellSlot-pr
 amazon.com##.savingPriceOverride
 amazon.com##.sc-product-scarcity, .sc-product-availability, #availability
 amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-section-spc-desktop
+amazon.com##.wl-deal-rich-badge, .wl-deal-price-and-striked-price
 amazon.com##[aria-label="Lowest price in 30 days"]
 amazon.com##[data-a-badge-type="deal"], [data-cy="certification-recipe"]
 amazon.com##[data-component-type="s-result-info-bar"]:style(position: static !important;)
@@ -63,9 +64,11 @@ amazon.com###aod-sticky-pinned-offer
 amazon.com###btf-sub-nav-desktop-tabs
 amazon.com###climatePledgeFriendlyATF_feature_div
 amazon.com###dealBadge_feature_div
+amazon.com###dealProgress_feature_div
 amazon.com###delightPricingBadge_feature_div, .apex-savings-badge.reinventPriceSavingsPercentageMargin
 amazon.com###gutterCartViewForm .a-section.sc-sss-box:has-text(eligible items)
 amazon.com###issuancePriceblockAmabot_feature_div
+amazon.com###mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE .a-text-bold
 amazon.com###nav-flyout-ewc
 amazon.com###nav-flyout-rufus
 amazon.com###navbar-main:style(position: static !important;)
@@ -83,6 +86,7 @@ apnews.com##.Enhancement:has(.PageListHubPeek)
 apnews.com##.Enhancement:has(.PageListStandardB)
 apnews.com##.Enhancement:has(#related-coverage)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
+apnews.com##.HTMLModuleEnhancement:has(.ap-embed-wrap-whatsapp)
 apnews.com##.HTMLModuleEnhancement:has([id^="hearken-embed-module-"])
 apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
 apnews.com##.Infobox
@@ -158,8 +162,11 @@ codewars.com##.poweredby_link
 colorlib.com###custom_html-6
 comicbook.com###onetrust-consent-sdk
 cornell.edu###block-lii-justia-find-lawyers-sidebarlinked
+costco.com##.e-spot-cart-body.espotPlacement
+costco.com##[data-testid="StickyWrapper_shop-costco-next-button"]
 costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
 costco.com###order-summary-column:style(transform: unset !important;)
+costco.com###product-data-card-right-column:style(position: static !important;)
 crackmes.one##.container.grid-lg.wrapper:style(max-width: unset !important;)
 crackmes.one##th:style(width: unset !important;)
 crisisgroup.org##.js-ann-adder
@@ -273,6 +280,7 @@ github.com##[aria-label$="requesting changes"]:style(color: red !important;)
 github.com##[data-testid="copilot-popover-button"]
 github.com##[data-testid="issue-metadata-sticky"]:style(position: static !important;)
 github.com###repos-sticky-header:style(position: static !important;)
+github.com###sticky-header-backdrop:style(position: static !important;)
 github.com##h2:has-text(Repository files navigation):upward(1):style(position: static !important;)
 github.community##.topic-avatar:style(position: static !important;)
 github.community##.topic-navigation:style(position: static !important;)
@@ -281,20 +289,6 @@ gitlab.com##.content-wrapper:style(padding-top: 0 !important;)
 gitlab.com##[data-testid="navbar"]:style(position: static !important;)
 gitlab.com##[data-testid="top-bar"]:style(position: absolute !important;)
 gitlab.com###super-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##.content-wrapper:style(padding-top: 0 !important;)
-gitlab.wikimedia.org##.flash-container.sticky, .merge-request-tabs-holder:style(position: static !important;)
-gitlab.wikimedia.org##.gl-broadcast-message
-gitlab.wikimedia.org##.issuable-context-form.inline-update.js-issuable-update:style(position: static !important; height: unset !important;)
-gitlab.wikimedia.org##.issuable-sidebar.is-merge-request, .right-sidebar-merge-requests:style(height: unset !important;)
-gitlab.wikimedia.org##.issue-sticky-header
-gitlab.wikimedia.org##.layout-page:style(padding-top: 0 !important;)
-gitlab.wikimedia.org##.layout-page.hide-when-top-nav-responsive-open:style(padding-top: 0 !important;)
-gitlab.wikimedia.org##.nav-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##.project-page-sidebar:style(position: static !important;)
-gitlab.wikimedia.org##.right-sidebar, .right-sidebar .issuable-sidebar:style(height: 125% !important;)
-gitlab.wikimedia.org##.top-bar-fixed:style(position: static !important;)
-gitlab.wikimedia.org###super-sidebar:style(position: absolute !important;)
-gitlab.wikimedia.org##header, .js-file-title:style(position: static !important;)
 globalnews.ca##p:has-text(READ MORE:)
 go.dev##.Banner
 godbolt.org###ces, #motd
@@ -375,7 +369,10 @@ latimes.com##ps-header.ct-sticky-top:style(position: static !important;)
 law.com##.modal-backdrop, #reg-modal
 law.com##html, body:style(overflow: auto !important;)
 lexico.com##.mainHeader:style(position: static !important;)
+linkedin.com##.artdeco-card:has-text(more exclusive features with Premium)
+linkedin.com##.artdeco-card:has-text(Stand out with Premium)
 linkedin.com##.focus-page__header:style(position: absolute !important;)
+linkedin.com##.jobs-post-job
 linkedin.com##.org-sticky-top-card
 linkedin.com##.pds-ge-entry-card:has(h2:has-text(Strengthen your profile))
 linkedin.com##.pv-deferred-area.ember-view:has-text(Get the LinkedIn app)
@@ -385,6 +382,7 @@ linkedin.com##.scaffold-layout-toolbar:style(position: static !important;)
 linkedin.com##.search-result--cross-promo
 linkedin.com##.search-results-container:style(padding-top: 1em !important;)
 linkedin.com###insights:upward(1)
+linkedin.com###msg-overlay
 linkedin.com###promo:upward(1)
 linkedin.com###recent_activity:upward(1)
 linkedin.com###resources:upward(1)
@@ -454,7 +452,9 @@ news.yahoo.com##li.js-stream-content:has-text(Architectural Digest)
 news.yahoo.com##li.js-stream-content:has-text(National Review)
 news.yahoo.com##p:has-text(Read Next:)
 newstatesman.com##.clearfix
+newsweek.com##.ArticleHeader_container__MAdLr:style(position: static !important;)
 newsweek.com##.promo-link
+newsweek.com##[data-gtm-action="Read_More"], .ArticleHeader_headerSpacer__clLiA, .GooglePreferredSourceBanner_container__4kWoo
 newsweek.com##[data-gtm-category="Related In-Text A"]
 nlm.nih.gov##.alert
 nme.com##.post-content-read-more
@@ -470,6 +470,7 @@ nytimes.com###NYT_MAIN_CONTENT_3_REGION, [aria-labelledby="storyline-latest-upda
 online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
 othena.com##.header:style(position: absolute !important;)
+pandora.com##.nowPlayingTopInfo__current__inner:style(width: 500px !important;)
 panel.dreamhost.com#@#.header, .logo, .scroll-top.sidebar:style(position: absolute !important;)
 parade.com###main-navigation:style(position: absolute !important;)
 parade.com##p:has-text(Related:)
@@ -477,6 +478,7 @@ patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
 paypal.com##[data-pa-click$="_Login_CT_Banner"]
 pbs.org##p:has-text(READ MORE:)
 pcgamer.com##.future__jwplayer--carousel
+phabricator.wikimedia.org##.phui-two-column-container:has(.policy-header-callout:has(.fa-certificate, .fa-lock)):style(background: #ff9999 !important;)
 phpunit.de##.navbar:style(position: static !important;)
 pkg.go.dev##.go-Banner
 politico.com##.story-enhancement
@@ -583,6 +585,7 @@ themuslimvibe.com##.conv-container
 themuslimvibe.com##.promo
 themuslimvibe.com##.wpb_wrapper:style(position: static !important;)
 themuslimvibe.com###page-header:style(position: absolute !important;)
+thepiratebay.org###search:style(width:600px !important;)
 theregreview.org###post_info
 theserverside.com###cmp-banner
 theserverside.com###page-header:style(position: static !important;)
@@ -629,6 +632,7 @@ wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##[id^="effp_effp_cmt_"]:style(width: 80% !important;)
 wikipedia.org,wikimedia.org,mediawiki.org###siteNotice, #pt-talk-alert, #XFDcloser-showhide, #mwe-pt-list-stats-nav
+wikitech.wikimedia.org##.tpl-contentgrid:style(width:600px !important;)
 win.gg##.c-Adhesion
 win.gg##.c-HeaderContainer:style(position: absolute !important;)
 wired.co.uk##.bb-card, aside.a-sidebar-content
@@ -643,12 +647,14 @@ yahoo.com##a[href*="ad.doubleclick.net"]
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
 youtube.com###clarify-box
 youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
+youtube.com##yt-lockup-view-model:has-text(Members only)
 youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-compact-video-renderer:has([aria-label="Members first"])
 youtube.com##ytd-emergency-onebox-renderer
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
 youtube.com##ytd-primetime-promo-renderer
+youtube.com##ytd-rich-item-renderer:has-text(Members first)
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-rich-item-renderer:has([aria-label="Members only"])
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
@@ -659,6 +665,7 @@ youtube.com##ytd-rich-section-renderer:has-text(Learn with YouTube)
 youtube.com##ytd-rich-section-renderer:has-text(Ready to vote?)
 youtube.com##ytd-rich-section-renderer:has-text(Recommended movies)
 youtube.com##ytd-rich-section-renderer:has-text(What did you think of this video?)
+youtube.com##ytd-rich-shelf-renderer:has(#title-text:has-text(Shorts))
 youtube.com##ytd-rich-shelf-renderer:has(button[aria-label="Not interested"])
 youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
 youtube.com##ytd-shelf-renderer:has(#title):has-text(People also watched)
@@ -666,16 +673,3 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
-pandora.com##.nowPlayingTopInfo__current__inner:style(width: 500px !important;)
-linkedin.com##.artdeco-card:has-text(Stand out with Premium)
-linkedin.com##.jobs-post-job
-linkedin.com##.artdeco-card:has-text(more exclusive features with Premium)
-linkedin.com###msg-overlay
-amazon.com###mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE .a-text-bold
-amazon.com###dealProgress_feature_div
-phabricator.wikimedia.org##.phui-two-column-container:has(.policy-header-callout:has(.fa-certificate, .fa-lock)):style(background: #ff9999 !important;)
-github.com###sticky-header-backdrop:style(position: static !important;)
-wikitech.wikimedia.org##.tpl-contentgrid:style(width:600px !important;)
-thepiratebay.org###search:style(width:600px !important;)
-youtube.com##yt-lockup-view-model:has-text(Members only)
-youtube.com##ytd-rich-shelf-renderer:has(#title-text:has-text(Shorts))
