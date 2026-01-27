@@ -289,6 +289,11 @@ gitlab.com##.content-wrapper:style(padding-top: 0 !important;)
 gitlab.com##[data-testid="navbar"]:style(position: static !important;)
 gitlab.com##[data-testid="top-bar"]:style(position: absolute !important;)
 gitlab.com###super-sidebar:style(position: absolute !important;)
+gitlab.wikimedia.org##.gl-card:has-text(Using Terraform?):upward(1)
+gitlab.wikimedia.org##.issuable-context-form:style(position: static !important;)
+gitlab.wikimedia.org##.panel-content-inner:style(overflow-x: unset !important; overflow-y: unset !important;)
+gitlab.wikimedia.org##.project-page-sidebar:style(position: static !important; height: unset !important;)
+gitlab.wikimedia.org##body:style(overflow-y: scroll !important; height: unset !important;)
 globalnews.ca##p:has-text(READ MORE:)
 go.dev##.Banner
 godbolt.org###ces, #motd
