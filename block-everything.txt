@@ -483,6 +483,7 @@ patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
 paypal.com##[data-pa-click$="_Login_CT_Banner"]
 pbs.org##p:has-text(READ MORE:)
 pcgamer.com##.future__jwplayer--carousel
+phabricator.wikimedia.org##.phui-two-column-container:has-text(PermanentlyPrivate):style(background: #ff007f !important;)
 phabricator.wikimedia.org##.phui-two-column-container:has(.policy-header-callout:has(.fa-certificate, .fa-lock)):style(background: #ff9999 !important;)
 phpunit.de##.navbar:style(position: static !important;)
 pkg.go.dev##.go-Banner
@@ -678,3 +679,7 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
+amazon.com###paymentOptions_PriceblockMessaging_feature_div, #maplePriceblockAmabot_feature_div
+youtube.com##ytd-rich-item-renderer:has-text(A new feed to play with)
+amazon.com##.apex-coupon-tile-container
+amazon.com##[data-action="cpf-features-sidesheet-open"]:has-text(Carbon impact)
