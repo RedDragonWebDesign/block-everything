@@ -45,6 +45,7 @@ amazon.com##.a-declarative:has(.sc-climate-pledge-friendly-badge)
 amazon.com##.a-section.sc-sss-box:has-text(You are getting FREE Same)
 amazon.com##.aok-inline-block:has-text(List)
 amazon.com##.aok-inline-block:has-text(Typical)
+amazon.com##.apex-coupon-tile-container
 amazon.com##.basisPrice:upward(2)
 amazon.com##.cart-mario-regular-message:has-text(Exclusive Prime price)
 amazon.com##.celwidget:has-text(You saved)
@@ -57,6 +58,7 @@ amazon.com##.sc-subscribe-and-save-upsell-message, .financial-offer-checkbox-sec
 amazon.com##.wl-deal-rich-badge, .wl-deal-price-and-striked-price
 amazon.com##[aria-label="Lowest price in 30 days"]
 amazon.com##[data-a-badge-type="deal"], [data-cy="certification-recipe"]
+amazon.com##[data-action="cpf-features-sidesheet-open"]:has-text(Carbon impact)
 amazon.com##[data-component-type="s-result-info-bar"]:style(position: static !important;)
 amazon.com##[id^="BEST_DEAL_"], .s-coupon-unclipped
 amazon.com##[id^="image-map_image-map_"]
@@ -72,6 +74,7 @@ amazon.com###mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE .a-te
 amazon.com###nav-flyout-ewc
 amazon.com###nav-flyout-rufus
 amazon.com###navbar-main:style(position: static !important;)
+amazon.com###paymentOptions_PriceblockMessaging_feature_div, #maplePriceblockAmabot_feature_div
 amazon.com###percolate-ui-ilm_div
 amazon.com###primeExclusivePricingMessage, .promoPriceBlockMessage, #applicablePromotionList_feature_div, .delightPricingBadge, #mir-layout-DELIVERY_BLOCK-slot-SECONDARY_DELIVERY_MESSAGE_LARGE
 amazon.com###sitbReaderMessageContainer
@@ -200,6 +203,7 @@ dominos.com##header[role="banner"]:style(position: static !important;)
 dotnetfoundation.org##.align-items-center.justify-content-center.flash
 dreamhost.com##.Feedback
 dreamhost.com###auto-toc:style(position: static !important;)
+duck.ai##[data-testid="duckai-top-toolbar"], .VjSwSFw8AkmxqAeOJwz5 > div, .e8hNVcv2hNmgdRTcd0UO.RJhEAc80sTzdJYZxcRp5, .g6IFsi4gnCVl23aR8Ogx
 easydmarc.com##.fixed-top:style(position: absolute !important;)
 ebay.com##.s-item__lastOne, .x-wtb-signals, .x-quantity__availability
 egypttoday.com##.Menu:style(position: static !important;)
@@ -277,6 +281,7 @@ github.com##.js-vote-banner
 github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
 github.com##.pr-toolbar:style(position: static !important; margin-bottom: 2em !important;)
 github.com##[aria-label$="requesting changes"]:style(color: red !important;)
+github.com##[class*="StickyPullRequestHeader-module__prHeader__"]
 github.com##[data-testid="copilot-popover-button"]
 github.com##[data-testid="issue-metadata-sticky"]:style(position: static !important;)
 github.com###repos-sticky-header:style(position: static !important;)
@@ -368,6 +373,7 @@ lambdatest.com##.sitekitwebinar
 lambdatest.com##.tagline:style(top: 60px !important;)
 lambdatest.com##.zsiq_custommain
 lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+laravel.com###docsScreen > div:has(.docs-ad-link)
 laravel.com##div.hidden.from-red-500.to-red-600
 latimes.com##.enhancement
 latimes.com##ps-header.ct-sticky-top:style(position: static !important;)
@@ -483,7 +489,7 @@ patreon.com##.sc-1cqqv42-0.ilVbhe, .sc-1cqqv42-0.ijfqDj
 paypal.com##[data-pa-click$="_Login_CT_Banner"]
 pbs.org##p:has-text(READ MORE:)
 pcgamer.com##.future__jwplayer--carousel
-phabricator.wikimedia.org##.phui-two-column-container:has-text(PermanentlyPrivate):style(background: #ff007f !important;)
+phabricator.wikimedia.org##.phui-two-column-container:has(.phabricator-handle-tag-list a[href="/tag/permanentlyprivate/"]):style(background: #ff007f !important;)
 phabricator.wikimedia.org##.phui-two-column-container:has(.policy-header-callout:has(.fa-certificate, .fa-lock)):style(background: #ff9999 !important;)
 phpunit.de##.navbar:style(position: static !important;)
 pkg.go.dev##.go-Banner
@@ -660,6 +666,7 @@ youtube.com##ytd-emergency-onebox-renderer
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
 youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
 youtube.com##ytd-primetime-promo-renderer
+youtube.com##ytd-rich-item-renderer:has-text(A new feed to play with)
 youtube.com##ytd-rich-item-renderer:has-text(Members first)
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-rich-item-renderer:has([aria-label="Members only"])
@@ -679,7 +686,3 @@ zdnet.com##.breaking-news-container
 zdnet.com##.relatedContent
 zdnet.com##p:has-text(See also:)
 zdnet.com##p:has(strong:has-text(Also:))
-amazon.com###paymentOptions_PriceblockMessaging_feature_div, #maplePriceblockAmabot_feature_div
-youtube.com##ytd-rich-item-renderer:has-text(A new feed to play with)
-amazon.com##.apex-coupon-tile-container
-amazon.com##[data-action="cpf-features-sidesheet-open"]:has-text(Carbon impact)
