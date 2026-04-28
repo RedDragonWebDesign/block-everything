@@ -95,6 +95,7 @@ apnews.com##.HTMLModuleEnhancement:has([id^="hearken-embed-module-"])
 apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
 apnews.com##.Infobox
 apnews.com##.jw-nextup-container, .jw-related-shelf-container
+apnews.com##.Page-below
 apnews.com##.Page-header-bar:style(top: 0 !important;)
 apnews.com##.Page-header:style(position: static !important;)
 apnews.com##.Page-trending, .Page-header-leaderboardAd, .Advertisement
@@ -281,6 +282,7 @@ github.com##.js-sticky:style(position: relative !important; left: unset !importa
 github.com##.js-vote-banner
 github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
 github.com##.pr-toolbar:style(position: static !important; margin-bottom: 2em !important;)
+github.com##.tmp-py-2.tmp-px-3.border.bgColor-muted.rounded-2.mt-2.Stack:has-text(Mention @copilot in a comment to make changes to this pull request.)
 github.com##[aria-label$="requesting changes"]:style(color: red !important;)
 github.com##[class*="StickyPullRequestHeader-module__prHeader__"]
 github.com##[data-testid="copilot-popover-button"]
