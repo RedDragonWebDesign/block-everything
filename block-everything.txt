@@ -283,7 +283,7 @@ github.com##.js-vote-banner
 github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
 github.com##.pr-toolbar:style(position: static !important; margin-bottom: 2em !important;)
 github.com##.tmp-py-2.tmp-px-3.border.bgColor-muted.rounded-2.mt-2.Stack:has-text(Mention @copilot in a comment to make changes to this pull request.)
-github.com##[aria-label$="requesting changes"]:style(color: red !important;)
+github.com##[aria-label="Filter by review: Changes requested"] span:style(color: red;)
 github.com##[class*="StickyPullRequestHeader-module__prHeader__"]
 github.com##[data-testid="copilot-popover-button"]
 github.com##[data-testid="issue-metadata-sticky"]:style(position: static !important;)
@@ -643,6 +643,7 @@ washingtontimes.com##.tp-modal
 watchuseek.com##.p-header:style(position: absolute !important;)
 watchuseek.com###welcome_back
 wikimedia.org##.mw-prefs-buttons:style(position: static !important;)
+wikipedia.org,wikimedia.org,mediawiki.org##.link-widget, .embed-widget
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-abusefilter-editor, #mw-abusefilter-notes-editor:style(width: auto !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-apisandbox-toolbar:style(position: static !important;)
 wikipedia.org,wikimedia.org,mediawiki.org##.mw-htmlform-submit-buttons:style(position: static !important;)
@@ -663,6 +664,7 @@ yahoo.com##[id$="-MonalixaComponent"]
 yahoo.com##a[href*="ad.doubleclick.net"]
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
 youtube.com###clarify-box
+youtube.com###dismissible:has-text(Get more from memberships)
 youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
 youtube.com##yt-lockup-view-model:has-text(Members only)
 youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
@@ -673,6 +675,7 @@ youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also 
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-rich-item-renderer:has-text(A new feed to play with)
 youtube.com##ytd-rich-item-renderer:has-text(Members first)
+youtube.com##ytd-rich-item-renderer:has-text(Members only)
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-rich-item-renderer:has([aria-label="Members only"])
 youtube.com##ytd-rich-section-renderer:has-text(Breaking news)
