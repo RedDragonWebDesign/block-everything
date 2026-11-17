@@ -668,6 +668,7 @@ youtube.com###clarify-box
 youtube.com###dismissible:has-text(Get more from memberships)
 youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
 youtube.com##yt-lockup-view-model:has-text(Members only)
+youtube.com##yt-lockup-view-model:has-text(Try for $0)
 youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-compact-video-renderer:has([aria-label="Members first"])
 youtube.com##ytd-emergency-onebox-renderer
