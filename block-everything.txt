@@ -282,7 +282,7 @@ github.com##.js-sticky:style(position: relative !important; left: unset !importa
 github.com##.js-vote-banner
 github.com##.position-sticky, [class^="Diff-module__diffHeaderWrapper"]:style(position: static !important;)
 github.com##.pr-toolbar:style(position: static !important; margin-bottom: 2em !important;)
-github.com##.stickyHeader__OQ39Id, .diffHeaderWrapper__INiK1j:style(position: static !important;)
+github.com##.stickyHeader__OQ39Id, [class^="diffHeaderWrapper"]:style(position: static !important;)
 github.com##.tmp-py-2.tmp-px-3.border.bgColor-muted.rounded-2.mt-2.Stack:has-text(Mention @copilot in a comment to make changes to this pull request.)
 github.com##[aria-label="Filter by review: Changes requested"] span:style(color: red;)
 github.com##[class*="StickyPullRequestHeader-module__prHeader__"]
